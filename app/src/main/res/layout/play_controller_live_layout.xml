@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/play_controller_fl_head"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="#50000000">
+
+        <ImageButton
+            android:id="@+id/play_controller_ib_exit"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="@dimen/common_dimens_8"/>
+
+        <TextView
+            android:id="@+id/play_controller_tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/play_controller_fl_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"></FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/play_controller_ll_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="#50000000"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/play_controller_ib_play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"/>
+
+        <CheckBox
+            android:id="@+id/play_controller_cb_danmu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"/>
+
+        <ImageButton
+            android:id="@+id/play_controller_ib_resolution"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"/>
+
+        <EditText
+            android:id="@+id/play_controller_et_message"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:singleLine="true"
+            android:textColor="@color/text_color_101010"
+            android:textCursorDrawable="@drawable/edittext_cursor"
+            android:textSize="14dp"/>
+
+        <ImageButton
+            android:id="@+id/play_controller_ib_send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</LinearLayout>

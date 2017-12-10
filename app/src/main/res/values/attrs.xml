@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="theme_color" format="color"/>
+    <attr name="theme_btn_bg" format="reference"/>
+    <attr name="theme_text_color" format="color"/>
+    <declare-styleable name="SlidingTabLayout">
+        <attr name="indicatorColor" format="color"/>
+        <attr name="shouldExpand" format="boolean" />
+        <attr name="tabBackground2" format="reference" />
+        <attr name="tabBackgroundTextViewId" format="reference"/>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,144 @@
+<resources>
+
+    <!-- Base application theme. -->
+<!--    <style name="AppTh" parent="Theme.AppCompat.Light.DarkActionBar"></style>-->
+    <!--
+    <item name="android:windowBackground">@android:color/transparent</item>
+    <item name="android:windowIsTranslucent">true</item>
+    -->
+    <style name= "AppThemeTwo" parent= "Theme.AppCompat.Light.DarkActionBar" >
+        <!-- Customize your theme here. -->
+
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+
+        <item name="colorPrimary">@color/theme_green</item>
+        <item name="colorPrimaryDark">@color/theme_green</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+    <style name= "AppThemeOne" parent= "Theme.AppCompat.Light.DarkActionBar" >
+        <!-- Customize your theme here. -->
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="theme_green" parent="AppTheme">
+        <item name="theme_color">@color/theme_green</item>
+    </style>
+
+    <style name="theme_red" parent="AppTheme">
+        <item name="theme_color">@color/theme_red</item>
+    </style>
+
+    <style name="theme_yellow" parent="AppTheme">
+        <item name="theme_color">@color/theme_yellow</item>
+    </style>
+
+    <style name="theme_orange" parent="AppTheme">
+        <item name="theme_color">@color/theme_orange</item>
+    </style>
+
+    <style name="theme_purple" parent="AppTheme">
+        <item name="theme_color">@color/theme_purple</item>
+    </style>
+
+    <style name="theme_blue" parent="AppTheme">
+        <item name="theme_color">@color/theme_blue</item>
+    </style>
+
+    <style name="user_center_text_style">
+        <item name="android:layout_width">match_parent</item>
+        <!--<item name="android:layout_weight">1</item>-->
+        <!--<item name="android:lines">2</item>-->
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">14dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="update_user_info_hint_text">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">14dp</item>
+        <item name="android:gravity">left</item>
+        <item name="android:textColor">#999999</item>
+        <item name="android:padding">8dp</item>
+    </style>
+
+    <style name="setting_checkbox_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">14dp</item>
+        <item name="android:gravity">left</item>
+        <item name="android:button">@null</item>
+        <item name="android:layout_marginBottom">1dp</item>
+        <item name="android:background">#ffffff</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:drawableRight">@drawable/common_switch</item>
+    </style>
+    <style name="subscribe_checkbox_style" >
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">14dp</item>
+        <item name="android:gravity">left</item>
+        <item name="android:button">@null</item>
+        <item name="android:layout_marginBottom">1dp</item>
+        <item name="android:background">#ffffff</item>
+        <item name="android:textColor">#333333</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:drawableLeft">@drawable/common_subscribe_switch</item>
+    </style>
+
+    <style name="popu_setting_checkbox_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">14dp</item>
+        <item name="android:gravity">left</item>
+        <item name="android:button">@null</item>
+        <item name="android:layout_marginBottom">1dp</item>
+        <item name="android:background">#00ffffff</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:drawableRight">@drawable/common_switch</item>
+    </style>
+
+    <style name="MediaController_SeekBar" parent="android:Widget.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/scrubber_progress_horizontal_holo_dark </item>
+        <item name="android:indeterminateDrawable"> @drawable/scrubber_progress_horizontal_holo_dark</item>
+        <item name="android:minHeight">6dip</item>
+        <item name="android:maxHeight">6dip</item>
+        <item name="android:thumb">@mipmap/seek_thumb</item>
+        <item name="android:thumbOffset">0dip</item>
+        <item name="android:paddingLeft">10dip</item>
+        <item name="android:paddingRight">10dip</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <!--<item name="windowActionBar">false</item>-->
+        <!--<item name="windowNoTitle">true</item>-->
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <style name="AnimationPreview">
+        <item name="android:windowEnterAnimation">@anim/tag_popu_open</item>
+        <item name="android:windowExitAnimation">@anim/tag_popu_close</item>
+    </style>
+
+    <style name="RatingBar" parent="@android:style/Widget.Holo.RatingBar.Small">
+        <item name="android:progressDrawable">@drawable/ratingbar_drawable</item>
+        <item name="android:maxHeight">28dp</item>
+        <item name="android:minHeight">28dp</item>
+    </style>
+    <style name="MyRatingBar" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/ratingbar_drawable</item>
+        <item name="android:minHeight">28dip</item>
+        <item name="android:maxHeight">28dip</item>
+    </style>
+</resources>

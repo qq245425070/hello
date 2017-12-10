@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1F1F1"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/recommend_list_ll_game_name"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/common_dimens_156"
+        android:layout_marginTop="5dp"
+        android:background="#FFFFFF"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/common_dimens_20"
+        android:paddingRight="@dimen/common_dimens_8"
+        android:paddingTop="@dimen/common_dimens_30"
+        android:paddingBottom="6dp"
+        android:gravity="center"
+        >
+
+        <com.github.siyamed.shapeimageview.RoundedImageView
+            android:id="@+id/recommend_list_iv_game_icon"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center_vertical"
+            android:scaleType="fitXY"
+            app:siRadius="6dp"
+            app:siSquare="true"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/common_dimens_24">
+
+            <TextView
+                android:id="@+id/recommend_list_tv_game_name"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:textColor="@color/text_color_101010"
+                android:textSize="14dp"/>
+
+            <TextView
+                android:id="@+id/recommend_tv_download_count"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:paddingTop="2dp"
+                android:textColor="#999999"
+                android:textSize="14dp"/>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/recommend_tv_more"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/no_concern"
+            android:layout_gravity="center_vertical"
+            />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#ededed"
+        android:visibility="gone"
+        />
+    <LinearLayout
+        android:id="@+id/game_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:background="#ededed"/>
+    <TextView
+        android:id="@+id/game_more"
+        android:layout_width="match_parent"
+        android:background="#ffffff"
+        android:textColor="#929292"
+        android:gravity="center"
+        android:layout_height="40dp" />
+
+</LinearLayout>

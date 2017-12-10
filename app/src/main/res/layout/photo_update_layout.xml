@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+    <include layout="@layout/common_head_layout"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!--0.2.0新功能修改-->
+      <!--  <FrameLayout
+            android:id="@+id/photo_update_fl_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="#353e44"
+            android:padding="16dp">
+
+            <ImageView
+                android:id="@+id/photo_update_iv_add"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center_vertical"
+                android:src="@drawable/common_add"/>
+
+            <ImageView
+                android:id="@+id/photo_update_iv_delete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|center_vertical"
+                android:src="@drawable/common_delete"/>
+        </FrameLayout>-->
+
+        <GridView
+            android:id="@+id/photo_update_gv_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:horizontalSpacing="4dp"
+            android:numColumns="3"
+            android:padding="@dimen/common_dimens_8"
+            android:verticalSpacing="4dp"></GridView>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/common_dimens_30"
+        android:paddingBottom="@dimen/common_dimens_30"
+        android:paddingLeft="@dimen/common_dimens_20"
+        android:paddingRight="@dimen/common_dimens_16"
+        >
+
+        <com.github.siyamed.shapeimageview.RoundedImageView
+            android:id="@+id/compere_list_iv_image"
+            android:layout_width="@dimen/common_dimens_80"
+            android:layout_height="@dimen/common_dimens_80"
+            android:scaleType="fitXY"
+            android:layout_marginRight="@dimen/common_dimens_34"
+            app:siBorderColor="#00FFFFFF"
+            app:siBorderWidth="0px"
+            app:siRadius="0dp"
+            app:siSquare="true"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/compere_list_tv_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:textColor="#333333"
+                android:textSize="14dp"/>
+
+            <TextView
+                android:id="@+id/compere_list_tv_attentionCount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:singleLine="true"
+                android:textColor="#666666"
+                android:textSize="12dp"/>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_gravity="center_vertical"
+            android:layout_width="@dimen/common_dimens_160"
+            android:layout_height="@dimen/common_dimens_80"
+            android:paddingRight="@dimen/common_dimens_16"
+            >
+
+            <TextView
+                android:id="@+id/compere_list_adapter_iv_guanzhu"
+                android:layout_width="@dimen/dp_66"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/dp_4"
+                android:paddingBottom="@dimen/dp_4"
+                android:textSize="@dimen/common_text_28"
+                android:text="已关注"
+                android:gravity="center"
+                android:textColor="@color/text_929292"
+                android:background="@drawable/commen_button_theme_color"
+                android:visibility="visible"
+                android:layout_centerVertical="true"
+                />
+            <ImageView
+                android:id="@+id/concern"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/no_concern"
+                android:layout_marginLeft="20dp"
+                android:layout_centerVertical="true"
+                />
+
+        <ImageView
+            android:id="@+id/compere_list_adapter_iv_jiantou"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/icon_right_button"
+            />
+            <ImageView
+                android:id="@+id/subscribe_image"
+                android:layout_width="54dp"
+                android:layout_height="27dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:src="@mipmap/subscribe_no"
+                />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/line_d9dcdf"
+        android:layout_marginLeft="67dp"
+        />
+</LinearLayout>

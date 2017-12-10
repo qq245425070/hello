@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp"
+
+    >
+        <com.github.siyamed.shapeimageview.RoundedImageView
+            android:id="@+id/avatar_image"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            app:siRadius="100dp"
+            android:src="@mipmap/icon"
+            />
+
+        <TextView
+            android:id="@+id/nickname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="用户昵称"
+            android:layout_toRightOf="@+id/avatar_image"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:textColor="@color/text_color_101010"
+            android:textSize="14sp"
+            />
+        <TextView
+            android:id="@+id/create_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/nickname"
+            android:text="创建时间"
+            android:textColor="@color/text_929292"
+            android:layout_alignBottom="@id/nickname"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:textSize="12sp"
+            />
+        <RatingBar
+            android:id="@+id/rating_bar"
+            style="?android:attr/ratingBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:paddingTop="10dp"
+            android:rating="5"
+            />
+        <TextView
+            android:id="@+id/comment_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/avatar_image"
+            android:paddingTop="10dp"
+            android:textColor="@color/text_color_101010"
+            android:text="天行健，君子以自强不息。潜龙勿用，阳在下也。终日乾乾，反复道也。或跃在渊，进无咎也。飞龙在天，大人造也。亢龙有悔，盈不可久也。 用九，天德不可为首也。"
+            />
+    </RelativeLayout>
+<View
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:background="@color/line_d9dcdf"
+    android:layout_marginTop="20dp"
+    />
+</LinearLayout>

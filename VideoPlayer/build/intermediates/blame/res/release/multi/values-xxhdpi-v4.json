@@ -1,0 +1,50 @@
+[
+    {
+        "outputFile": "/Users/apple/Downloads/LivetelingCast/VideoPlayer/build/intermediates/res/merged/release/values-xxhdpi-v4/values-xxhdpi-v4.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 51,
+                    "endOffset": 102
+                },
+                "from": {
+                    "file": "/Users/apple/Downloads/LivetelingCast/VideoPlayer/res/values-xxhdpi/dimens.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 114,
+                        "endColumn": 51,
+                        "endOffset": 161
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\VideoPlayer\\build\\intermediates\\res\\merged\\release\\values-xxhdpi-v4\\values-xxhdpi-v4.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 51,
+                    "endOffset": 102
+                },
+                "from": {
+                    "file": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\VideoPlayer\\res\\values-xxhdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 114,
+                        "endColumn": 51,
+                        "endOffset": 161
+                    }
+                }
+            }
+        ]
+    }
+]

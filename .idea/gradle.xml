@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="$APPLICATION_HOME_DIR$/gradle/gradle-2.10" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/BrightCommon" />
+            <option value="$PROJECT_DIR$/PushSDK" />
+            <option value="$PROJECT_DIR$/VideoPlayer" />
+            <option value="$PROJECT_DIR$/YoukuPlayerOpenSDK" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/circleindicator" />
+            <option value="$PROJECT_DIR$/photoviewlibrary" />
+            <option value="$PROJECT_DIR$/retrofit" />
+            <option value="$PROJECT_DIR$/scenelib" />
+            <option value="$PROJECT_DIR$/xrecyclerview" />
+          </set>
+        </option>
+        <option name="myModules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/BrightCommon" />
+            <option value="$PROJECT_DIR$/PushSDK" />
+            <option value="$PROJECT_DIR$/VideoPlayer" />
+            <option value="$PROJECT_DIR$/YoukuPlayerOpenSDK" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/circleindicator" />
+            <option value="$PROJECT_DIR$/photoviewlibrary" />
+            <option value="$PROJECT_DIR$/retrofit" />
+            <option value="$PROJECT_DIR$/scenelib" />
+            <option value="$PROJECT_DIR$/xrecyclerview" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="20dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="20dp"
+    android:paddingBottom="10dp"
+    android:background="#FFFFFF"
+    >
+  <!--  <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/line_d9dcdf"
+        />-->
+    <TextView
+        android:id="@+id/video_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:paddingBottom="20dp"
+        />
+    <TextView
+        android:id="@+id/video_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#929292"
+        android:layout_below="@+id/video_name"
+        android:textSize="12sp"
+        />
+    <TextView
+        android:id="@+id/play_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#929292"
+        android:layout_alignParentRight="true"
+        android:layout_alignBottom="@+id/video_count"
+        android:paddingLeft="10dp"
+        android:textSize="12sp"
+        />
+    <ImageView
+        android:layout_width="12dp"
+        android:layout_height="14dp"
+        android:layout_toLeftOf="@+id/play_count"
+        android:src="@drawable/sanjiaoxing"
+        android:layout_alignBottom="@+id/play_count"
+        android:layout_alignTop="@+id/play_count"
+        />
+
+
+</RelativeLayout>

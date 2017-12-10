@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="theme_green">#4fc396</color>
+    <color name="theme_blue">#7eb1e6</color>
+    <color name="theme_red">#e05e5e</color>
+    <color name="theme_orange">#f39c11</color>
+    <color name="theme_yellow">#f1c40f</color>
+    <color name="theme_purple">#a276b5</color>
+    <color name="black">#ff101010</color>
+    <color name="livelist_background">#42a6bd</color>
+    <color name="white">#ffffff</color>
+    <color name="blue">#42a6bd</color>
+    <color name="transparent">#00000000</color>
+    <color name="attention">#919191</color>
+    <color name="mediacontroller_bg_pressed">#ff53c1bd</color>
+    <color name="mediacontroller_bg">#00000000</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="button_normal">#77000000</color>
+    <color name="button_pressed">#AA000000</color>
+    <color name="text_color_101010">#333333</color>    <!--现在界面中黑色字体颜色-->
+    <color name="text_color_333333">#333333</color>
+    <color name="bg_tab_pressed">#4fc396</color>
+    <color name="bg_tab_pressed2">#4fc396</color>
+    <color name="line_d9dcdf">#d9dcdf</color>
+    <color name="line_dcdcdc">#dcdcdc</color>
+    <color name="line_f1f1f1">#f1f1f1</color>
+    <color name="line_f0f0f2">#f0f0f2</color>
+    <color name="bg_e5e8ea">#e5e8ea</color>
+    <color name="text_929292">#929292</color>
+    <color name="bbbdbf">#bbbdbf</color>
+    <color name="guideBg">#AA000000</color>
+</resources>

@@ -1,0 +1,322 @@
+[
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/debug/drawable-xhdpi-v4/empty.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/exploded-aar/LivetelingCast/BrightCommon/unspecified/res/drawable-xhdpi-v4/empty.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/debug/drawable-xhdpi-v4/default_load.gif",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/exploded-aar/LivetelingCast/BrightCommon/unspecified/res/drawable-xhdpi-v4/default_load.gif"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\vertical_logo.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\res\\drawable-xhdpi\\vertical_logo.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ad_icon_arrow.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/res/drawable-xhdpi/ad_icon_arrow.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ad_bg_full.9.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\res\\drawable-xhdpi\\ad_bg_full.9.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_refresh_success.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/exploded-aar/LivetelingCast/BrightCommon/unspecified/res/drawable-xhdpi-v4/ic_refresh_success.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\full_icon_back.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\res\\drawable-xhdpi\\full_icon_back.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/debug/drawable-xhdpi-v4/seekbar_bkg.9.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/res/drawable-xhdpi/seekbar_bkg.9.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\hotpoint_img.9.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\res\\drawable-xhdpi\\hotpoint_img.9.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/debug/drawable-xhdpi-v4/report_icon.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/res/drawable-xhdpi/report_icon.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tudou_details_big_play_icon.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\res\\drawable-xhdpi\\tudou_details_big_play_icon.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/debug/drawable-xhdpi-v4/line_blue.9.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/exploded-aar/LivetelingCast/BrightCommon/unspecified/res/drawable-xhdpi-v4/line_blue.9.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/debug/drawable-xhdpi-v4/plugin_ad_gosmall_tudou.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/res/drawable-xhdpi/plugin_ad_gosmall_tudou.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ad_icon_volume.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/res/drawable-xhdpi/ad_icon_volume.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ad_icon_volume.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\res\\drawable-xhdpi\\ad_icon_volume.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\report_icon.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\res\\drawable-xhdpi\\report_icon.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\no_picture.9.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\exploded-aar\\LivetelingCast\\BrightCommon\\unspecified\\res\\drawable-xhdpi-v4\\no_picture.9.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/debug/drawable-xhdpi-v4/seekbar_second_progress.9.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/res/drawable-xhdpi/seekbar_second_progress.9.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_fullscreen.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\res\\drawable-xhdpi\\icon_fullscreen.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_arrow_right_down.9.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/exploded-aar/LivetelingCast/BrightCommon/unspecified/res/drawable-xhdpi-v4/ic_arrow_right_down.9.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/debug/drawable-xhdpi-v4/seek_thumb.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/res/drawable-xhdpi/seek_thumb.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/debug/drawable-xhdpi-v4/player_logo_youku.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/res/drawable-xhdpi/player_logo_youku.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\empty.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\exploded-aar\\LivetelingCast\\BrightCommon\\unspecified\\res\\drawable-xhdpi-v4\\empty.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\player_logo_youku.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\res\\drawable-xhdpi\\player_logo_youku.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\vertical_icon_back.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\res\\drawable-xhdpi\\vertical_icon_back.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\default_load.gif",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\exploded-aar\\LivetelingCast\\BrightCommon\\unspecified\\res\\drawable-xhdpi-v4\\default_load.gif"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/debug/drawable-xhdpi-v4/plugin_ad_gosmall_youku.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/res/drawable-xhdpi/plugin_ad_gosmall_youku.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_play.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\res\\drawable-xhdpi\\icon_play.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_refresh_success.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\exploded-aar\\LivetelingCast\\BrightCommon\\unspecified\\res\\drawable-xhdpi-v4\\ic_refresh_success.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/debug/drawable-xhdpi-v4/icon_scrubbarslider.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/res/drawable-xhdpi/icon_scrubbarslider.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\full_icon_out.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\res\\drawable-xhdpi\\full_icon_out.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ad_icon_out.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/res/drawable-xhdpi/ad_icon_out.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_multi_select_camera.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\exploded-aar\\LivetelingCast\\BrightCommon\\unspecified\\res\\drawable-xhdpi-v4\\ic_multi_select_camera.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_scrubbarslider.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\res\\drawable-xhdpi\\icon_scrubbarslider.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\seek_thumb.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\res\\drawable-xhdpi\\seek_thumb.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/debug/drawable-xhdpi-v4/seekbar_front_progress.9.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/res/drawable-xhdpi/seekbar_front_progress.9.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\plugin_ad_gosmall_youku.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\res\\drawable-xhdpi\\plugin_ad_gosmall_youku.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/debug/drawable-xhdpi-v4/icon_pause.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/res/drawable-xhdpi/icon_pause.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_arrow_up.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\exploded-aar\\LivetelingCast\\BrightCommon\\unspecified\\res\\drawable-xhdpi-v4\\ic_arrow_up.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/debug/drawable-xhdpi-v4/plugin_ad_gofull_youku.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/res/drawable-xhdpi/plugin_ad_gofull_youku.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/debug/drawable-xhdpi-v4/vertical_icon_back.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/res/drawable-xhdpi/vertical_icon_back.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_arrow_right_down.9.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\exploded-aar\\LivetelingCast\\BrightCommon\\unspecified\\res\\drawable-xhdpi-v4\\ic_arrow_right_down.9.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/debug/drawable-xhdpi-v4/full_icon_out.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/res/drawable-xhdpi/full_icon_out.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\plugin_ad_gosmall_tudou.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\res\\drawable-xhdpi\\plugin_ad_gosmall_tudou.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ad_icon_fullscreen.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/res/drawable-xhdpi/ad_icon_fullscreen.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/debug/drawable-xhdpi-v4/line.9.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/exploded-aar/LivetelingCast/BrightCommon/unspecified/res/drawable-xhdpi-v4/line.9.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/debug/drawable-xhdpi-v4/plugin_ad_gofull_tudou.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/res/drawable-xhdpi/plugin_ad_gofull_tudou.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ad_icon_volume_off.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\res\\drawable-xhdpi\\ad_icon_volume_off.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\line.9.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\exploded-aar\\LivetelingCast\\BrightCommon\\unspecified\\res\\drawable-xhdpi-v4\\line.9.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_arrow_down.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/exploded-aar/LivetelingCast/BrightCommon/unspecified/res/drawable-xhdpi-v4/ic_arrow_down.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/debug/drawable-xhdpi-v4/icon_fullscreen.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/res/drawable-xhdpi/icon_fullscreen.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/debug/drawable-xhdpi-v4/icon_play.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/res/drawable-xhdpi/icon_play.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\seekbar_front_progress.9.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\res\\drawable-xhdpi\\seekbar_front_progress.9.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_arrow_down.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\exploded-aar\\LivetelingCast\\BrightCommon\\unspecified\\res\\drawable-xhdpi-v4\\ic_arrow_down.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/debug/drawable-xhdpi-v4/vertical_logo.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/res/drawable-xhdpi/vertical_logo.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_launcher.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/debug/drawable-xhdpi-v4/hotpoint_img.9.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/res/drawable-xhdpi/hotpoint_img.9.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_launcher.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/res/drawable-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\line_blue.9.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\exploded-aar\\LivetelingCast\\BrightCommon\\unspecified\\res\\drawable-xhdpi-v4\\line_blue.9.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ad_bg_back.9.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\res\\drawable-xhdpi\\ad_bg_back.9.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\seekbar_second_progress.9.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\res\\drawable-xhdpi\\seekbar_second_progress.9.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ad_bg_full.9.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/res/drawable-xhdpi/ad_bg_full.9.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\plugin_ad_more_youku.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\res\\drawable-xhdpi\\plugin_ad_more_youku.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ad_bg_back.9.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/res/drawable-xhdpi/ad_bg_back.9.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_refresh_fail.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\exploded-aar\\LivetelingCast\\BrightCommon\\unspecified\\res\\drawable-xhdpi-v4\\ic_refresh_fail.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ad_icon_fullscreen.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\res\\drawable-xhdpi\\ad_icon_fullscreen.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\plugin_ad_gofull_tudou.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\res\\drawable-xhdpi\\plugin_ad_gofull_tudou.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/debug/drawable-xhdpi-v4/tudou_details_big_play_icon.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/res/drawable-xhdpi/tudou_details_big_play_icon.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_pause.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\res\\drawable-xhdpi\\icon_pause.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/debug/drawable-xhdpi-v4/no_picture.9.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/exploded-aar/LivetelingCast/BrightCommon/unspecified/res/drawable-xhdpi-v4/no_picture.9.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/debug/drawable-xhdpi-v4/full_icon_back.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/res/drawable-xhdpi/full_icon_back.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ad_icon_volume_off.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/res/drawable-xhdpi/ad_icon_volume_off.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ad_icon_out.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\res\\drawable-xhdpi\\ad_icon_out.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/debug/drawable-xhdpi-v4/plugin_ad_more_youku.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/res/drawable-xhdpi/plugin_ad_more_youku.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_refresh_fail.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/exploded-aar/LivetelingCast/BrightCommon/unspecified/res/drawable-xhdpi-v4/ic_refresh_fail.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_multi_select_camera.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/exploded-aar/LivetelingCast/BrightCommon/unspecified/res/drawable-xhdpi-v4/ic_multi_select_camera.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ad_icon_arrow.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\res\\drawable-xhdpi\\ad_icon_arrow.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\plugin_ad_gofull_youku.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\res\\drawable-xhdpi\\plugin_ad_gofull_youku.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\seekbar_bkg.9.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\res\\drawable-xhdpi\\seekbar_bkg.9.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_arrow_up.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/exploded-aar/LivetelingCast/BrightCommon/unspecified/res/drawable-xhdpi-v4/ic_arrow_up.png"
+    }
+]

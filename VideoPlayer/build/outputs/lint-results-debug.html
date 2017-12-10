@@ -1,0 +1,1547 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><title>Lint Report</title>
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Roboto" />
+<link rel="stylesheet" type="text/css" href="lint-results-debug_files/hololike.css" />
+<script language="javascript" type="text/javascript"> 
+<!--
+function reveal(id) {
+if (document.getElementById) {
+document.getElementById(id).style.display = 'block';
+document.getElementById(id+'Link').style.display = 'none';
+}
+}
+//--> 
+</script>
+</head>
+<body>
+<h1>Lint Report</h1>
+<div class="titleSeparator"></div>
+Check performed at Thu Dec 29 15:41:17 CST 2016.<br/>
+0 errors and 126 warnings found:<br/><br/>
+<table class="overview">
+<tr><td></td><td class="categoryColumn"><a href="#Correctness">Correctness</a>
+</td></tr>
+<tr>
+<td class="countColumn">2</td><td class="issueColumn"><img border="0" align="top" src="lint-results-debug_files/lint-warning.png" alt="Warning" />
+<a href="#GradleDependency">GradleDependency: Obsolete Gradle Dependency</a>
+</td></tr>
+<tr><td></td><td class="categoryColumn"><a href="#Performance">Performance</a>
+</td></tr>
+<tr>
+<td class="countColumn">2</td><td class="issueColumn"><img border="0" align="top" src="lint-results-debug_files/lint-warning.png" alt="Warning" />
+<a href="#HandlerLeak">HandlerLeak: Handler reference leaks</a>
+</td></tr>
+<tr>
+<td class="countColumn">2</td><td class="issueColumn"><img border="0" align="top" src="lint-results-debug_files/lint-warning.png" alt="Warning" />
+<a href="#MergeRootFrame">MergeRootFrame: FrameLayout can be replaced with <code>&lt;merge></code> tag</a>
+</td></tr>
+<tr>
+<td class="countColumn">96</td><td class="issueColumn"><img border="0" align="top" src="lint-results-debug_files/lint-warning.png" alt="Warning" />
+<a href="#UnusedResources">UnusedResources: Unused resources</a>
+</td></tr>
+<tr>
+<td class="countColumn">1</td><td class="issueColumn"><img border="0" align="top" src="lint-results-debug_files/lint-warning.png" alt="Warning" />
+<a href="#UselessParent">UselessParent: Useless parent layout</a>
+</td></tr>
+<tr><td></td><td class="categoryColumn"><a href="#Usability:Icons">Usability:Icons</a>
+</td></tr>
+<tr>
+<td class="countColumn">1</td><td class="issueColumn"><img border="0" align="top" src="lint-results-debug_files/lint-warning.png" alt="Warning" />
+<a href="#IconMissingDensityFolder">IconMissingDensityFolder: Missing density folder</a>
+</td></tr>
+<tr><td></td><td class="categoryColumn"><a href="#Accessibility">Accessibility</a>
+</td></tr>
+<tr>
+<td class="countColumn">9</td><td class="issueColumn"><img border="0" align="top" src="lint-results-debug_files/lint-warning.png" alt="Warning" />
+<a href="#ContentDescription">ContentDescription: Image without <code>contentDescription</code></a>
+</td></tr>
+<tr><td></td><td class="categoryColumn"><a href="#Internationalization">Internationalization</a>
+</td></tr>
+<tr>
+<td class="countColumn">3</td><td class="issueColumn"><img border="0" align="top" src="lint-results-debug_files/lint-warning.png" alt="Warning" />
+<a href="#HardcodedText">HardcodedText: Hardcoded text</a>
+</td></tr>
+<tr><td></td><td class="categoryColumn"><a href="#Internationalization:Bidirectional Text">Internationalization:Bidirectional Text</a>
+</td></tr>
+<tr>
+<td class="countColumn">2</td><td class="issueColumn"><img border="0" align="top" src="lint-results-debug_files/lint-warning.png" alt="Warning" />
+<a href="#RtlSymmetry">RtlSymmetry: Padding and margin symmetry</a>
+</td></tr>
+<tr>
+<td class="countColumn">8</td><td class="issueColumn"><img border="0" align="top" src="lint-results-debug_files/lint-warning.png" alt="Warning" />
+<a href="#RtlHardcoded">RtlHardcoded: Using left/right instead of start/end attributes</a>
+</td></tr>
+<tr><td></td><td class="categoryColumn"><a href="#MissingIssues">Disabled Checks (15)</a>
+</td></tr></table>
+<br/>
+<a name="Correctness"></a>
+<div class="category"><a href="#" title="Return to top">Correctness</a><div class="categorySeparator"></div>
+</div>
+<a name="GradleDependency"></a>
+<div class="issue">
+<div class="id"><a href="#" title="Return to top">GradleDependency: Obsolete Gradle Dependency</a><div class="issueSeparator"></div>
+</div>
+<div class="warningslist">
+<span class="location"><a href="../../build.gradle">../../build.gradle</a>:76</span>: <span class="message">A newer version of com.android.support:appcompat-v7 than 22.2.1 is available: 24.2.1</span><br /><pre class="errorlines">
+<span class="lineno">  73</span> 
+<span class="lineno">  74</span> dependencies {
+<span class="lineno">  75</span>     compile fileTree(dir: 'libs', include: ['*.jar'])
+<span class="lineno">  76</span>     <span class="errorspan">compile "com.android.support:appcompat-v7:22.2.1"</span>
+<span class="lineno">  77</span>     compile "com.android.support:support-annotations:22.2.1"
+<span class="lineno">  78</span>     compile project(":BrightCommon");
+</pre>
+<span class="location"><a href="../../build.gradle">../../build.gradle</a>:77</span>: <span class="message">A newer version of com.android.support:support-annotations than 22.2.1 is available: 24.2.1</span><br /><pre class="errorlines">
+<span class="lineno">  74</span> dependencies {
+<span class="lineno">  75</span>     compile fileTree(dir: 'libs', include: ['*.jar'])
+<span class="lineno">  76</span>     compile "com.android.support:appcompat-v7:22.2.1"
+<span class="lineno">  77</span>     <span class="errorspan">compile "com.android.support:support-annotations:22.2.1"</span>
+<span class="lineno">  78</span>     compile project(":BrightCommon");
+<span class="lineno">  79</span> //    compile 'tv.danmaku.ijk.media:ijkplayer-exo:0.5.1'
+</pre>
+</div>
+<div class="metadata">Note: This issue has an associated quickfix operation in Android Studio/IntelliJ&nbsp;<img alt="Fix" border="0" align="top" src="lint-results-debug_files/lint-run.png" />
+<br>
+Priority: 4 / 10<br/>
+Category: Correctness</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Obsolete Gradle Dependency.</div>
+<div class="explanation">
+This detector looks for usages of libraries where the version you are using is not the current stable release. Using older versions is fine, and there are cases where you deliberately want to stick with an older version. However, you may simply not be aware that a more recent version is available, and that is what this lint check helps find.
+</div>
+<br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "GradleDependency" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+
+<a name="Performance"></a>
+<div class="category"><a href="#" title="Return to top">Performance</a><div class="categorySeparator"></div>
+</div>
+<a name="HandlerLeak"></a>
+<div class="issue">
+<div class="id"><a href="#" title="Return to top">HandlerLeak: Handler reference leaks</a><div class="issueSeparator"></div>
+</div>
+<div class="warningslist">
+<span class="location"><a href="../../src/com/bright/videoplayer/widget/MediaController.java">../../src/com/bright/videoplayer/widget/MediaController.java</a>:135</span>: <span class="message">This Handler class should be static or leaks might occur (anonymous android.os.Handler)</span><br /><pre class="errorlines">
+<span class="lineno"> 132</span> 
+<span class="lineno"> 133</span> 
+<span class="lineno"> 134</span> 
+<span class="lineno"> 135</span>     private Handler mHandler = <span class="errorspan">new Handler() {</span>
+<span class="lineno"> 136</span>         @Override
+<span class="lineno"> 137</span>         public void handleMessage(Message msg) {
+</pre>
+<span class="location"><a href="../../src/com/bright/videoplayer/widget/media/VideoView.java">../../src/com/bright/videoplayer/widget/media/VideoView.java</a>:127</span>: <span class="message">This Handler class should be static or leaks might occur (anonymous android.os.Handler)</span><br /><pre class="errorlines">
+<span class="lineno"> 124</span>     private Context mAppContext;
+<span class="lineno"> 125</span>     private IRenderView mRenderView;
+<span class="lineno"> 126</span> 
+<span class="lineno"> 127</span>     private Handler mHandler = <span class="errorspan">new Handler() {</span>
+<span class="lineno"> 128</span>         @Override
+<span class="lineno"> 129</span>         public void handleMessage(Message msg) {
+</pre>
+</div>
+<div class="metadata">Priority: 4 / 10<br/>
+Category: Performance</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Handler reference leaks.</div>
+<div class="explanation">
+Since this Handler is declared as an inner class, it may prevent the outer class from being garbage collected. If the Handler is using a Looper or MessageQueue for a thread other than the main thread, then there is no issue. If the Handler is using the Looper or MessageQueue of the main thread, you need to fix your Handler declaration, as follows: Declare the Handler as a static class; In the outer class, instantiate a WeakReference to the outer class and pass this object to your Handler when you instantiate the Handler; Make all references to members of the outer class using the WeakReference object.
+</div>
+<br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "HandlerLeak" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="MergeRootFrame"></a>
+<div class="issue">
+<div class="id"><a href="#" title="Return to top">MergeRootFrame: FrameLayout can be replaced with <code>&lt;merge></code> tag</a><div class="issueSeparator"></div>
+</div>
+<div class="warningslist">
+<span class="location"><a href="../../res/layout/media_controller_loading.xml">../../res/layout/media_controller_loading.xml</a>:22</span>: <span class="message">This <code>&lt;FrameLayout></code> can be replaced with a <code>&lt;merge></code> tag</span><br /><pre class="errorlines">
+<span class="lineno">  19</span>   -->
+<span class="lineno">  20</span> 
+<span class="lineno">  21</span> &lt;!--&#21152;&#36733;-->
+<span class="lineno">  22</span> <span class="errorspan">&lt;FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"</span>
+<span class="lineno">  23</span>     android:id="@+id/loading_content"
+<span class="lineno">  24</span>     android:layout_width="match_parent"
+</pre>
+<span class="location"><a href="../../res/layout/media_controller_slide.xml">../../res/layout/media_controller_slide.xml</a>:24</span>: <span class="message">This <code>&lt;FrameLayout></code> can be replaced with a <code>&lt;merge></code> tag</span><br /><pre class="errorlines">
+<span class="lineno">  21</span> 
+<span class="lineno">  22</span> 
+<span class="lineno">  23</span> &lt;!-- &#24038;&#21491;&#28369;&#21160; &#30340;&#26174;&#31034;  -->
+<span class="lineno">  24</span> <span class="errorspan">&lt;FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"</span>
+<span class="lineno">  25</span>     android:id="@+id/slide_content"
+<span class="lineno">  26</span>     android:layout_width="match_parent"
+</pre>
+</div>
+<div class="metadata">Priority: 4 / 10<br/>
+Category: Performance</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: FrameLayout can be replaced with <code>&lt;merge></code> tag.</div>
+<div class="explanation">
+If a <code>&lt;FrameLayout></code> is the root of a layout and does not provide background or padding etc, it can often be replaced with a <code>&lt;merge></code> tag which is slightly more efficient. Note that this depends on context, so make sure you understand how the <code>&lt;merge></code> tag works before proceeding.
+</div>
+<br/><div class="moreinfo">More info: <a href="http://android-developers.blogspot.com/2009/03/android-layout-tricks-3-optimize-by.html">http://android-developers.blogspot.com/2009/03/android-layout-tricks-3-optimize-by.html</a>
+</div><br/>To suppress this error, use the issue id "MergeRootFrame" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="UnusedResources"></a>
+<div class="issue">
+<div class="id"><a href="#" title="Return to top">UnusedResources: Unused resources</a><div class="issueSeparator"></div>
+</div>
+<div class="warningslist">
+<span class="location"><a href="../../res/drawable/circle_bg.xml">../../res/drawable/circle_bg.xml</a>:2</span>: <span class="message">The resource <code>R.drawable.circle_bg</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">   1</span> &lt;?xml version="1.0" encoding="UTF-8"?>
+<span class="lineno">   2</span> <span class="errorspan">&lt;shape xmlns:android="http://schemas.android.com/apk/res/android"</span>
+<span class="lineno">   3</span>     android:shape="oval"
+<span class="lineno">   4</span>     android:useLevel="false" >
+</pre>
+<span class="location"><a href="../../res/drawable/commen_button_light_gray.xml">../../res/drawable/commen_button_light_gray.xml</a>:2</span>: <span class="message">The resource <code>R.drawable.commen_button_light_gray</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">   1</span> &lt;?xml version="1.0" encoding="utf-8"?>
+<span class="lineno">   2</span> <span class="errorspan">&lt;selector xmlns:android="http://schemas.android.com/apk/res/android"></span>
+<span class="lineno">   3</span>     &lt;!--&lt;item android:state_pressed="true">-->
+<span class="lineno">   4</span>         &lt;!--&lt;shape>-->
+</pre>
+<span class="location"><a href="../../res/drawable/commen_button_light_green.xml">../../res/drawable/commen_button_light_green.xml</a>:2</span>: <span class="message">The resource <code>R.drawable.commen_button_light_green</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">   1</span> &lt;?xml version="1.0" encoding="utf-8"?>
+<span class="lineno">   2</span> <span class="errorspan">&lt;selector xmlns:android="http://schemas.android.com/apk/res/android"></span>
+<span class="lineno">   3</span>     &lt;!--&lt;item android:state_pressed="true">-->
+<span class="lineno">   4</span>         &lt;!--&lt;shape>-->
+</pre>
+<span class="location"><a href="../../res/drawable-xhdpi/danmu_full_screen.png">../../res/drawable-xhdpi/danmu_full_screen.png</a></span>: <img class="embedimage" align="right" src="../../res/drawable-xhdpi/danmu_full_screen.png" /><span class="message">The resource <code>R.drawable.danmu_full_screen</code> appears to be unused</span><br clear="right"/>
+<span class="location"><a href="../../res/mipmap-xhdpi/ic_play_pause.png">../../res/mipmap-xhdpi/ic_play_pause.png</a></span>: <img class="embedimage" align="right" src="../../res/mipmap-xhdpi/ic_play_pause.png" /><span class="message">The resource <code>R.mipmap.ic_play_pause</code> appears to be unused</span><br clear="right"/>
+<button id="UnusedResourcesDivLink" onclick="reveal('UnusedResourcesDiv');" />+ 91 More Occurrences...</button>
+<div id="UnusedResourcesDiv" style="display: none">
+<span class="location"><a href="../../res/drawable-xhdpi/ic_to_fullscreen.png">../../res/drawable-xhdpi/ic_to_fullscreen.png</a></span>: <img class="embedimage" align="right" src="../../res/drawable-xhdpi/ic_to_fullscreen.png" /><span class="message">The resource <code>R.drawable.ic_to_fullscreen</code> appears to be unused</span><br clear="right"/>
+<span class="location"><a href="../../res/drawable-xhdpi/ic_video_back.png">../../res/drawable-xhdpi/ic_video_back.png</a></span>: <img class="embedimage" align="right" src="../../res/drawable-xhdpi/ic_video_back.png" /><span class="message">The resource <code>R.drawable.ic_video_back</code> appears to be unused</span><br clear="right"/>
+<span class="location"><a href="../../res/drawable-xhdpi/navigation_button_normal.png">../../res/drawable-xhdpi/navigation_button_normal.png</a></span>: <img class="embedimage" align="right" src="../../res/drawable-xhdpi/navigation_button_normal.png" /><span class="message">The resource <code>R.drawable.navigation_button_normal</code> appears to be unused</span><br clear="right"/>
+<span class="location"><a href="../../res/drawable-xhdpi/progress_thumb.png">../../res/drawable-xhdpi/progress_thumb.png</a></span>: <img class="embedimage" align="right" src="../../res/drawable-xhdpi/progress_thumb.png" /><span class="message">The resource <code>R.drawable.progress_thumb</code> appears to be unused</span><br clear="right"/>
+<span class="location"><a href="../../res/values/strings.xml">../../res/values/strings.xml</a>:24</span>: <span class="message">The resource <code>R.string.close</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  21</span>     &lt;string name="app_name">IJKplayerDemo&lt;/string>
+<span class="lineno">  22</span> 
+<span class="lineno">  23</span>     &lt;string name="N_A">N/A&lt;/string>
+<span class="lineno">  24</span>     &lt;string <span class="errorspan">name="close">Close&lt;/string></span>
+<span class="lineno">  25</span>     &lt;string name="exit">Exit&lt;/string>
+<span class="lineno">  26</span>     &lt;string name="sample">Sample&lt;/string>
+</pre>
+<span class="location"><a href="../../res/values/strings.xml">../../res/values/strings.xml</a>:25</span>: <span class="message">The resource <code>R.string.exit</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  22</span> 
+<span class="lineno">  23</span>     &lt;string name="N_A">N/A&lt;/string>
+<span class="lineno">  24</span>     &lt;string name="close">Close&lt;/string>
+<span class="lineno">  25</span>     &lt;string <span class="errorspan">name="exit">Exit&lt;/string></span>
+<span class="lineno">  26</span>     &lt;string name="sample">Sample&lt;/string>
+<span class="lineno">  27</span>     &lt;string name="recent">Recent&lt;/string>
+</pre>
+<span class="location"><a href="../../res/values/strings.xml">../../res/values/strings.xml</a>:26</span>: <span class="message">The resource <code>R.string.sample</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  23</span>     &lt;string name="N_A">N/A&lt;/string>
+<span class="lineno">  24</span>     &lt;string name="close">Close&lt;/string>
+<span class="lineno">  25</span>     &lt;string name="exit">Exit&lt;/string>
+<span class="lineno">  26</span>     &lt;string <span class="errorspan">name="sample">Sample&lt;/string></span>
+<span class="lineno">  27</span>     &lt;string name="recent">Recent&lt;/string>
+<span class="lineno">  28</span>     &lt;string name="settings">Settings&lt;/string>
+</pre>
+<span class="location"><a href="../../res/values/strings.xml">../../res/values/strings.xml</a>:27</span>: <span class="message">The resource <code>R.string.recent</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  24</span>     &lt;string name="close">Close&lt;/string>
+<span class="lineno">  25</span>     &lt;string name="exit">Exit&lt;/string>
+<span class="lineno">  26</span>     &lt;string name="sample">Sample&lt;/string>
+<span class="lineno">  27</span>     &lt;string <span class="errorspan">name="recent">Recent&lt;/string></span>
+<span class="lineno">  28</span>     &lt;string name="settings">Settings&lt;/string>
+<span class="lineno">  29</span>     &lt;string name="tracks">Tracks&lt;/string>
+</pre>
+<span class="location"><a href="../../res/values/strings.xml">../../res/values/strings.xml</a>:28</span>: <span class="message">The resource <code>R.string.settings</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  25</span>     &lt;string name="exit">Exit&lt;/string>
+<span class="lineno">  26</span>     &lt;string name="sample">Sample&lt;/string>
+<span class="lineno">  27</span>     &lt;string name="recent">Recent&lt;/string>
+<span class="lineno">  28</span>     &lt;string <span class="errorspan">name="settings">Settings&lt;/string></span>
+<span class="lineno">  29</span>     &lt;string name="tracks">Tracks&lt;/string>
+<span class="lineno">  30</span>     &lt;string name="toggle_player">Player&lt;/string>
+</pre>
+<span class="location"><a href="../../res/values/strings.xml">../../res/values/strings.xml</a>:29</span>: <span class="message">The resource <code>R.string.tracks</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  26</span>     &lt;string name="sample">Sample&lt;/string>
+<span class="lineno">  27</span>     &lt;string name="recent">Recent&lt;/string>
+<span class="lineno">  28</span>     &lt;string name="settings">Settings&lt;/string>
+<span class="lineno">  29</span>     &lt;string <span class="errorspan">name="tracks">Tracks&lt;/string></span>
+<span class="lineno">  30</span>     &lt;string name="toggle_player">Player&lt;/string>
+<span class="lineno">  31</span>     &lt;string name="toggle_render">Render&lt;/string>
+</pre>
+<span class="location"><a href="../../res/values/strings.xml">../../res/values/strings.xml</a>:30</span>: <span class="message">The resource <code>R.string.toggle_player</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  27</span>     &lt;string name="recent">Recent&lt;/string>
+<span class="lineno">  28</span>     &lt;string name="settings">Settings&lt;/string>
+<span class="lineno">  29</span>     &lt;string name="tracks">Tracks&lt;/string>
+<span class="lineno">  30</span>     &lt;string <span class="errorspan">name="toggle_player">Player&lt;/string></span>
+<span class="lineno">  31</span>     &lt;string name="toggle_render">Render&lt;/string>
+<span class="lineno">  32</span>     &lt;string name="toggle_ratio">Scale&lt;/string>
+</pre>
+<span class="location"><a href="../../res/values/strings.xml">../../res/values/strings.xml</a>:31</span>: <span class="message">The resource <code>R.string.toggle_render</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  28</span>     &lt;string name="settings">Settings&lt;/string>
+<span class="lineno">  29</span>     &lt;string name="tracks">Tracks&lt;/string>
+<span class="lineno">  30</span>     &lt;string name="toggle_player">Player&lt;/string>
+<span class="lineno">  31</span>     &lt;string <span class="errorspan">name="toggle_render">Render&lt;/string></span>
+<span class="lineno">  32</span>     &lt;string name="toggle_ratio">Scale&lt;/string>
+<span class="lineno">  33</span>     &lt;string name="show_info">Info&lt;/string>
+</pre>
+<span class="location"><a href="../../res/values/strings.xml">../../res/values/strings.xml</a>:32</span>: <span class="message">The resource <code>R.string.toggle_ratio</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  29</span>     &lt;string name="tracks">Tracks&lt;/string>
+<span class="lineno">  30</span>     &lt;string name="toggle_player">Player&lt;/string>
+<span class="lineno">  31</span>     &lt;string name="toggle_render">Render&lt;/string>
+<span class="lineno">  32</span>     &lt;string <span class="errorspan">name="toggle_ratio">Scale&lt;/string></span>
+<span class="lineno">  33</span>     &lt;string name="show_info">Info&lt;/string>
+<span class="lineno">  34</span>     &lt;string name="vdec">vdec&lt;/string>
+</pre>
+<span class="location"><a href="../../res/values/strings.xml">../../res/values/strings.xml</a>:33</span>: <span class="message">The resource <code>R.string.show_info</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  30</span>     &lt;string name="toggle_player">Player&lt;/string>
+<span class="lineno">  31</span>     &lt;string name="toggle_render">Render&lt;/string>
+<span class="lineno">  32</span>     &lt;string name="toggle_ratio">Scale&lt;/string>
+<span class="lineno">  33</span>     &lt;string <span class="errorspan">name="show_info">Info&lt;/string></span>
+<span class="lineno">  34</span>     &lt;string name="vdec">vdec&lt;/string>
+<span class="lineno">  35</span>     &lt;string name="fps">fps&lt;/string>
+</pre>
+<span class="location"><a href="../../res/values/strings.xml">../../res/values/strings.xml</a>:34</span>: <span class="message">The resource <code>R.string.vdec</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  31</span>     &lt;string name="toggle_render">Render&lt;/string>
+<span class="lineno">  32</span>     &lt;string name="toggle_ratio">Scale&lt;/string>
+<span class="lineno">  33</span>     &lt;string name="show_info">Info&lt;/string>
+<span class="lineno">  34</span>     &lt;string <span class="errorspan">name="vdec">vdec&lt;/string></span>
+<span class="lineno">  35</span>     &lt;string name="fps">fps&lt;/string>
+<span class="lineno">  36</span>     &lt;string name="v_cache">v-cache&lt;/string>
+</pre>
+<span class="location"><a href="../../res/values/strings.xml">../../res/values/strings.xml</a>:35</span>: <span class="message">The resource <code>R.string.fps</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  32</span>     &lt;string name="toggle_ratio">Scale&lt;/string>
+<span class="lineno">  33</span>     &lt;string name="show_info">Info&lt;/string>
+<span class="lineno">  34</span>     &lt;string name="vdec">vdec&lt;/string>
+<span class="lineno">  35</span>     &lt;string <span class="errorspan">name="fps">fps&lt;/string></span>
+<span class="lineno">  36</span>     &lt;string name="v_cache">v-cache&lt;/string>
+<span class="lineno">  37</span>     &lt;string name="a_cache">a-cache&lt;/string>
+</pre>
+<span class="location"><a href="../../res/values/strings.xml">../../res/values/strings.xml</a>:36</span>: <span class="message">The resource <code>R.string.v_cache</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  33</span>     &lt;string name="show_info">Info&lt;/string>
+<span class="lineno">  34</span>     &lt;string name="vdec">vdec&lt;/string>
+<span class="lineno">  35</span>     &lt;string name="fps">fps&lt;/string>
+<span class="lineno">  36</span>     &lt;string <span class="errorspan">name="v_cache">v-cache&lt;/string></span>
+<span class="lineno">  37</span>     &lt;string name="a_cache">a-cache&lt;/string>
+<span class="lineno">  38</span> 
+</pre>
+<span class="location"><a href="../../res/values/strings.xml">../../res/values/strings.xml</a>:37</span>: <span class="message">The resource <code>R.string.a_cache</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  34</span>     &lt;string name="vdec">vdec&lt;/string>
+<span class="lineno">  35</span>     &lt;string name="fps">fps&lt;/string>
+<span class="lineno">  36</span>     &lt;string name="v_cache">v-cache&lt;/string>
+<span class="lineno">  37</span>     &lt;string <span class="errorspan">name="a_cache">a-cache&lt;/string></span>
+<span class="lineno">  38</span> 
+<span class="lineno">  39</span>     &lt;string name="media_information">Media Information&lt;/string>
+</pre>
+<span class="location"><a href="../../res/values/strings.xml">../../res/values/strings.xml</a>:39</span>: <span class="message">The resource <code>R.string.media_information</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  36</span>     &lt;string name="v_cache">v-cache&lt;/string>
+<span class="lineno">  37</span>     &lt;string name="a_cache">a-cache&lt;/string>
+<span class="lineno">  38</span> 
+<span class="lineno">  39</span>     &lt;string <span class="errorspan">name="media_information">Media Information&lt;/string></span>
+<span class="lineno">  40</span>     &lt;string name="mi_player">Player&lt;/string>
+<span class="lineno">  41</span>     &lt;string name="mi_media">Media&lt;/string>
+</pre>
+<span class="location"><a href="../../res/values/strings.xml">../../res/values/strings.xml</a>:40</span>: <span class="message">The resource <code>R.string.mi_player</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  37</span>     &lt;string name="a_cache">a-cache&lt;/string>
+<span class="lineno">  38</span> 
+<span class="lineno">  39</span>     &lt;string name="media_information">Media Information&lt;/string>
+<span class="lineno">  40</span>     &lt;string <span class="errorspan">name="mi_player">Player&lt;/string></span>
+<span class="lineno">  41</span>     &lt;string name="mi_media">Media&lt;/string>
+<span class="lineno">  42</span>     &lt;string name="mi_profile_level">Profile level&lt;/string>
+</pre>
+<span class="location"><a href="../../res/values/strings.xml">../../res/values/strings.xml</a>:41</span>: <span class="message">The resource <code>R.string.mi_media</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  38</span> 
+<span class="lineno">  39</span>     &lt;string name="media_information">Media Information&lt;/string>
+<span class="lineno">  40</span>     &lt;string name="mi_player">Player&lt;/string>
+<span class="lineno">  41</span>     &lt;string <span class="errorspan">name="mi_media">Media&lt;/string></span>
+<span class="lineno">  42</span>     &lt;string name="mi_profile_level">Profile level&lt;/string>
+<span class="lineno">  43</span>     &lt;string name="mi_pixel_format">Pixel format&lt;/string>
+</pre>
+<span class="location"><a href="../../res/values/strings.xml">../../res/values/strings.xml</a>:42</span>: <span class="message">The resource <code>R.string.mi_profile_level</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  39</span>     &lt;string name="media_information">Media Information&lt;/string>
+<span class="lineno">  40</span>     &lt;string name="mi_player">Player&lt;/string>
+<span class="lineno">  41</span>     &lt;string name="mi_media">Media&lt;/string>
+<span class="lineno">  42</span>     &lt;string <span class="errorspan">name="mi_profile_level">Profile level&lt;/string></span>
+<span class="lineno">  43</span>     &lt;string name="mi_pixel_format">Pixel format&lt;/string>
+<span class="lineno">  44</span>     &lt;string name="mi_resolution">Resolution&lt;/string>
+</pre>
+<span class="location"><a href="../../res/values/strings.xml">../../res/values/strings.xml</a>:43</span>: <span class="message">The resource <code>R.string.mi_pixel_format</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  40</span>     &lt;string name="mi_player">Player&lt;/string>
+<span class="lineno">  41</span>     &lt;string name="mi_media">Media&lt;/string>
+<span class="lineno">  42</span>     &lt;string name="mi_profile_level">Profile level&lt;/string>
+<span class="lineno">  43</span>     &lt;string <span class="errorspan">name="mi_pixel_format">Pixel format&lt;/string></span>
+<span class="lineno">  44</span>     &lt;string name="mi_resolution">Resolution&lt;/string>
+<span class="lineno">  45</span>     &lt;string name="mi_length">Length&lt;/string>
+</pre>
+<span class="location"><a href="../../res/values/strings.xml">../../res/values/strings.xml</a>:44</span>: <span class="message">The resource <code>R.string.mi_resolution</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  41</span>     &lt;string name="mi_media">Media&lt;/string>
+<span class="lineno">  42</span>     &lt;string name="mi_profile_level">Profile level&lt;/string>
+<span class="lineno">  43</span>     &lt;string name="mi_pixel_format">Pixel format&lt;/string>
+<span class="lineno">  44</span>     &lt;string <span class="errorspan">name="mi_resolution">Resolution&lt;/string></span>
+<span class="lineno">  45</span>     &lt;string name="mi_length">Length&lt;/string>
+<span class="lineno">  46</span>     &lt;string name="mi_stream_fmt1">Stream #%d&lt;/string>
+</pre>
+<span class="location"><a href="../../res/values/strings.xml">../../res/values/strings.xml</a>:45</span>: <span class="message">The resource <code>R.string.mi_length</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  42</span>     &lt;string name="mi_profile_level">Profile level&lt;/string>
+<span class="lineno">  43</span>     &lt;string name="mi_pixel_format">Pixel format&lt;/string>
+<span class="lineno">  44</span>     &lt;string name="mi_resolution">Resolution&lt;/string>
+<span class="lineno">  45</span>     &lt;string <span class="errorspan">name="mi_length">Length&lt;/string></span>
+<span class="lineno">  46</span>     &lt;string name="mi_stream_fmt1">Stream #%d&lt;/string>
+<span class="lineno">  47</span>     &lt;string name="mi_type">Type&lt;/string>
+</pre>
+<span class="location"><a href="../../res/values/strings.xml">../../res/values/strings.xml</a>:46</span>: <span class="message">The resource <code>R.string.mi_stream_fmt1</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  43</span>     &lt;string name="mi_pixel_format">Pixel format&lt;/string>
+<span class="lineno">  44</span>     &lt;string name="mi_resolution">Resolution&lt;/string>
+<span class="lineno">  45</span>     &lt;string name="mi_length">Length&lt;/string>
+<span class="lineno">  46</span>     &lt;string <span class="errorspan">name="mi_stream_fmt1">Stream #%d&lt;/string></span>
+<span class="lineno">  47</span>     &lt;string name="mi_type">Type&lt;/string>
+<span class="lineno">  48</span>     &lt;string name="mi_language">Language&lt;/string>
+</pre>
+<span class="location"><a href="../../res/values/strings.xml">../../res/values/strings.xml</a>:47</span>: <span class="message">The resource <code>R.string.mi_type</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  44</span>     &lt;string name="mi_resolution">Resolution&lt;/string>
+<span class="lineno">  45</span>     &lt;string name="mi_length">Length&lt;/string>
+<span class="lineno">  46</span>     &lt;string name="mi_stream_fmt1">Stream #%d&lt;/string>
+<span class="lineno">  47</span>     &lt;string <span class="errorspan">name="mi_type">Type&lt;/string></span>
+<span class="lineno">  48</span>     &lt;string name="mi_language">Language&lt;/string>
+<span class="lineno">  49</span>     &lt;string name="mi_codec">Codec&lt;/string>
+</pre>
+<span class="location"><a href="../../res/values/strings.xml">../../res/values/strings.xml</a>:48</span>: <span class="message">The resource <code>R.string.mi_language</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  45</span>     &lt;string name="mi_length">Length&lt;/string>
+<span class="lineno">  46</span>     &lt;string name="mi_stream_fmt1">Stream #%d&lt;/string>
+<span class="lineno">  47</span>     &lt;string name="mi_type">Type&lt;/string>
+<span class="lineno">  48</span>     &lt;string <span class="errorspan">name="mi_language">Language&lt;/string></span>
+<span class="lineno">  49</span>     &lt;string name="mi_codec">Codec&lt;/string>
+<span class="lineno">  50</span>     &lt;string name="mi_frame_rate">Frame rate&lt;/string>
+</pre>
+<span class="location"><a href="../../res/values/strings.xml">../../res/values/strings.xml</a>:49</span>: <span class="message">The resource <code>R.string.mi_codec</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  46</span>     &lt;string name="mi_stream_fmt1">Stream #%d&lt;/string>
+<span class="lineno">  47</span>     &lt;string name="mi_type">Type&lt;/string>
+<span class="lineno">  48</span>     &lt;string name="mi_language">Language&lt;/string>
+<span class="lineno">  49</span>     &lt;string <span class="errorspan">name="mi_codec">Codec&lt;/string></span>
+<span class="lineno">  50</span>     &lt;string name="mi_frame_rate">Frame rate&lt;/string>
+<span class="lineno">  51</span>     &lt;string name="mi_bit_rate">Bit rate&lt;/string>
+</pre>
+<span class="location"><a href="../../res/values/strings.xml">../../res/values/strings.xml</a>:50</span>: <span class="message">The resource <code>R.string.mi_frame_rate</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  47</span>     &lt;string name="mi_type">Type&lt;/string>
+<span class="lineno">  48</span>     &lt;string name="mi_language">Language&lt;/string>
+<span class="lineno">  49</span>     &lt;string name="mi_codec">Codec&lt;/string>
+<span class="lineno">  50</span>     &lt;string <span class="errorspan">name="mi_frame_rate">Frame rate&lt;/string></span>
+<span class="lineno">  51</span>     &lt;string name="mi_bit_rate">Bit rate&lt;/string>
+<span class="lineno">  52</span>     &lt;string name="mi_sample_rate">Sample rate&lt;/string>
+</pre>
+<span class="location"><a href="../../res/values/strings.xml">../../res/values/strings.xml</a>:51</span>: <span class="message">The resource <code>R.string.mi_bit_rate</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  48</span>     &lt;string name="mi_language">Language&lt;/string>
+<span class="lineno">  49</span>     &lt;string name="mi_codec">Codec&lt;/string>
+<span class="lineno">  50</span>     &lt;string name="mi_frame_rate">Frame rate&lt;/string>
+<span class="lineno">  51</span>     &lt;string <span class="errorspan">name="mi_bit_rate">Bit rate&lt;/string></span>
+<span class="lineno">  52</span>     &lt;string name="mi_sample_rate">Sample rate&lt;/string>
+<span class="lineno">  53</span>     &lt;string name="mi_channels">Channels&lt;/string>
+</pre>
+<span class="location"><a href="../../res/values/strings.xml">../../res/values/strings.xml</a>:52</span>: <span class="message">The resource <code>R.string.mi_sample_rate</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  49</span>     &lt;string name="mi_codec">Codec&lt;/string>
+<span class="lineno">  50</span>     &lt;string name="mi_frame_rate">Frame rate&lt;/string>
+<span class="lineno">  51</span>     &lt;string name="mi_bit_rate">Bit rate&lt;/string>
+<span class="lineno">  52</span>     &lt;string <span class="errorspan">name="mi_sample_rate">Sample rate&lt;/string></span>
+<span class="lineno">  53</span>     &lt;string name="mi_channels">Channels&lt;/string>
+<span class="lineno">  54</span>     &lt;string name="mi__selected_video_track">*&lt;/string>
+</pre>
+<span class="location"><a href="../../res/values/strings.xml">../../res/values/strings.xml</a>:53</span>: <span class="message">The resource <code>R.string.mi_channels</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  50</span>     &lt;string name="mi_frame_rate">Frame rate&lt;/string>
+<span class="lineno">  51</span>     &lt;string name="mi_bit_rate">Bit rate&lt;/string>
+<span class="lineno">  52</span>     &lt;string name="mi_sample_rate">Sample rate&lt;/string>
+<span class="lineno">  53</span>     &lt;string <span class="errorspan">name="mi_channels">Channels&lt;/string></span>
+<span class="lineno">  54</span>     &lt;string name="mi__selected_video_track">*&lt;/string>
+<span class="lineno">  55</span>     &lt;string name="mi__selected_audio_track">*&lt;/string>
+</pre>
+<span class="location"><a href="../../res/values/strings.xml">../../res/values/strings.xml</a>:54</span>: <span class="message">The resource <code>R.string.mi__selected_video_track</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  51</span>     &lt;string name="mi_bit_rate">Bit rate&lt;/string>
+<span class="lineno">  52</span>     &lt;string name="mi_sample_rate">Sample rate&lt;/string>
+<span class="lineno">  53</span>     &lt;string name="mi_channels">Channels&lt;/string>
+<span class="lineno">  54</span>     &lt;string <span class="errorspan">name="mi__selected_video_track">*&lt;/string></span>
+<span class="lineno">  55</span>     &lt;string name="mi__selected_audio_track">*&lt;/string>
+<span class="lineno">  56</span> 
+</pre>
+<span class="location"><a href="../../res/values/strings.xml">../../res/values/strings.xml</a>:55</span>: <span class="message">The resource <code>R.string.mi__selected_audio_track</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  52</span>     &lt;string name="mi_sample_rate">Sample rate&lt;/string>
+<span class="lineno">  53</span>     &lt;string name="mi_channels">Channels&lt;/string>
+<span class="lineno">  54</span>     &lt;string name="mi__selected_video_track">*&lt;/string>
+<span class="lineno">  55</span>     &lt;string <span class="errorspan">name="mi__selected_audio_track">*&lt;/string></span>
+<span class="lineno">  56</span> 
+<span class="lineno">  57</span>     &lt;string name="TrackType_video">Video&lt;/string>
+</pre>
+<span class="location"><a href="../../res/values/strings.xml">../../res/values/strings.xml</a>:57</span>: <span class="message">The resource <code>R.string.TrackType_video</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  54</span>     &lt;string name="mi__selected_video_track">*&lt;/string>
+<span class="lineno">  55</span>     &lt;string name="mi__selected_audio_track">*&lt;/string>
+<span class="lineno">  56</span> 
+<span class="lineno">  57</span>     &lt;string <span class="errorspan">name="TrackType_video">Video&lt;/string></span>
+<span class="lineno">  58</span>     &lt;string name="TrackType_audio">Audio&lt;/string>
+<span class="lineno">  59</span>     &lt;string name="TrackType_subtitle">Subtitle&lt;/string>
+</pre>
+<span class="location"><a href="../../res/values/strings.xml">../../res/values/strings.xml</a>:58</span>: <span class="message">The resource <code>R.string.TrackType_audio</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  55</span>     &lt;string name="mi__selected_audio_track">*&lt;/string>
+<span class="lineno">  56</span> 
+<span class="lineno">  57</span>     &lt;string name="TrackType_video">Video&lt;/string>
+<span class="lineno">  58</span>     &lt;string <span class="errorspan">name="TrackType_audio">Audio&lt;/string></span>
+<span class="lineno">  59</span>     &lt;string name="TrackType_subtitle">Subtitle&lt;/string>
+<span class="lineno">  60</span>     &lt;string name="TrackType_timedtext">Timed text&lt;/string>
+</pre>
+<span class="location"><a href="../../res/values/strings.xml">../../res/values/strings.xml</a>:59</span>: <span class="message">The resource <code>R.string.TrackType_subtitle</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  56</span> 
+<span class="lineno">  57</span>     &lt;string name="TrackType_video">Video&lt;/string>
+<span class="lineno">  58</span>     &lt;string name="TrackType_audio">Audio&lt;/string>
+<span class="lineno">  59</span>     &lt;string <span class="errorspan">name="TrackType_subtitle">Subtitle&lt;/string></span>
+<span class="lineno">  60</span>     &lt;string name="TrackType_timedtext">Timed text&lt;/string>
+<span class="lineno">  61</span>     &lt;string name="TrackType_metadata">Meta data&lt;/string>
+</pre>
+<span class="location"><a href="../../res/values/strings.xml">../../res/values/strings.xml</a>:60</span>: <span class="message">The resource <code>R.string.TrackType_timedtext</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  57</span>     &lt;string name="TrackType_video">Video&lt;/string>
+<span class="lineno">  58</span>     &lt;string name="TrackType_audio">Audio&lt;/string>
+<span class="lineno">  59</span>     &lt;string name="TrackType_subtitle">Subtitle&lt;/string>
+<span class="lineno">  60</span>     &lt;string <span class="errorspan">name="TrackType_timedtext">Timed text&lt;/string></span>
+<span class="lineno">  61</span>     &lt;string name="TrackType_metadata">Meta data&lt;/string>
+<span class="lineno">  62</span>     &lt;string name="TrackType_unknown">Unknown&lt;/string>
+</pre>
+<span class="location"><a href="../../res/values/strings.xml">../../res/values/strings.xml</a>:61</span>: <span class="message">The resource <code>R.string.TrackType_metadata</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  58</span>     &lt;string name="TrackType_audio">Audio&lt;/string>
+<span class="lineno">  59</span>     &lt;string name="TrackType_subtitle">Subtitle&lt;/string>
+<span class="lineno">  60</span>     &lt;string name="TrackType_timedtext">Timed text&lt;/string>
+<span class="lineno">  61</span>     &lt;string <span class="errorspan">name="TrackType_metadata">Meta data&lt;/string></span>
+<span class="lineno">  62</span>     &lt;string name="TrackType_unknown">Unknown&lt;/string>
+<span class="lineno">  63</span> 
+</pre>
+<span class="location"><a href="../../res/values/strings.xml">../../res/values/strings.xml</a>:62</span>: <span class="message">The resource <code>R.string.TrackType_unknown</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  59</span>     &lt;string name="TrackType_subtitle">Subtitle&lt;/string>
+<span class="lineno">  60</span>     &lt;string name="TrackType_timedtext">Timed text&lt;/string>
+<span class="lineno">  61</span>     &lt;string name="TrackType_metadata">Meta data&lt;/string>
+<span class="lineno">  62</span>     &lt;string <span class="errorspan">name="TrackType_unknown">Unknown&lt;/string></span>
+<span class="lineno">  63</span> 
+<span class="lineno">  64</span>     &lt;string name="VideoView_error_text_invalid_progressive_playback">&#26410;&#25214;&#21040;&#26381;&#21153;&#22120;!&lt;/string>
+</pre>
+<span class="location"><a href="../../res/values/strings.xml">../../res/values/strings.xml</a>:75</span>: <span class="message">The resource <code>R.string.VideoView_render_none</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  72</span>     &lt;string name="VideoView_ar_16_9_fit_parent">16:9 / Fit parent&lt;/string>
+<span class="lineno">  73</span>     &lt;string name="VideoView_ar_4_3_fit_parent">4:3 / Fit parent&lt;/string>
+<span class="lineno">  74</span> 
+<span class="lineno">  75</span>     &lt;string <span class="errorspan">name="VideoView_render_none">Render: None&lt;/string></span>
+<span class="lineno">  76</span>     &lt;string name="VideoView_render_surface_view">Render: SurfaceView&lt;/string>
+<span class="lineno">  77</span>     &lt;string name="VideoView_render_texture_view">Render: TextureView&lt;/string>
+</pre>
+<span class="location"><a href="../../res/values/strings.xml">../../res/values/strings.xml</a>:76</span>: <span class="message">The resource <code>R.string.VideoView_render_surface_view</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  73</span>     &lt;string name="VideoView_ar_4_3_fit_parent">4:3 / Fit parent&lt;/string>
+<span class="lineno">  74</span> 
+<span class="lineno">  75</span>     &lt;string name="VideoView_render_none">Render: None&lt;/string>
+<span class="lineno">  76</span>     &lt;string <span class="errorspan">name="VideoView_render_surface_view">Render: SurfaceView&lt;/string></span>
+<span class="lineno">  77</span>     &lt;string name="VideoView_render_texture_view">Render: TextureView&lt;/string>
+<span class="lineno">  78</span> 
+</pre>
+<span class="location"><a href="../../res/values/strings.xml">../../res/values/strings.xml</a>:77</span>: <span class="message">The resource <code>R.string.VideoView_render_texture_view</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  74</span> 
+<span class="lineno">  75</span>     &lt;string name="VideoView_render_none">Render: None&lt;/string>
+<span class="lineno">  76</span>     &lt;string name="VideoView_render_surface_view">Render: SurfaceView&lt;/string>
+<span class="lineno">  77</span>     &lt;string <span class="errorspan">name="VideoView_render_texture_view">Render: TextureView&lt;/string></span>
+<span class="lineno">  78</span> 
+<span class="lineno">  79</span>     &lt;string name="VideoView_player_none">Player: None&lt;/string>
+</pre>
+<span class="location"><a href="../../res/values/strings.xml">../../res/values/strings.xml</a>:79</span>: <span class="message">The resource <code>R.string.VideoView_player_none</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  76</span>     &lt;string name="VideoView_render_surface_view">Render: SurfaceView&lt;/string>
+<span class="lineno">  77</span>     &lt;string name="VideoView_render_texture_view">Render: TextureView&lt;/string>
+<span class="lineno">  78</span> 
+<span class="lineno">  79</span>     &lt;string <span class="errorspan">name="VideoView_player_none">Player: None&lt;/string></span>
+<span class="lineno">  80</span>     &lt;string name="VideoView_player_AndroidMediaPlayer">Player: AndroidMediaPlayer&lt;/string>
+<span class="lineno">  81</span>     &lt;string name="VideoView_player_IjkMediaPlayer">Player: IjkMediaPlayer&lt;/string>
+</pre>
+<span class="location"><a href="../../res/values/strings.xml">../../res/values/strings.xml</a>:80</span>: <span class="message">The resource <code>R.string.VideoView_player_AndroidMediaPlayer</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  77</span>     &lt;string name="VideoView_render_texture_view">Render: TextureView&lt;/string>
+<span class="lineno">  78</span> 
+<span class="lineno">  79</span>     &lt;string name="VideoView_player_none">Player: None&lt;/string>
+<span class="lineno">  80</span>     &lt;string <span class="errorspan">name="VideoView_player_AndroidMediaPlayer">Player: AndroidMediaPlayer&lt;/string></span>
+<span class="lineno">  81</span>     &lt;string name="VideoView_player_IjkMediaPlayer">Player: IjkMediaPlayer&lt;/string>
+<span class="lineno">  82</span>     &lt;string name="VideoView_player_IjkExoMediaPlayer">Player: IjkExoMediaPlayer&lt;/string>
+</pre>
+<span class="location"><a href="../../res/values/strings.xml">../../res/values/strings.xml</a>:81</span>: <span class="message">The resource <code>R.string.VideoView_player_IjkMediaPlayer</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  78</span> 
+<span class="lineno">  79</span>     &lt;string name="VideoView_player_none">Player: None&lt;/string>
+<span class="lineno">  80</span>     &lt;string name="VideoView_player_AndroidMediaPlayer">Player: AndroidMediaPlayer&lt;/string>
+<span class="lineno">  81</span>     &lt;string <span class="errorspan">name="VideoView_player_IjkMediaPlayer">Player: IjkMediaPlayer&lt;/string></span>
+<span class="lineno">  82</span>     &lt;string name="VideoView_player_IjkExoMediaPlayer">Player: IjkExoMediaPlayer&lt;/string>
+<span class="lineno">  83</span>     &lt;color name="green">#4fc396&lt;/color>
+</pre>
+<span class="location"><a href="../../res/values/strings.xml">../../res/values/strings.xml</a>:82</span>: <span class="message">The resource <code>R.string.VideoView_player_IjkExoMediaPlayer</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  79</span>     &lt;string name="VideoView_player_none">Player: None&lt;/string>
+<span class="lineno">  80</span>     &lt;string name="VideoView_player_AndroidMediaPlayer">Player: AndroidMediaPlayer&lt;/string>
+<span class="lineno">  81</span>     &lt;string name="VideoView_player_IjkMediaPlayer">Player: IjkMediaPlayer&lt;/string>
+<span class="lineno">  82</span>     &lt;string <span class="errorspan">name="VideoView_player_IjkExoMediaPlayer">Player: IjkExoMediaPlayer&lt;/string></span>
+<span class="lineno">  83</span>     &lt;color name="green">#4fc396&lt;/color>
+<span class="lineno">  84</span> &lt;/resources>
+</pre>
+<span class="location"><a href="../../res/values/strings.xml">../../res/values/strings.xml</a>:83</span>: <span class="message">The resource <code>R.color.green</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  80</span>     &lt;string name="VideoView_player_AndroidMediaPlayer">Player: AndroidMediaPlayer&lt;/string>
+<span class="lineno">  81</span>     &lt;string name="VideoView_player_IjkMediaPlayer">Player: IjkMediaPlayer&lt;/string>
+<span class="lineno">  82</span>     &lt;string name="VideoView_player_IjkExoMediaPlayer">Player: IjkExoMediaPlayer&lt;/string>
+<span class="lineno">  83</span>     &lt;color <span class="errorspan">name="green">#4fc396&lt;/color></span>
+<span class="lineno">  84</span> &lt;/resources>
+<span class="lineno">  85</span> 
+</pre>
+<span class="location"><a href="../../res/values/strings_pref.xml">../../res/values/strings_pref.xml</a>:21</span>: <span class="message">The resource <code>R.string.pref_title_general</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  18</span>   -->
+<span class="lineno">  19</span> &lt;resources>
+<span class="lineno">  20</span>     &lt;!-- -->
+<span class="lineno">  21</span>     &lt;string <span class="errorspan">name="pref_title_general">General&lt;/string></span>
+<span class="lineno">  22</span> 
+<span class="lineno">  23</span>     &lt;string name="pref_key_enable_background_play">pref.enable_background_play&lt;/string>
+</pre>
+<span class="location"><a href="../../res/values/strings_pref.xml">../../res/values/strings_pref.xml</a>:23</span>: <span class="message">The resource <code>R.string.pref_key_enable_background_play</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  20</span>     &lt;!-- -->
+<span class="lineno">  21</span>     &lt;string name="pref_title_general">General&lt;/string>
+<span class="lineno">  22</span> 
+<span class="lineno">  23</span>     &lt;string <span class="errorspan">name="pref_key_enable_background_play">pref.enable_background_play&lt;/string></span>
+<span class="lineno">  24</span>     &lt;string name="pref_title_enable_background_play">Enable background play&lt;/string>
+<span class="lineno">  25</span>     &lt;string name="pref_summary_enable_background_play">need Android 4.0+&lt;/string>
+</pre>
+<span class="location"><a href="../../res/values/strings_pref.xml">../../res/values/strings_pref.xml</a>:24</span>: <span class="message">The resource <code>R.string.pref_title_enable_background_play</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  21</span>     &lt;string name="pref_title_general">General&lt;/string>
+<span class="lineno">  22</span> 
+<span class="lineno">  23</span>     &lt;string name="pref_key_enable_background_play">pref.enable_background_play&lt;/string>
+<span class="lineno">  24</span>     &lt;string <span class="errorspan">name="pref_title_enable_background_play">Enable background play&lt;/string></span>
+<span class="lineno">  25</span>     &lt;string name="pref_summary_enable_background_play">need Android 4.0+&lt;/string>
+<span class="lineno">  26</span> 
+</pre>
+<span class="location"><a href="../../res/values/strings_pref.xml">../../res/values/strings_pref.xml</a>:25</span>: <span class="message">The resource <code>R.string.pref_summary_enable_background_play</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  22</span> 
+<span class="lineno">  23</span>     &lt;string name="pref_key_enable_background_play">pref.enable_background_play&lt;/string>
+<span class="lineno">  24</span>     &lt;string name="pref_title_enable_background_play">Enable background play&lt;/string>
+<span class="lineno">  25</span>     &lt;string <span class="errorspan">name="pref_summary_enable_background_play">need Android 4.0+&lt;/string></span>
+<span class="lineno">  26</span> 
+<span class="lineno">  27</span>     &lt;string name="pref_key_using_android_player">pref.using_android_player&lt;/string>
+</pre>
+<span class="location"><a href="../../res/values/strings_pref.xml">../../res/values/strings_pref.xml</a>:27</span>: <span class="message">The resource <code>R.string.pref_key_using_android_player</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  24</span>     &lt;string name="pref_title_enable_background_play">Enable background play&lt;/string>
+<span class="lineno">  25</span>     &lt;string name="pref_summary_enable_background_play">need Android 4.0+&lt;/string>
+<span class="lineno">  26</span> 
+<span class="lineno">  27</span>     &lt;string <span class="errorspan">name="pref_key_using_android_player">pref.using_android_player&lt;/string></span>
+<span class="lineno">  28</span>     &lt;string name="pref_title_using_android_player">Using system player&lt;/string>
+<span class="lineno">  29</span>     &lt;string name="pref_summary_using_android_player">&lt;/string>
+</pre>
+<span class="location"><a href="../../res/values/strings_pref.xml">../../res/values/strings_pref.xml</a>:28</span>: <span class="message">The resource <code>R.string.pref_title_using_android_player</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  25</span>     &lt;string name="pref_summary_enable_background_play">need Android 4.0+&lt;/string>
+<span class="lineno">  26</span> 
+<span class="lineno">  27</span>     &lt;string name="pref_key_using_android_player">pref.using_android_player&lt;/string>
+<span class="lineno">  28</span>     &lt;string <span class="errorspan">name="pref_title_using_android_player">Using system player&lt;/string></span>
+<span class="lineno">  29</span>     &lt;string name="pref_summary_using_android_player">&lt;/string>
+<span class="lineno">  30</span> 
+</pre>
+<span class="location"><a href="../../res/values/strings_pref.xml">../../res/values/strings_pref.xml</a>:29</span>: <span class="message">The resource <code>R.string.pref_summary_using_android_player</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  26</span> 
+<span class="lineno">  27</span>     &lt;string name="pref_key_using_android_player">pref.using_android_player&lt;/string>
+<span class="lineno">  28</span>     &lt;string name="pref_title_using_android_player">Using system player&lt;/string>
+<span class="lineno">  29</span>     &lt;string <span class="errorspan">name="pref_summary_using_android_player">&lt;/string></span>
+<span class="lineno">  30</span> 
+<span class="lineno">  31</span>     &lt;string name="pref_key_player">pref.player&lt;/string>
+</pre>
+<span class="location"><a href="../../res/values/strings_pref.xml">../../res/values/strings_pref.xml</a>:31</span>: <span class="message">The resource <code>R.string.pref_key_player</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  28</span>     &lt;string name="pref_title_using_android_player">Using system player&lt;/string>
+<span class="lineno">  29</span>     &lt;string name="pref_summary_using_android_player">&lt;/string>
+<span class="lineno">  30</span> 
+<span class="lineno">  31</span>     &lt;string <span class="errorspan">name="pref_key_player">pref.player&lt;/string></span>
+<span class="lineno">  32</span>     &lt;string name="pref_title_player">Choose Player&lt;/string>
+<span class="lineno">  33</span>     &lt;string-array name="pref_entries_player">
+</pre>
+<span class="location"><a href="../../res/values/strings_pref.xml">../../res/values/strings_pref.xml</a>:32</span>: <span class="message">The resource <code>R.string.pref_title_player</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  29</span>     &lt;string name="pref_summary_using_android_player">&lt;/string>
+<span class="lineno">  30</span> 
+<span class="lineno">  31</span>     &lt;string name="pref_key_player">pref.player&lt;/string>
+<span class="lineno">  32</span>     &lt;string <span class="errorspan">name="pref_title_player">Choose Player&lt;/string></span>
+<span class="lineno">  33</span>     &lt;string-array name="pref_entries_player">
+<span class="lineno">  34</span>         &lt;item>Auto Select&lt;/item>
+</pre>
+<span class="location"><a href="../../res/values/strings_pref.xml">../../res/values/strings_pref.xml</a>:33</span>: <span class="message">The resource <code>R.array.pref_entries_player</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  30</span> 
+<span class="lineno">  31</span>     &lt;string name="pref_key_player">pref.player&lt;/string>
+<span class="lineno">  32</span>     &lt;string name="pref_title_player">Choose Player&lt;/string>
+<span class="lineno">  33</span>     &lt;string-array <span class="errorspan">name="pref_entries_player"></span>
+<span class="lineno">  34</span>         &lt;item>Auto Select&lt;/item>
+<span class="lineno">  35</span>         &lt;item>AndroidMediaPlayer&lt;/item>
+</pre>
+<span class="location"><a href="../../res/values/strings_pref.xml">../../res/values/strings_pref.xml</a>:39</span>: <span class="message">The resource <code>R.array.pref_entry_values_player</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  36</span>         &lt;item>IjkMediaPlayer&lt;/item>
+<span class="lineno">  37</span>         &lt;item>IjkExoMediaPlayer&lt;/item>
+<span class="lineno">  38</span>     &lt;/string-array>
+<span class="lineno">  39</span>     &lt;string-array <span class="errorspan">name="pref_entry_values_player"></span>
+<span class="lineno">  40</span>         &lt;item>0&lt;/item>
+<span class="lineno">  41</span>         &lt;item>1&lt;/item>
+</pre>
+<span class="location"><a href="../../res/values/strings_pref.xml">../../res/values/strings_pref.xml</a>:45</span>: <span class="message">The resource <code>R.array.pref_entry_summaries_player</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  42</span>         &lt;item>2&lt;/item>
+<span class="lineno">  43</span>         &lt;item>3&lt;/item>
+<span class="lineno">  44</span>     &lt;/string-array>
+<span class="lineno">  45</span>     &lt;string-array <span class="errorspan">name="pref_entry_summaries_player"></span>
+<span class="lineno">  46</span>         &lt;item>Auto Select&lt;/item>
+<span class="lineno">  47</span>         &lt;item>AndroidMediaPlayer&lt;/item>
+</pre>
+<span class="location"><a href="../../res/values/strings_pref.xml">../../res/values/strings_pref.xml</a>:53</span>: <span class="message">The resource <code>R.string.pref_title_ijkplayer_video</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  50</span>     &lt;/string-array>
+<span class="lineno">  51</span> 
+<span class="lineno">  52</span>     &lt;!-- -->
+<span class="lineno">  53</span>     &lt;string <span class="errorspan">name="pref_title_ijkplayer_video">Video: ijkplayer&lt;/string></span>
+<span class="lineno">  54</span> 
+<span class="lineno">  55</span>     &lt;string name="pref_key_using_media_codec">pref.using_media_codec&lt;/string>
+</pre>
+<span class="location"><a href="../../res/values/strings_pref.xml">../../res/values/strings_pref.xml</a>:55</span>: <span class="message">The resource <code>R.string.pref_key_using_media_codec</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  52</span>     &lt;!-- -->
+<span class="lineno">  53</span>     &lt;string name="pref_title_ijkplayer_video">Video: ijkplayer&lt;/string>
+<span class="lineno">  54</span> 
+<span class="lineno">  55</span>     &lt;string <span class="errorspan">name="pref_key_using_media_codec">pref.using_media_codec&lt;/string></span>
+<span class="lineno">  56</span>     &lt;string name="pref_title_using_media_codec">Using MediaCodec&lt;/string>
+<span class="lineno">  57</span>     &lt;string name="pref_summary_using_media_codec">&lt;/string>
+</pre>
+<span class="location"><a href="../../res/values/strings_pref.xml">../../res/values/strings_pref.xml</a>:56</span>: <span class="message">The resource <code>R.string.pref_title_using_media_codec</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  53</span>     &lt;string name="pref_title_ijkplayer_video">Video: ijkplayer&lt;/string>
+<span class="lineno">  54</span> 
+<span class="lineno">  55</span>     &lt;string name="pref_key_using_media_codec">pref.using_media_codec&lt;/string>
+<span class="lineno">  56</span>     &lt;string <span class="errorspan">name="pref_title_using_media_codec">Using MediaCodec&lt;/string></span>
+<span class="lineno">  57</span>     &lt;string name="pref_summary_using_media_codec">&lt;/string>
+<span class="lineno">  58</span> 
+</pre>
+<span class="location"><a href="../../res/values/strings_pref.xml">../../res/values/strings_pref.xml</a>:57</span>: <span class="message">The resource <code>R.string.pref_summary_using_media_codec</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  54</span> 
+<span class="lineno">  55</span>     &lt;string name="pref_key_using_media_codec">pref.using_media_codec&lt;/string>
+<span class="lineno">  56</span>     &lt;string name="pref_title_using_media_codec">Using MediaCodec&lt;/string>
+<span class="lineno">  57</span>     &lt;string <span class="errorspan">name="pref_summary_using_media_codec">&lt;/string></span>
+<span class="lineno">  58</span> 
+<span class="lineno">  59</span>     &lt;string name="pref_key_using_media_codec_auto_rotate">pref.using_media_codec_auto_rotate&lt;/string>
+</pre>
+<span class="location"><a href="../../res/values/strings_pref.xml">../../res/values/strings_pref.xml</a>:59</span>: <span class="message">The resource <code>R.string.pref_key_using_media_codec_auto_rotate</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  56</span>     &lt;string name="pref_title_using_media_codec">Using MediaCodec&lt;/string>
+<span class="lineno">  57</span>     &lt;string name="pref_summary_using_media_codec">&lt;/string>
+<span class="lineno">  58</span> 
+<span class="lineno">  59</span>     &lt;string <span class="errorspan">name="pref_key_using_media_codec_auto_rotate">pref.using_media_codec_auto_rotate&lt;/string></span>
+<span class="lineno">  60</span>     &lt;string name="pref_title_using_media_codec_auto_rotate">Using MediaCodec auto rotate&lt;/string>
+<span class="lineno">  61</span>     &lt;string name="pref_summary_using_media_codec_auto_rotate">&lt;/string>
+</pre>
+<span class="location"><a href="../../res/values/strings_pref.xml">../../res/values/strings_pref.xml</a>:60</span>: <span class="message">The resource <code>R.string.pref_title_using_media_codec_auto_rotate</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  57</span>     &lt;string name="pref_summary_using_media_codec">&lt;/string>
+<span class="lineno">  58</span> 
+<span class="lineno">  59</span>     &lt;string name="pref_key_using_media_codec_auto_rotate">pref.using_media_codec_auto_rotate&lt;/string>
+<span class="lineno">  60</span>     &lt;string <span class="errorspan">name="pref_title_using_media_codec_auto_rotate">Using MediaCodec auto rotate&lt;/string></span>
+<span class="lineno">  61</span>     &lt;string name="pref_summary_using_media_codec_auto_rotate">&lt;/string>
+<span class="lineno">  62</span> 
+</pre>
+<span class="location"><a href="../../res/values/strings_pref.xml">../../res/values/strings_pref.xml</a>:61</span>: <span class="message">The resource <code>R.string.pref_summary_using_media_codec_auto_rotate</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  58</span> 
+<span class="lineno">  59</span>     &lt;string name="pref_key_using_media_codec_auto_rotate">pref.using_media_codec_auto_rotate&lt;/string>
+<span class="lineno">  60</span>     &lt;string name="pref_title_using_media_codec_auto_rotate">Using MediaCodec auto rotate&lt;/string>
+<span class="lineno">  61</span>     &lt;string <span class="errorspan">name="pref_summary_using_media_codec_auto_rotate">&lt;/string></span>
+<span class="lineno">  62</span> 
+<span class="lineno">  63</span>     &lt;string name="pref_key_pixel_format">pref.pixel_format&lt;/string>
+</pre>
+<span class="location"><a href="../../res/values/strings_pref.xml">../../res/values/strings_pref.xml</a>:63</span>: <span class="message">The resource <code>R.string.pref_key_pixel_format</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  60</span>     &lt;string name="pref_title_using_media_codec_auto_rotate">Using MediaCodec auto rotate&lt;/string>
+<span class="lineno">  61</span>     &lt;string name="pref_summary_using_media_codec_auto_rotate">&lt;/string>
+<span class="lineno">  62</span> 
+<span class="lineno">  63</span>     &lt;string <span class="errorspan">name="pref_key_pixel_format">pref.pixel_format&lt;/string></span>
+<span class="lineno">  64</span>     &lt;string name="pref_title_pixel_format">Pixel Format&lt;/string>
+<span class="lineno">  65</span>     &lt;string-array name="pref_entries_pixel_format">
+</pre>
+<span class="location"><a href="../../res/values/strings_pref.xml">../../res/values/strings_pref.xml</a>:64</span>: <span class="message">The resource <code>R.string.pref_title_pixel_format</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  61</span>     &lt;string name="pref_summary_using_media_codec_auto_rotate">&lt;/string>
+<span class="lineno">  62</span> 
+<span class="lineno">  63</span>     &lt;string name="pref_key_pixel_format">pref.pixel_format&lt;/string>
+<span class="lineno">  64</span>     &lt;string <span class="errorspan">name="pref_title_pixel_format">Pixel Format&lt;/string></span>
+<span class="lineno">  65</span>     &lt;string-array name="pref_entries_pixel_format">
+<span class="lineno">  66</span>         &lt;item>Auto Select&lt;/item>
+</pre>
+<span class="location"><a href="../../res/values/strings_pref.xml">../../res/values/strings_pref.xml</a>:65</span>: <span class="message">The resource <code>R.array.pref_entries_pixel_format</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  62</span> 
+<span class="lineno">  63</span>     &lt;string name="pref_key_pixel_format">pref.pixel_format&lt;/string>
+<span class="lineno">  64</span>     &lt;string name="pref_title_pixel_format">Pixel Format&lt;/string>
+<span class="lineno">  65</span>     &lt;string-array <span class="errorspan">name="pref_entries_pixel_format"></span>
+<span class="lineno">  66</span>         &lt;item>Auto Select&lt;/item>
+<span class="lineno">  67</span>         &lt;item>RGB 565&lt;/item>
+</pre>
+<span class="location"><a href="../../res/values/strings_pref.xml">../../res/values/strings_pref.xml</a>:71</span>: <span class="message">The resource <code>R.array.pref_entry_values_pixel_format</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  68</span>         &lt;item>RGB 888X&lt;/item>
+<span class="lineno">  69</span>         &lt;item>YV12&lt;/item>
+<span class="lineno">  70</span>     &lt;/string-array>
+<span class="lineno">  71</span>     &lt;string-array <span class="errorspan">name="pref_entry_values_pixel_format"></span>
+<span class="lineno">  72</span>         &lt;item>&lt;/item>
+<span class="lineno">  73</span>         &lt;item>fcc-rv16&lt;/item>
+</pre>
+<span class="location"><a href="../../res/values/strings_pref.xml">../../res/values/strings_pref.xml</a>:77</span>: <span class="message">The resource <code>R.array.pref_entry_summaries_pixel_format</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  74</span>         &lt;item>fcc-rv32&lt;/item>
+<span class="lineno">  75</span>         &lt;item>fcc-yv12&lt;/item>
+<span class="lineno">  76</span>     &lt;/string-array>
+<span class="lineno">  77</span>     &lt;string-array <span class="errorspan">name="pref_entry_summaries_pixel_format"></span>
+<span class="lineno">  78</span>         &lt;item>Auto Select&lt;/item>
+<span class="lineno">  79</span>         &lt;item>RGB 565&lt;/item>
+</pre>
+<span class="location"><a href="../../res/values/strings_pref.xml">../../res/values/strings_pref.xml</a>:85</span>: <span class="message">The resource <code>R.string.pref_title_ijkplayer_audio</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  82</span>     &lt;/string-array>
+<span class="lineno">  83</span> 
+<span class="lineno">  84</span>     &lt;!-- -->
+<span class="lineno">  85</span>     &lt;string <span class="errorspan">name="pref_title_ijkplayer_audio">Audio: ijkplayer&lt;/string></span>
+<span class="lineno">  86</span> 
+<span class="lineno">  87</span>     &lt;string name="pref_key_using_opensl_es">pref.using_opensl_es&lt;/string>
+</pre>
+<span class="location"><a href="../../res/values/strings_pref.xml">../../res/values/strings_pref.xml</a>:87</span>: <span class="message">The resource <code>R.string.pref_key_using_opensl_es</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  84</span>     &lt;!-- -->
+<span class="lineno">  85</span>     &lt;string name="pref_title_ijkplayer_audio">Audio: ijkplayer&lt;/string>
+<span class="lineno">  86</span> 
+<span class="lineno">  87</span>     &lt;string <span class="errorspan">name="pref_key_using_opensl_es">pref.using_opensl_es&lt;/string></span>
+<span class="lineno">  88</span>     &lt;string name="pref_title_using_opensl_es">Using OpenSL ES&lt;/string>
+<span class="lineno">  89</span>     &lt;string name="pref_summary_using_opensl_es">&lt;/string>
+</pre>
+<span class="location"><a href="../../res/values/strings_pref.xml">../../res/values/strings_pref.xml</a>:88</span>: <span class="message">The resource <code>R.string.pref_title_using_opensl_es</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  85</span>     &lt;string name="pref_title_ijkplayer_audio">Audio: ijkplayer&lt;/string>
+<span class="lineno">  86</span> 
+<span class="lineno">  87</span>     &lt;string name="pref_key_using_opensl_es">pref.using_opensl_es&lt;/string>
+<span class="lineno">  88</span>     &lt;string <span class="errorspan">name="pref_title_using_opensl_es">Using OpenSL ES&lt;/string></span>
+<span class="lineno">  89</span>     &lt;string name="pref_summary_using_opensl_es">&lt;/string>
+<span class="lineno">  90</span> 
+</pre>
+<span class="location"><a href="../../res/values/strings_pref.xml">../../res/values/strings_pref.xml</a>:89</span>: <span class="message">The resource <code>R.string.pref_summary_using_opensl_es</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  86</span> 
+<span class="lineno">  87</span>     &lt;string name="pref_key_using_opensl_es">pref.using_opensl_es&lt;/string>
+<span class="lineno">  88</span>     &lt;string name="pref_title_using_opensl_es">Using OpenSL ES&lt;/string>
+<span class="lineno">  89</span>     &lt;string <span class="errorspan">name="pref_summary_using_opensl_es">&lt;/string></span>
+<span class="lineno">  90</span> 
+<span class="lineno">  91</span>     &lt;!-- -->
+</pre>
+<span class="location"><a href="../../res/values/strings_pref.xml">../../res/values/strings_pref.xml</a>:92</span>: <span class="message">The resource <code>R.string.pref_title_render_view</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  89</span>     &lt;string name="pref_summary_using_opensl_es">&lt;/string>
+<span class="lineno">  90</span> 
+<span class="lineno">  91</span>     &lt;!-- -->
+<span class="lineno">  92</span>     &lt;string <span class="errorspan">name="pref_title_render_view">RenderView&lt;/string></span>
+<span class="lineno">  93</span> 
+<span class="lineno">  94</span>     &lt;string name="pref_key_enable_no_view">pref.enable_no_view&lt;/string>
+</pre>
+<span class="location"><a href="../../res/values/strings_pref.xml">../../res/values/strings_pref.xml</a>:94</span>: <span class="message">The resource <code>R.string.pref_key_enable_no_view</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  91</span>     &lt;!-- -->
+<span class="lineno">  92</span>     &lt;string name="pref_title_render_view">RenderView&lt;/string>
+<span class="lineno">  93</span> 
+<span class="lineno">  94</span>     &lt;string <span class="errorspan">name="pref_key_enable_no_view">pref.enable_no_view&lt;/string></span>
+<span class="lineno">  95</span>     &lt;string name="pref_title_enable_no_view">Enable NoView&lt;/string>
+<span class="lineno">  96</span>     &lt;string name="pref_summary_enable_no_view">&lt;/string>
+</pre>
+<span class="location"><a href="../../res/values/strings_pref.xml">../../res/values/strings_pref.xml</a>:95</span>: <span class="message">The resource <code>R.string.pref_title_enable_no_view</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  92</span>     &lt;string name="pref_title_render_view">RenderView&lt;/string>
+<span class="lineno">  93</span> 
+<span class="lineno">  94</span>     &lt;string name="pref_key_enable_no_view">pref.enable_no_view&lt;/string>
+<span class="lineno">  95</span>     &lt;string <span class="errorspan">name="pref_title_enable_no_view">Enable NoView&lt;/string></span>
+<span class="lineno">  96</span>     &lt;string name="pref_summary_enable_no_view">&lt;/string>
+<span class="lineno">  97</span> 
+</pre>
+<span class="location"><a href="../../res/values/strings_pref.xml">../../res/values/strings_pref.xml</a>:96</span>: <span class="message">The resource <code>R.string.pref_summary_enable_no_view</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  93</span> 
+<span class="lineno">  94</span>     &lt;string name="pref_key_enable_no_view">pref.enable_no_view&lt;/string>
+<span class="lineno">  95</span>     &lt;string name="pref_title_enable_no_view">Enable NoView&lt;/string>
+<span class="lineno">  96</span>     &lt;string <span class="errorspan">name="pref_summary_enable_no_view">&lt;/string></span>
+<span class="lineno">  97</span> 
+<span class="lineno">  98</span>     &lt;string name="pref_key_enable_surface_view">pref.enable_surface_view&lt;/string>
+</pre>
+<span class="location"><a href="../../res/values/strings_pref.xml">../../res/values/strings_pref.xml</a>:98</span>: <span class="message">The resource <code>R.string.pref_key_enable_surface_view</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  95</span>     &lt;string name="pref_title_enable_no_view">Enable NoView&lt;/string>
+<span class="lineno">  96</span>     &lt;string name="pref_summary_enable_no_view">&lt;/string>
+<span class="lineno">  97</span> 
+<span class="lineno">  98</span>     &lt;string <span class="errorspan">name="pref_key_enable_surface_view">pref.enable_surface_view&lt;/string></span>
+<span class="lineno">  99</span>     &lt;string name="pref_title_enable_surface_view">Enable SurfaceView&lt;/string>
+<span class="lineno"> 100</span>     &lt;string name="pref_summary_enable_surface_view">&lt;/string>
+</pre>
+<span class="location"><a href="../../res/values/strings_pref.xml">../../res/values/strings_pref.xml</a>:99</span>: <span class="message">The resource <code>R.string.pref_title_enable_surface_view</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  96</span>     &lt;string name="pref_summary_enable_no_view">&lt;/string>
+<span class="lineno">  97</span> 
+<span class="lineno">  98</span>     &lt;string name="pref_key_enable_surface_view">pref.enable_surface_view&lt;/string>
+<span class="lineno">  99</span>     &lt;string <span class="errorspan">name="pref_title_enable_surface_view">Enable SurfaceView&lt;/string></span>
+<span class="lineno"> 100</span>     &lt;string name="pref_summary_enable_surface_view">&lt;/string>
+<span class="lineno"> 101</span> 
+</pre>
+<span class="location"><a href="../../res/values/strings_pref.xml">../../res/values/strings_pref.xml</a>:100</span>: <span class="message">The resource <code>R.string.pref_summary_enable_surface_view</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  97</span> 
+<span class="lineno">  98</span>     &lt;string name="pref_key_enable_surface_view">pref.enable_surface_view&lt;/string>
+<span class="lineno">  99</span>     &lt;string name="pref_title_enable_surface_view">Enable SurfaceView&lt;/string>
+<span class="lineno"> 100</span>     &lt;string <span class="errorspan">name="pref_summary_enable_surface_view">&lt;/string></span>
+<span class="lineno"> 101</span> 
+<span class="lineno"> 102</span>     &lt;string name="pref_key_enable_texture_view">pref.enable_texture_view&lt;/string>
+</pre>
+<span class="location"><a href="../../res/values/strings_pref.xml">../../res/values/strings_pref.xml</a>:102</span>: <span class="message">The resource <code>R.string.pref_key_enable_texture_view</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  99</span>     &lt;string name="pref_title_enable_surface_view">Enable SurfaceView&lt;/string>
+<span class="lineno"> 100</span>     &lt;string name="pref_summary_enable_surface_view">&lt;/string>
+<span class="lineno"> 101</span> 
+<span class="lineno"> 102</span>     &lt;string <span class="errorspan">name="pref_key_enable_texture_view">pref.enable_texture_view&lt;/string></span>
+<span class="lineno"> 103</span>     &lt;string name="pref_title_enable_texture_view">Enable TextureView&lt;/string>
+<span class="lineno"> 104</span>     &lt;string name="pref_summary_enable_texture_view">&lt;/string>
+</pre>
+<span class="location"><a href="../../res/values/strings_pref.xml">../../res/values/strings_pref.xml</a>:103</span>: <span class="message">The resource <code>R.string.pref_title_enable_texture_view</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno"> 100</span>     &lt;string name="pref_summary_enable_surface_view">&lt;/string>
+<span class="lineno"> 101</span> 
+<span class="lineno"> 102</span>     &lt;string name="pref_key_enable_texture_view">pref.enable_texture_view&lt;/string>
+<span class="lineno"> 103</span>     &lt;string <span class="errorspan">name="pref_title_enable_texture_view">Enable TextureView&lt;/string></span>
+<span class="lineno"> 104</span>     &lt;string name="pref_summary_enable_texture_view">&lt;/string>
+<span class="lineno"> 105</span> 
+</pre>
+<span class="location"><a href="../../res/values/strings_pref.xml">../../res/values/strings_pref.xml</a>:104</span>: <span class="message">The resource <code>R.string.pref_summary_enable_texture_view</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno"> 101</span> 
+<span class="lineno"> 102</span>     &lt;string name="pref_key_enable_texture_view">pref.enable_texture_view&lt;/string>
+<span class="lineno"> 103</span>     &lt;string name="pref_title_enable_texture_view">Enable TextureView&lt;/string>
+<span class="lineno"> 104</span>     &lt;string <span class="errorspan">name="pref_summary_enable_texture_view">&lt;/string></span>
+<span class="lineno"> 105</span> 
+<span class="lineno"> 106</span>     &lt;string name="pref_key_enable_detached_surface_texture">pref.enable_detached_surface_texture&lt;/string>
+</pre>
+<span class="location"><a href="../../res/values/strings_pref.xml">../../res/values/strings_pref.xml</a>:106</span>: <span class="message">The resource <code>R.string.pref_key_enable_detached_surface_texture</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno"> 103</span>     &lt;string name="pref_title_enable_texture_view">Enable TextureView&lt;/string>
+<span class="lineno"> 104</span>     &lt;string name="pref_summary_enable_texture_view">&lt;/string>
+<span class="lineno"> 105</span> 
+<span class="lineno"> 106</span>     &lt;string <span class="errorspan">name="pref_key_enable_detached_surface_texture">pref.enable_detached_surface_texture&lt;/string></span>
+<span class="lineno"> 107</span>     &lt;string name="pref_title_enable_detached_surface_texture">Enable detached SurfaceTexture&lt;/string>
+<span class="lineno"> 108</span>     &lt;string name="pref_summary_enable_detached_surface_texture">&lt;/string>
+</pre>
+<span class="location"><a href="../../res/values/strings_pref.xml">../../res/values/strings_pref.xml</a>:107</span>: <span class="message">The resource <code>R.string.pref_title_enable_detached_surface_texture</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno"> 104</span>     &lt;string name="pref_summary_enable_texture_view">&lt;/string>
+<span class="lineno"> 105</span> 
+<span class="lineno"> 106</span>     &lt;string name="pref_key_enable_detached_surface_texture">pref.enable_detached_surface_texture&lt;/string>
+<span class="lineno"> 107</span>     &lt;string <span class="errorspan">name="pref_title_enable_detached_surface_texture">Enable detached SurfaceTexture&lt;/string></span>
+<span class="lineno"> 108</span>     &lt;string name="pref_summary_enable_detached_surface_texture">&lt;/string>
+<span class="lineno"> 109</span> 
+</pre>
+<span class="location"><a href="../../res/values/strings_pref.xml">../../res/values/strings_pref.xml</a>:108</span>: <span class="message">The resource <code>R.string.pref_summary_enable_detached_surface_texture</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno"> 105</span> 
+<span class="lineno"> 106</span>     &lt;string name="pref_key_enable_detached_surface_texture">pref.enable_detached_surface_texture&lt;/string>
+<span class="lineno"> 107</span>     &lt;string name="pref_title_enable_detached_surface_texture">Enable detached SurfaceTexture&lt;/string>
+<span class="lineno"> 108</span>     &lt;string <span class="errorspan">name="pref_summary_enable_detached_surface_texture">&lt;/string></span>
+<span class="lineno"> 109</span> 
+<span class="lineno"> 110</span>     &lt;!-- -->
+</pre>
+<span class="location"><a href="../../res/values/strings_pref.xml">../../res/values/strings_pref.xml</a>:111</span>: <span class="message">The resource <code>R.string.pref_key_last_directory</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno"> 108</span>     &lt;string name="pref_summary_enable_detached_surface_texture">&lt;/string>
+<span class="lineno"> 109</span> 
+<span class="lineno"> 110</span>     &lt;!-- -->
+<span class="lineno"> 111</span>     &lt;string <span class="errorspan">name="pref_key_last_directory">&lt;/string></span>
+<span class="lineno"> 112</span> 
+<span class="lineno"> 113</span> &lt;/resources>
+</pre>
+</div>
+</div>
+<div class="metadata">Priority: 3 / 10<br/>
+Category: Performance</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Unused resources.</div>
+<div class="explanation">
+Unused resources make applications larger and slow down builds.
+</div>
+<br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "UnusedResources" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="UselessParent"></a>
+<div class="issue">
+<div class="id"><a href="#" title="Return to top">UselessParent: Useless parent layout</a><div class="issueSeparator"></div>
+</div>
+<div class="warningslist">
+<span class="location"><a href="../../res/layout/media_controller_slide.xml">../../res/layout/media_controller_slide.xml</a>:30</span>: <span class="message">This <code>LinearLayout</code> layout or its <code>FrameLayout</code> parent is useless; transfer the <code>background</code> attribute to the other view</span><br /><pre class="errorlines">
+<span class="lineno">  27</span>     android:layout_height="match_parent"
+<span class="lineno">  28</span>     android:visibility="gone">
+<span class="lineno">  29</span> 
+<span class="lineno">  30</span>     <span class="errorspan">&lt;LinearLayout</span>
+<span class="lineno">  31</span>         android:layout_width="wrap_content"
+<span class="lineno">  32</span>         android:layout_height="wrap_content"
+</pre>
+</div>
+<div class="metadata">Note: This issue has an associated quickfix operation in Eclipse/ADT&nbsp;<img alt="Fix" border="0" align="top" src="lint-results-debug_files/lint-run.png" />
+<br>
+Priority: 2 / 10<br/>
+Category: Performance</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Useless parent layout.</div>
+<div class="explanation">
+A layout with children that has no siblings, is not a scrollview or a root layout, and does not have a background, can be removed and have its children moved directly into the parent for a flatter and more efficient layout hierarchy.
+</div>
+<br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "UselessParent" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+
+<a name="Usability:Icons"></a>
+<div class="category"><a href="#" title="Return to top">Usability:Icons</a><div class="categorySeparator"></div>
+</div>
+<a name="IconMissingDensityFolder"></a>
+<div class="issue">
+<div class="id"><a href="#" title="Return to top">IconMissingDensityFolder: Missing density folder</a><div class="issueSeparator"></div>
+</div>
+<div class="warningslist">
+<span class="location"><a href="../../res">../../res</a></span>: <span class="message">Missing density variation folders in <code>res</code>: drawable-mdpi, drawable-hdpi, drawable-xxhdpi, drawable-xxxhdpi</span><br />
+</div>
+<div class="metadata">Priority: 3 / 10<br/>
+Category: Usability:Icons</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Missing density folder.</div>
+<div class="explanation">
+Icons will look best if a custom version is provided for each of the major screen density classes (low, medium, high, extra-high, extra-extra-high). This lint check identifies folders which are missing, such as <code>drawable-hdpi</code>.<br/>
+<br/>
+Low density is not really used much anymore, so this check ignores the ldpi density. To force lint to include it, set the environment variable <code>ANDROID_LINT_INCLUDE_LDPI=true</code>. For more information on current density usage, see <a href="http://developer.android.com/resources/dashboard/screens.html">http://developer.android.com/resources/dashboard/screens.html</a>
+</div>
+<br/><div class="moreinfo">More info: <a href="http://developer.android.com/guide/practices/screens_support.html">http://developer.android.com/guide/practices/screens_support.html</a>
+</div><br/>To suppress this error, use the issue id "IconMissingDensityFolder" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+
+<a name="Accessibility"></a>
+<div class="category"><a href="#" title="Return to top">Accessibility</a><div class="categorySeparator"></div>
+</div>
+<a name="ContentDescription"></a>
+<div class="issue">
+<div class="id"><a href="#" title="Return to top">ContentDescription: Image without <code>contentDescription</code></a><div class="issueSeparator"></div>
+</div>
+<div class="warningslist">
+<span class="location"><a href="../../res/layout/media_controller_normal.xml">../../res/layout/media_controller_normal.xml</a>:60</span>: <span class="message">[Accessibility] Missing <code>contentDescription</code> attribute on image</span><br /><pre class="errorlines">
+<span class="lineno">  57</span>             android:imeOptions="actionSend|flagNoExtractUi|flagNoFullscreen"
+<span class="lineno">  58</span>             />
+<span class="lineno">  59</span>         &lt;!---->
+<span class="lineno">  60</span>         <span class="errorspan">&lt;ImageView</span>
+<span class="lineno">  61</span>             android:id="@+id/send_button"
+<span class="lineno">  62</span>             android:layout_width="@dimen/dp_25"
+</pre>
+<span class="location"><a href="../../res/layout/media_controller_normal.xml">../../res/layout/media_controller_normal.xml</a>:85</span>: <span class="message">[Accessibility] Missing <code>contentDescription</code> attribute on image</span><br /><pre class="errorlines">
+<span class="lineno">  82</span>         android:gravity="center"
+<span class="lineno">  83</span>         >
+<span class="lineno">  84</span> 
+<span class="lineno">  85</span>         <span class="errorspan">&lt;ImageView</span>
+<span class="lineno">  86</span>             android:id="@+id/back"
+<span class="lineno">  87</span>             android:layout_width="@dimen/dp_40"
+</pre>
+<span class="location"><a href="../../res/layout/media_controller_normal.xml">../../res/layout/media_controller_normal.xml</a>:102</span>: <span class="message">[Accessibility] Missing <code>contentDescription</code> attribute on image</span><br /><pre class="errorlines">
+<span class="lineno">  99</span>             android:gravity="center"
+<span class="lineno"> 100</span>             android:textColor="@android:color/white"
+<span class="lineno"> 101</span>             android:textSize="@dimen/G_title" />
+<span class="lineno"> 102</span>         <span class="errorspan">&lt;ImageView</span>
+<span class="lineno"> 103</span>             android:id="@+id/report"
+<span class="lineno"> 104</span>             android:layout_width="@dimen/dp_30"
+</pre>
+<span class="location"><a href="../../res/layout/media_controller_normal.xml">../../res/layout/media_controller_normal.xml</a>:129</span>: <span class="message">[Accessibility] Missing <code>contentDescription</code> attribute on image</span><br /><pre class="errorlines">
+<span class="lineno"> 126</span>             android:paddingRight="@dimen/dp_10"
+<span class="lineno"> 127</span>             android:background="@drawable/normal_panel_bg"
+<span class="lineno"> 128</span>             >
+<span class="lineno"> 129</span>             <span class="errorspan">&lt;ImageView</span>
+<span class="lineno"> 130</span>                 android:id="@+id/start_or_pause"
+<span class="lineno"> 131</span>                 android:layout_width="@dimen/dp_20"
+</pre>
+<span class="location"><a href="../../res/layout/media_controller_normal.xml">../../res/layout/media_controller_normal.xml</a>:146</span>: <span class="message">[Accessibility] Missing <code>contentDescription</code> attribute on image</span><br /><pre class="errorlines">
+<span class="lineno"> 143</span>                 android:background="@android:color/transparent"
+<span class="lineno"> 144</span>                 android:clickable="true">
+<span class="lineno"> 145</span> 
+<span class="lineno"> 146</span>                 <span class="errorspan">&lt;ImageView</span>
+<span class="lineno"> 147</span>                     android:layout_width="wrap_content"
+<span class="lineno"> 148</span>                     android:layout_height="match_parent"
+</pre>
+<button id="ContentDescriptionDivLink" onclick="reveal('ContentDescriptionDiv');" />+ 4 More Occurrences...</button>
+<div id="ContentDescriptionDiv" style="display: none">
+<span class="location"><a href="../../res/layout/media_controller_normal.xml">../../res/layout/media_controller_normal.xml</a>:203</span>: <span class="message">[Accessibility] Missing <code>contentDescription</code> attribute on image</span><br /><pre class="errorlines">
+<span class="lineno"> 200</span> 
+<span class="lineno"> 201</span> 
+<span class="lineno"> 202</span> 
+<span class="lineno"> 203</span>             <span class="errorspan">&lt;ImageView</span>
+<span class="lineno"> 204</span>                 android:id="@+id/danmu_switch"
+<span class="lineno"> 205</span>                 android:layout_width="@dimen/dp_40"
+</pre>
+<span class="location"><a href="../../res/layout/media_controller_normal.xml">../../res/layout/media_controller_normal.xml</a>:212</span>: <span class="message">[Accessibility] Missing <code>contentDescription</code> attribute on image</span><br /><pre class="errorlines">
+<span class="lineno"> 209</span>                 android:scaleType="center"
+<span class="lineno"> 210</span>                 />
+<span class="lineno"> 211</span> 
+<span class="lineno"> 212</span>             <span class="errorspan">&lt;ImageView</span>
+<span class="lineno"> 213</span>                 android:id="@+id/danmu_screen"
+<span class="lineno"> 214</span>                 android:layout_width="@dimen/dp_26"
+</pre>
+<span class="location"><a href="../../res/layout/media_controller_normal.xml">../../res/layout/media_controller_normal.xml</a>:223</span>: <span class="message">[Accessibility] Missing <code>contentDescription</code> attribute on image</span><br /><pre class="errorlines">
+<span class="lineno"> 220</span>                 android:layout_marginRight="@dimen/dp_10"
+<span class="lineno"> 221</span>                 android:src="@mipmap/danmu_screen" />
+<span class="lineno"> 222</span> 
+<span class="lineno"> 223</span>             <span class="errorspan">&lt;ImageView</span>
+<span class="lineno"> 224</span>                 android:id="@+id/full_screen"
+<span class="lineno"> 225</span>                 android:layout_width="@dimen/dp_28"
+</pre>
+<span class="location"><a href="../../res/layout/media_controller_slide.xml">../../res/layout/media_controller_slide.xml</a>:39</span>: <span class="message">[Accessibility] Missing <code>contentDescription</code> attribute on image</span><br /><pre class="errorlines">
+<span class="lineno">  36</span>         android:orientation="vertical"
+<span class="lineno">  37</span>         android:padding="@dimen/dp_15">
+<span class="lineno">  38</span> 
+<span class="lineno">  39</span>         <span class="errorspan">&lt;ImageView</span>
+<span class="lineno">  40</span>             android:id="@+id/slide_icon"
+<span class="lineno">  41</span>             android:layout_width="wrap_content"
+</pre>
+</div>
+</div>
+<div class="metadata">Note: This issue has an associated quickfix operation in Android Studio/IntelliJ & Eclipse/ADT&nbsp;<img alt="Fix" border="0" align="top" src="lint-results-debug_files/lint-run.png" />
+<br>
+Priority: 3 / 10<br/>
+Category: Accessibility</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Image without <code>contentDescription</code></div>
+<div class="explanation">
+Non-textual widgets like ImageViews and ImageButtons should use the <code>contentDescription</code> attribute to specify a textual description of the widget such that screen readers and other accessibility tools can adequately describe the user interface.<br/>
+<br/>
+Note that elements in application screens that are purely decorative and do not provide any content or enable a user action should not have accessibility content descriptions. In this case, just suppress the lint warning with a tools:ignore="ContentDescription" attribute.<br/>
+<br/>
+Note that for text fields, you should not set both the <code>hint</code> and the <code>contentDescription</code> attributes since the hint will never be shown. Just set the <code>hint</code>. See <a href="http://developer.android.com/guide/topics/ui/accessibility/checklist.html#special-cases">http://developer.android.com/guide/topics/ui/accessibility/checklist.html#special-cases</a>.
+</div>
+<br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "ContentDescription" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+
+<a name="Internationalization"></a>
+<div class="category"><a href="#" title="Return to top">Internationalization</a><div class="categorySeparator"></div>
+</div>
+<a name="HardcodedText"></a>
+<div class="issue">
+<div class="id"><a href="#" title="Return to top">HardcodedText: Hardcoded text</a><div class="issueSeparator"></div>
+</div>
+<div class="warningslist">
+<span class="location"><a href="../../res/layout/media_controller_normal.xml">../../res/layout/media_controller_normal.xml</a>:39</span>: <span class="message">[I18N] Hardcoded string "&#21462;&#28040;", should use <code>@string</code> resource</span><br /><pre class="errorlines">
+<span class="lineno">  36</span>             android:id="@+id/cancel"
+<span class="lineno">  37</span>             android:layout_width="wrap_content"
+<span class="lineno">  38</span>             android:layout_height="@dimen/dp_25"
+<span class="lineno">  39</span>             <span class="errorspan">android:text="&#21462;&#28040;"</span>
+<span class="lineno">  40</span>             android:textColor="#bbbdbf"
+<span class="lineno">  41</span>             android:layout_marginRight="@dimen/dp_10"
+</pre>
+<span class="location"><a href="../../res/layout/media_controller_normal.xml">../../res/layout/media_controller_normal.xml</a>:54</span>: <span class="message">[I18N] Hardcoded string "&#36755;&#20837;&#24377;&#24149;&#20869;&#23481;", should use <code>@string</code> resource</span><br /><pre class="errorlines">
+<span class="lineno">  51</span>             android:background="@drawable/shape_input_bg"
+<span class="lineno">  52</span>             android:layout_marginRight="@dimen/dp_10"
+<span class="lineno">  53</span>             android:textSize="14sp"
+<span class="lineno">  54</span>             <span class="errorspan">android:hint="&#36755;&#20837;&#24377;&#24149;&#20869;&#23481;"</span>
+<span class="lineno">  55</span>             android:paddingLeft="6dp"
+<span class="lineno">  56</span>             android:textCursorDrawable="@drawable/edittext_cursor"
+</pre>
+<span class="location"><a href="../../res/layout/media_controller_slide.xml">../../res/layout/media_controller_slide.xml</a>:65</span>: <span class="message">[I18N] Hardcoded string "/", should use <code>@string</code> resource</span><br /><pre class="errorlines">
+<span class="lineno">  62</span>                 android:layout_height="wrap_content"
+<span class="lineno">  63</span>                 android:layout_marginLeft="@dimen/dp_5"
+<span class="lineno">  64</span>                 android:layout_marginRight="@dimen/dp_5"
+<span class="lineno">  65</span>                 <span class="errorspan">android:text="/"</span>
+<span class="lineno">  66</span>                 android:textColor="@android:color/white" />
+<span class="lineno">  67</span> 
+</pre>
+</div>
+<div class="metadata">Note: This issue has an associated quickfix operation in Eclipse/ADT&nbsp;<img alt="Fix" border="0" align="top" src="lint-results-debug_files/lint-run.png" />
+<br>
+Priority: 5 / 10<br/>
+Category: Internationalization</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Hardcoded text.</div>
+<div class="explanation">
+Hardcoding text attributes directly in layout files is bad for several reasons:<br/>
+<br/>
+* When creating configuration variations (for example for landscape or portrait)you have to repeat the actual text (and keep it up to date when making changes)<br/>
+<br/>
+* The application cannot be translated to other languages by just adding new translations for existing string resources.<br/>
+<br/>
+In Android Studio and Eclipse there are quickfixes to automatically extract this hardcoded string into a resource lookup.
+</div>
+<br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "HardcodedText" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+
+<a name="Internationalization:Bidirectional Text"></a>
+<div class="category"><a href="#" title="Return to top">Internationalization:Bidirectional Text</a><div class="categorySeparator"></div>
+</div>
+<a name="RtlSymmetry"></a>
+<div class="issue">
+<div class="id"><a href="#" title="Return to top">RtlSymmetry: Padding and margin symmetry</a><div class="issueSeparator"></div>
+</div>
+<div class="warningslist">
+<span class="location"><a href="../../res/layout/media_controller_normal.xml">../../res/layout/media_controller_normal.xml</a>:33</span>: <span class="message">When you define <code>paddingLeft</code> you should probably also define <code>paddingRight</code> for right-to-left symmetry</span><br /><pre class="errorlines">
+<span class="lineno">  30</span>         android:background="@drawable/normal_panel_bg"
+<span class="lineno">  31</span>         android:orientation="horizontal"
+<span class="lineno">  32</span>         android:gravity="center"
+<span class="lineno">  33</span>         <span class="errorspan">android:paddingLeft="@dimen/dp_10"</span>
+<span class="lineno">  34</span>         >
+<span class="lineno">  35</span>         &lt;TextView
+</pre>
+<span class="location"><a href="../../res/layout/media_controller_normal.xml">../../res/layout/media_controller_normal.xml</a>:55</span>: <span class="message">When you define <code>paddingLeft</code> you should probably also define <code>paddingRight</code> for right-to-left symmetry</span><br /><pre class="errorlines">
+<span class="lineno">  52</span>             android:layout_marginRight="@dimen/dp_10"
+<span class="lineno">  53</span>             android:textSize="14sp"
+<span class="lineno">  54</span>             android:hint="&#36755;&#20837;&#24377;&#24149;&#20869;&#23481;"
+<span class="lineno">  55</span>             <span class="errorspan">android:paddingLeft="6dp"</span>
+<span class="lineno">  56</span>             android:textCursorDrawable="@drawable/edittext_cursor"
+<span class="lineno">  57</span>             android:imeOptions="actionSend|flagNoExtractUi|flagNoFullscreen"
+</pre>
+</div>
+<div class="metadata">Priority: 6 / 10<br/>
+Category: Internationalization:Bidirectional Text</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Padding and margin symmetry.</div>
+<div class="explanation">
+If you specify padding or margin on the left side of a layout, you should probably also specify padding on the right side (and vice versa) for right-to-left layout symmetry.
+</div>
+<br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "RtlSymmetry" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="RtlHardcoded"></a>
+<div class="issue">
+<div class="id"><a href="#" title="Return to top">RtlHardcoded: Using left/right instead of start/end attributes</a><div class="issueSeparator"></div>
+</div>
+<div class="warningslist">
+<span class="location"><a href="../../res/layout/media_controller_normal.xml">../../res/layout/media_controller_normal.xml</a>:33</span>: <span class="message">Consider adding <code>android:paddingStart="@dimen/dp_10"</code> to better support right-to-left layouts</span><br /><pre class="errorlines">
+<span class="lineno">  30</span>         android:background="@drawable/normal_panel_bg"
+<span class="lineno">  31</span>         android:orientation="horizontal"
+<span class="lineno">  32</span>         android:gravity="center"
+<span class="lineno">  33</span>         <span class="errorspan">android:paddingLeft="@dimen/dp_10"</span>
+<span class="lineno">  34</span>         >
+<span class="lineno">  35</span>         &lt;TextView
+</pre>
+<span class="location"><a href="../../res/layout/media_controller_normal.xml">../../res/layout/media_controller_normal.xml</a>:41</span>: <span class="message">Consider adding <code>android:layout_marginEnd="@dimen/dp_10"</code> to better support right-to-left layouts</span><br /><pre class="errorlines">
+<span class="lineno">  38</span>             android:layout_height="@dimen/dp_25"
+<span class="lineno">  39</span>             android:text="&#21462;&#28040;"
+<span class="lineno">  40</span>             android:textColor="#bbbdbf"
+<span class="lineno">  41</span>             <span class="errorspan">android:layout_marginRight="@dimen/dp_10"</span>
+<span class="lineno">  42</span>             android:gravity="center"
+<span class="lineno">  43</span>             android:textSize="14sp"
+</pre>
+<span class="location"><a href="../../res/layout/media_controller_normal.xml">../../res/layout/media_controller_normal.xml</a>:52</span>: <span class="message">Consider adding <code>android:layout_marginEnd="@dimen/dp_10"</code> to better support right-to-left layouts</span><br /><pre class="errorlines">
+<span class="lineno">  49</span>             android:layout_weight="1"
+<span class="lineno">  50</span>             android:layout_height="@dimen/dp_25"
+<span class="lineno">  51</span>             android:background="@drawable/shape_input_bg"
+<span class="lineno">  52</span>             <span class="errorspan">android:layout_marginRight="@dimen/dp_10"</span>
+<span class="lineno">  53</span>             android:textSize="14sp"
+<span class="lineno">  54</span>             android:hint="&#36755;&#20837;&#24377;&#24149;&#20869;&#23481;"
+</pre>
+<span class="location"><a href="../../res/layout/media_controller_normal.xml">../../res/layout/media_controller_normal.xml</a>:55</span>: <span class="message">Consider adding <code>android:paddingStart="6dp"</code> to better support right-to-left layouts</span><br /><pre class="errorlines">
+<span class="lineno">  52</span>             android:layout_marginRight="@dimen/dp_10"
+<span class="lineno">  53</span>             android:textSize="14sp"
+<span class="lineno">  54</span>             android:hint="&#36755;&#20837;&#24377;&#24149;&#20869;&#23481;"
+<span class="lineno">  55</span>             <span class="errorspan">android:paddingLeft="6dp"</span>
+<span class="lineno">  56</span>             android:textCursorDrawable="@drawable/edittext_cursor"
+<span class="lineno">  57</span>             android:imeOptions="actionSend|flagNoExtractUi|flagNoFullscreen"
+</pre>
+<span class="location"><a href="../../res/layout/media_controller_normal.xml">../../res/layout/media_controller_normal.xml</a>:66</span>: <span class="message">Consider adding <code>android:layout_marginEnd="10dp"</code> to better support right-to-left layouts</span><br /><pre class="errorlines">
+<span class="lineno">  63</span>             android:layout_height="@dimen/dp_25"
+<span class="lineno">  64</span>             android:textColor="#4fc396"
+<span class="lineno">  65</span>             android:gravity="center"
+<span class="lineno">  66</span>             <span class="errorspan">android:layout_marginRight="10dp"</span>
+<span class="lineno">  67</span>             android:src="@mipmap/send_danmu"
+<span class="lineno">  68</span>             />
+</pre>
+<span class="location"><a href="../../res/layout/media_controller_normal.xml">../../res/layout/media_controller_normal.xml</a>:91</span>: <span class="message">Consider adding <code>android:layout_marginStart="@dimen/dp_4"</code> to better support right-to-left layouts</span><br /><pre class="errorlines">
+<span class="lineno">  88</span>             android:layout_height="@dimen/dp_40"
+<span class="lineno">  89</span>             android:src="@mipmap/ic_video_back"
+<span class="lineno">  90</span>             android:padding="@dimen/dp_6"
+<span class="lineno">  91</span>             <span class="errorspan">android:layout_marginLeft="@dimen/dp_4"</span>
+<span class="lineno">  92</span>             />
+<span class="lineno">  93</span> 
+</pre>
+<span class="location"><a href="../../res/layout/media_controller_normal.xml">../../res/layout/media_controller_normal.xml</a>:107</span>: <span class="message">Consider adding <code>android:layout_marginEnd="10dp"</code> to better support right-to-left layouts</span><br /><pre class="errorlines">
+<span class="lineno"> 104</span>             android:layout_width="@dimen/dp_30"
+<span class="lineno"> 105</span>             android:layout_height="@dimen/dp_20"
+<span class="lineno"> 106</span>             android:src="@drawable/report_icon"
+<span class="lineno"> 107</span>             <span class="errorspan">android:layout_marginRight="10dp"</span>
+<span class="lineno"> 108</span>             />
+<span class="lineno"> 109</span>     &lt;/LinearLayout>
+</pre>
+<span class="location"><a href="../../res/layout/media_controller_normal.xml">../../res/layout/media_controller_normal.xml</a>:198</span>: <span class="message">Consider adding <code>android:layout_marginEnd="@dimen/dp_10"</code> to better support right-to-left layouts</span><br /><pre class="errorlines">
+<span class="lineno"> 195</span>                 android:singleLine="true"
+<span class="lineno"> 196</span>                 android:textColor="@android:color/white"
+<span class="lineno"> 197</span>                 android:textSize="@dimen/I_title"
+<span class="lineno"> 198</span>                 <span class="errorspan">android:layout_marginRight="@dimen/dp_10"</span>
+<span class="lineno"> 199</span>                 />
+<span class="lineno"> 200</span> 
+</pre>
+</div>
+<div class="metadata">Priority: 5 / 10<br/>
+Category: Internationalization:Bidirectional Text</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Using left/right instead of start/end attributes.</div>
+<div class="explanation">
+Using <code>Gravity#LEFT</code> and <code>Gravity#RIGHT</code> can lead to problems when a layout is rendered in locales where text flows from right to left. Use <code>Gravity#START</code> and <code>Gravity#END</code> instead. Similarly, in XML <code>gravity</code> and <code>layout_gravity</code> attributes, use <code>start</code> rather than <code>left</code>.<br/>
+<br/>
+For XML attributes such as paddingLeft and <code>layout_marginLeft</code>, use <code>paddingStart</code> and <code>layout_marginStart</code>. <b>NOTE</b>: If your <code>minSdkVersion</code> is less than 17, you should add <b>both</b> the older left/right attributes <b>as well as</b> the new start/right attributes. On older platforms, where RTL is not supported and the start/right attributes are unknown and therefore ignored, you need the older left/right attributes. There is a separate lint check which catches that type of error.<br/>
+<br/>
+(Note: For <code>Gravity#LEFT</code> and <code>Gravity#START</code>, you can use these constants even when targeting older platforms, because the <code>start</code> bitmask is a superset of the <code>left</code> bitmask. Therefore, you can use <code>gravity="start"</code> rather than <code>gravity="left|start"</code>.)
+</div>
+<br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "RtlHardcoded" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+
+<a name="MissingIssues"></a>
+<div class="category">Disabled Checks<div class="categorySeparator"></div>
+</div>
+The following issues were not run by lint, either because the check is not enabled by default, or because it was disabled with a command line flag or via one or more lint.xml configuration files in the project directories.
+<br/><br/>
+<a name="AppLinksAutoVerifyError"></a>
+<div class="issue">
+<div class="id">AppLinksAutoVerifyError<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Disabled By: Default<br/>
+Priority: 5 / 10<br/>
+Category: Correctness</div>
+Severity: <span class="error">Error</span><div class="summary">
+Explanation: App Links Auto Verification Failure.</div>
+<div class="explanation">
+Ensures that app links are correctly set and associated with website.
+</div>
+<br/><div class="moreinfo">More info: <a href="https://g.co/appindexing/applinks">https://g.co/appindexing/applinks</a>
+</div><br/>To suppress this error, use the issue id "AppLinksAutoVerifyError" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="AppLinksAutoVerifyWarning"></a>
+<div class="issue">
+<div class="id">AppLinksAutoVerifyWarning<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Disabled By: Default<br/>
+Priority: 5 / 10<br/>
+Category: Correctness</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Potential App Links Auto Verification Failure.</div>
+<div class="explanation">
+Ensures that app links are correctly set and associated with website.
+</div>
+<br/><div class="moreinfo">More info: <a href="https://g.co/appindexing/applinks">https://g.co/appindexing/applinks</a>
+</div><br/>To suppress this error, use the issue id "AppLinksAutoVerifyWarning" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="BackButton"></a>
+<div class="issue">
+<div class="id">BackButton<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Disabled By: Default<br/>
+Priority: 6 / 10<br/>
+Category: Usability</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Back button.</div>
+<div class="explanation">
+According to the Android Design Guide,<br/>
+<br/>
+"Other platforms use an explicit back button with label to allow the user to navigate up the application's hierarchy. Instead, Android uses the main action bar's app icon for hierarchical navigation and the navigation bar's back button for temporal navigation."<br/>
+This check is not very sophisticated (it just looks for buttons with the label "Back"), so it is disabled by default to not trigger on common scenarios like pairs of Back/Next buttons to paginate through screens.
+</div>
+<br/><div class="moreinfo">More info: <a href="http://developer.android.com/design/patterns/pure-android.html">http://developer.android.com/design/patterns/pure-android.html</a>
+</div><br/>To suppress this error, use the issue id "BackButton" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="EasterEgg"></a>
+<div class="issue">
+<div class="id">EasterEgg<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Disabled By: Default<br/>
+Priority: 6 / 10<br/>
+Category: Security</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Code contains easter egg.</div>
+<div class="explanation">
+An "easter egg" is code deliberately hidden in the code, both from potential users and even from other developers. This lint check looks for code which looks like it may be hidden from sight.
+</div>
+<br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "EasterEgg" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="FieldGetter"></a>
+<div class="issue">
+<div class="id">FieldGetter<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Disabled By: Default<br/>
+Priority: 4 / 10<br/>
+Category: Performance</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Using getter instead of field.</div>
+<div class="explanation">
+Accessing a field within the class that defines a getter for that field is at least 3 times faster than calling the getter. For simple getters that do nothing other than return the field, you might want to just reference the local field directly instead.<br/>
+<br/>
+<b>NOTE</b>: As of Android 2.3 (Gingerbread), this optimization is performed automatically by Dalvik, so there is no need to change your code; this is only relevant if you are targeting older versions of Android.
+</div>
+<br/><div class="moreinfo">More info: <a href="http://developer.android.com/guide/practices/design/performance.html#internal_get_set">http://developer.android.com/guide/practices/design/performance.html#internal_get_set</a>
+</div><br/>To suppress this error, use the issue id "FieldGetter" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="GoogleAppIndexingApiWarning"></a>
+<div class="issue">
+<div class="id">GoogleAppIndexingApiWarning<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Note: This issue has an associated quickfix operation in Android Studio/IntelliJ&nbsp;<img alt="Fix" border="0" align="top" src="lint-results-debug_files/lint-run.png" />
+<br>
+Disabled By: Default<br/>
+Priority: 5 / 10<br/>
+Category: Usability</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Missing support for Google App Indexing Api.</div>
+<div class="explanation">
+Adds URLs to get your app into the Google index, to get installs and traffic to your app from Google Search.
+</div>
+<br/><div class="moreinfo">More info: <a href="https://g.co/AppIndexing/AndroidStudio">https://g.co/AppIndexing/AndroidStudio</a>
+</div><br/>To suppress this error, use the issue id "GoogleAppIndexingApiWarning" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="IconExpectedSize"></a>
+<div class="issue">
+<div class="id">IconExpectedSize<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Disabled By: Default<br/>
+Priority: 5 / 10<br/>
+Category: Usability:Icons</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Icon has incorrect size.</div>
+<div class="explanation">
+There are predefined sizes (for each density) for launcher icons. You should follow these conventions to make sure your icons fit in with the overall look of the platform.
+</div>
+<br/><div class="moreinfo">More info: <a href="http://developer.android.com/design/style/iconography.html">http://developer.android.com/design/style/iconography.html</a>
+</div><br/>To suppress this error, use the issue id "IconExpectedSize" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="LogConditional"></a>
+<div class="issue">
+<div class="id">LogConditional<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Disabled By: Default<br/>
+Priority: 5 / 10<br/>
+Category: Performance</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Unconditional Logging Calls.</div>
+<div class="explanation">
+The BuildConfig class (available in Tools 17) provides a constant, "DEBUG", which indicates whether the code is being built in release mode or in debug mode. In release mode, you typically want to strip out all the logging calls. Since the compiler will automatically remove all code which is inside a "if (false)" check, surrounding your logging calls with a check for BuildConfig.DEBUG is a good idea.<br/>
+<br/>
+If you <b>really</b> intend for the logging to be present in release mode, you can suppress this warning with a @SuppressLint annotation for the intentional logging calls.
+</div>
+<br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "LogConditional" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="MangledCRLF"></a>
+<div class="issue">
+<div class="id">MangledCRLF<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Note: This issue has an associated quickfix operation in Eclipse/ADT&nbsp;<img alt="Fix" border="0" align="top" src="lint-results-debug_files/lint-run.png" />
+<br>
+Disabled By: Default<br/>
+Priority: 2 / 10<br/>
+Category: Correctness</div>
+Severity: <span class="error">Error</span><div class="summary">
+Explanation: Mangled file line endings.</div>
+<div class="explanation">
+On Windows, line endings are typically recorded as carriage return plus newline: \r\n.<br/>
+<br/>
+This detector looks for invalid line endings with repeated carriage return characters (without newlines). Previous versions of the ADT plugin could accidentally introduce these into the file, and when editing the file, the editor could produce confusing visual artifacts.
+</div>
+<br/><div class="moreinfo">More info: <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=375421">https://bugs.eclipse.org/bugs/show_bug.cgi?id=375421</a>
+</div><br/>To suppress this error, use the issue id "MangledCRLF" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="NegativeMargin"></a>
+<div class="issue">
+<div class="id">NegativeMargin<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Disabled By: Default<br/>
+Priority: 4 / 10<br/>
+Category: Usability</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Negative Margins.</div>
+<div class="explanation">
+Margin values should be positive. Negative values are generally a sign that you are making assumptions about views surrounding the current one, or may be tempted to turn off child clipping to allow a view to escape its parent. Turning off child clipping to do this not only leads to poor graphical performance, it also results in wrong touch event handling since touch events are based strictly on a chain of parent-rect hit tests. Finally, making assumptions about the size of strings can lead to localization problems.
+</div>
+<br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "NegativeMargin" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="NewerVersionAvailable"></a>
+<div class="issue">
+<div class="id">NewerVersionAvailable<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Note: This issue has an associated quickfix operation in Android Studio/IntelliJ&nbsp;<img alt="Fix" border="0" align="top" src="lint-results-debug_files/lint-run.png" />
+<br>
+Disabled By: Default<br/>
+Priority: 4 / 10<br/>
+Category: Correctness</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Newer Library Versions Available.</div>
+<div class="explanation">
+This detector checks with a central repository to see if there are newer versions available for the dependencies used by this project. This is similar to the <code>GradleDependency</code> check, which checks for newer versions available in the Android SDK tools and libraries, but this works with any MavenCentral dependency, and connects to the library every time, which makes it more flexible but also <b>much</b> slower.
+</div>
+<br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "NewerVersionAvailable" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="SelectableText"></a>
+<div class="issue">
+<div class="id">SelectableText<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Note: This issue has an associated quickfix operation in Android Studio/IntelliJ&nbsp;<img alt="Fix" border="0" align="top" src="lint-results-debug_files/lint-run.png" />
+<br>
+Disabled By: Default<br/>
+Priority: 7 / 10<br/>
+Category: Usability</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Dynamic text should probably be selectable.</div>
+<div class="explanation">
+If a <code>&lt;TextView></code> is used to display data, the user might want to copy that data and paste it elsewhere. To allow this, the <code>&lt;TextView></code> should specify <code>android:textIsSelectable="true"</code>.<br/>
+<br/>
+This lint check looks for TextViews which are likely to be displaying data: views whose text is set dynamically. This value will be ignored on platforms older than API 11, so it is okay to set it regardless of your <code>minSdkVersion</code>.
+</div>
+<br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "SelectableText" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="StopShip"></a>
+<div class="issue">
+<div class="id">StopShip<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Note: This issue has an associated quickfix operation in Android Studio/IntelliJ&nbsp;<img alt="Fix" border="0" align="top" src="lint-results-debug_files/lint-run.png" />
+<br>
+Disabled By: Default<br/>
+Priority: 10 / 10<br/>
+Category: Correctness</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Code contains <code>STOPSHIP</code> marker.</div>
+<div class="explanation">
+Using the comment <code>// STOPSHIP</code> can be used to flag code that is incomplete but checked in. This comment marker can be used to indicate that the code should not be shipped until the issue is addressed, and lint will look for these.
+</div>
+<br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "StopShip" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="TypographyQuotes"></a>
+<div class="issue">
+<div class="id">TypographyQuotes<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Note: This issue has an associated quickfix operation in Android Studio/IntelliJ & Eclipse/ADT&nbsp;<img alt="Fix" border="0" align="top" src="lint-results-debug_files/lint-run.png" />
+<br>
+Disabled By: Default<br/>
+Priority: 5 / 10<br/>
+Category: Usability:Typography</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Straight quotes can be replaced with curvy quotes.</div>
+<div class="explanation">
+Straight single quotes and double quotes, when used as a pair, can be replaced by "curvy quotes" (or directional quotes). This can make the text more readable.<br/>
+<br/>
+Note that you should never use grave accents and apostrophes to quote, `like this'.<br/>
+<br/>
+(Also note that you should not use curvy quotes for code fragments.)
+</div>
+<br/><div class="moreinfo">More info: <a href="http://en.wikipedia.org/wiki/Quotation_mark">http://en.wikipedia.org/wiki/Quotation_mark</a>
+</div><br/>To suppress this error, use the issue id "TypographyQuotes" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="UnusedIds"></a>
+<div class="issue">
+<div class="id">UnusedIds<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Disabled By: Default<br/>
+Priority: 1 / 10<br/>
+Category: Performance</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Unused id.</div>
+<div class="explanation">
+This resource id definition appears not to be needed since it is not referenced from anywhere. Having id definitions, even if unused, is not necessarily a bad idea since they make working on layouts and menus easier, so there is not a strong reason to delete these.
+</div>
+<br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "UnusedIds" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+
+<a name="SuppressInfo"></a>
+<div class="category">Suppressing Warnings and Errors<div class="categorySeparator"></div>
+</div>
+Lint errors can be suppressed in a variety of ways:<br/>
+<br/>
+1. With a <code>@SuppressLint</code> annotation in the Java code<br/>
+2. With a <code>tools:ignore</code> attribute in the XML file<br/>
+3. With ignore flags specified in the <code>build.gradle</code> file, as explained below<br/>
+4. With a <code>lint.xml</code> configuration file in the project<br/>
+5. With a <code>lint.xml</code> configuration file passed to lint via the --config flag<br/>
+6. With the --ignore flag passed to lint.<br/>
+<br/>
+To suppress a lint warning with an annotation, add a <code>@SuppressLint("id")</code> annotation on the class, method or variable declaration closest to the warning instance you want to disable. The id can be one or more issue id's, such as <code>"UnusedResources"</code> or <code>{"UnusedResources","UnusedIds"}</code>, or it can be <code>"all"</code> to suppress all lint warnings in the given scope.<br/>
+<br/>
+To suppress a lint warning in an XML file, add a <code>tools:ignore="id"</code> attribute on the element containing the error, or one of its surrounding elements. You also need to define the namespace for the tools prefix on the root element in your document, next to the <code>xmlns:android</code> declaration:<br/>
+<code>xmlns:tools="http://schemas.android.com/tools"</code><br/>
+<br/>
+To suppress a lint warning in a <code>build.gradle</code> file, add a section like this:<br/>
+<br/>
+android {<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;lintOptions {<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;disable 'TypographyFractions','TypographyQuotes'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;}<br/>
+}<br/>
+<br/>
+Here we specify a comma separated list of issue id's after the disable command. You can also use <code>warning</code> or <code>error</code> instead of <code>disable</code> to change the severity of issues.<br/>
+<br/>
+To suppress lint warnings with a configuration XML file, create a file named <code>lint.xml</code> and place it at the root directory of the project in which it applies.<br/>
+<br/>
+The format of the <code>lint.xml</code> file is something like the following:<br/>
+<br/>
+&lt;?xml version="1.0" encoding="UTF-8"?><br/>
+&lt;lint><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;!-- Disable this given check in this project --><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;issue id="IconMissingDensityFolder" severity="ignore" /><br/>
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;!-- Ignore the ObsoleteLayoutParam issue in the given files --><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;issue id="ObsoleteLayoutParam"><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;ignore path="res/layout/activation.xml" /><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;ignore path="res/layout-xlarge/activation.xml" /><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;/issue><br/>
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;!-- Ignore the UselessLeaf issue in the given file --><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;issue id="UselessLeaf"><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;ignore path="res/layout/main.xml" /><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;/issue><br/>
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;!-- Change the severity of hardcoded strings to "error" --><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;issue id="HardcodedText" severity="error" /><br/>
+&lt;/lint><br/>
+<br/>
+To suppress lint checks from the command line, pass the --ignore flag with a comma separated list of ids to be suppressed, such as:<br/>
+<code>$ lint --ignore UnusedResources,UselessLeaf /my/project/path</code><br/>
+<br/>
+For more information, see <a href="http://g.co/androidstudio/suppressing-lint-warnings">http://g.co/androidstudio/suppressing-lint-warnings</a><br/>
+
+
+</body>
+</html>

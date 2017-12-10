@@ -1,0 +1,514 @@
+[
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\white_alpha_0_9_5_corner_bottom_16dp_normal.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\exploded-aar\\LivetelingCast\\BrightCommon\\unspecified\\res\\drawable\\white_alpha_0_9_5_corner_bottom_16dp_normal.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/androidTest/debug/drawable/default_loading_bg.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/exploded-aar/LivetelingCast/BrightCommon/unspecified/res/drawable/default_loading_bg.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/androidTest/debug/drawable/corner_bottom_left_5dp_normal.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/exploded-aar/LivetelingCast/BrightCommon/unspecified/res/drawable/corner_bottom_left_5dp_normal.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/androidTest/debug/drawable/edittext_cursor.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/bundles/debug/res/drawable/edittext_cursor.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\corner_top_5dp_bg.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\exploded-aar\\LivetelingCast\\BrightCommon\\unspecified\\res\\drawable\\corner_top_5dp_bg.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/androidTest/debug/drawable/progress_bg.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/bundles/debug/res/drawable/progress_bg.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\grey_alpha_0_7_corner_normal.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\exploded-aar\\LivetelingCast\\BrightCommon\\unspecified\\res\\drawable\\grey_alpha_0_7_corner_normal.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\no_line_normal_bg.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\exploded-aar\\LivetelingCast\\BrightCommon\\unspecified\\res\\drawable\\no_line_normal_bg.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/androidTest/debug/drawable/white_alpha_0_9_5_corner_16dp_normal.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/exploded-aar/LivetelingCast/BrightCommon/unspecified/res/drawable/white_alpha_0_9_5_corner_16dp_normal.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\corner_top_5dp_normal.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\exploded-aar\\LivetelingCast\\BrightCommon\\unspecified\\res\\drawable\\corner_top_5dp_normal.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\two_line_normal_bg.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\exploded-aar\\LivetelingCast\\BrightCommon\\unspecified\\res\\drawable\\two_line_normal_bg.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\shape_input_bg.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\shape_input_bg.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\corner_bottom_right_5dp_normal.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\exploded-aar\\LivetelingCast\\BrightCommon\\unspecified\\res\\drawable\\corner_bottom_right_5dp_normal.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/androidTest/debug/drawable/corner_bottom_right_5dp_bg.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/exploded-aar/LivetelingCast/BrightCommon/unspecified/res/drawable/corner_bottom_right_5dp_bg.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/androidTest/debug/drawable/vidqtxt.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/bundles/debug/res/drawable/vidqtxt.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/androidTest/debug/drawable/quality_bkg.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/bundles/debug/res/drawable/quality_bkg.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/androidTest/debug/drawable/two_line_bg.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/exploded-aar/LivetelingCast/BrightCommon/unspecified/res/drawable/two_line_bg.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\corner_top_5dp_pressed.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\exploded-aar\\LivetelingCast\\BrightCommon\\unspecified\\res\\drawable\\corner_top_5dp_pressed.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/androidTest/debug/drawable/white_alpha_0_9_5_whole_bg.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/exploded-aar/LivetelingCast/BrightCommon/unspecified/res/drawable/white_alpha_0_9_5_whole_bg.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/androidTest/debug/drawable/green_corner_5dp_pressed.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/exploded-aar/LivetelingCast/BrightCommon/unspecified/res/drawable/green_corner_5dp_pressed.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/androidTest/debug/drawable/corner_top_5dp_bg.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/exploded-aar/LivetelingCast/BrightCommon/unspecified/res/drawable/corner_top_5dp_bg.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\play_title_bkg.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\play_title_bkg.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\white_alpha_0_9_5_corner_16dp_normal.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\exploded-aar\\LivetelingCast\\BrightCommon\\unspecified\\res\\drawable\\white_alpha_0_9_5_corner_16dp_normal.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/androidTest/debug/drawable/corner_bottom_5dp_bg.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/exploded-aar/LivetelingCast/BrightCommon/unspecified/res/drawable/corner_bottom_5dp_bg.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/androidTest/debug/drawable/commen_button_theme_color.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/bundles/debug/res/drawable/commen_button_theme_color.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/androidTest/debug/drawable/white_alpha_0_9_5_corner_bottom_left_16dp_bg.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/exploded-aar/LivetelingCast/BrightCommon/unspecified/res/drawable/white_alpha_0_9_5_corner_bottom_left_16dp_bg.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\vidqtxt.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\vidqtxt.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/androidTest/debug/drawable/yp_progressthumbstyle.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/bundles/debug/res/drawable/yp_progressthumbstyle.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/androidTest/debug/drawable/corner_bottom_left_5dp_pressed.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/exploded-aar/LivetelingCast/BrightCommon/unspecified/res/drawable/corner_bottom_left_5dp_pressed.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/androidTest/debug/drawable/corner_bottom_5dp_normal.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/exploded-aar/LivetelingCast/BrightCommon/unspecified/res/drawable/corner_bottom_5dp_normal.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/androidTest/debug/drawable/corner_bottom_5dp_pressed.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/exploded-aar/LivetelingCast/BrightCommon/unspecified/res/drawable/corner_bottom_5dp_pressed.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/androidTest/debug/drawable/corner_bottom_right_5dp_pressed.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/exploded-aar/LivetelingCast/BrightCommon/unspecified/res/drawable/corner_bottom_right_5dp_pressed.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\green_corner_5dp_pressed.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\exploded-aar\\LivetelingCast\\BrightCommon\\unspecified\\res\\drawable\\green_corner_5dp_pressed.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\progress_bg.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\progress_bg.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\no_line_bg.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\exploded-aar\\LivetelingCast\\BrightCommon\\unspecified\\res\\drawable\\no_line_bg.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/androidTest/debug/drawable/white_alpha_0_9_5_corner_bottom_right_16dp_normal.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/exploded-aar/LivetelingCast/BrightCommon/unspecified/res/drawable/white_alpha_0_9_5_corner_bottom_right_16dp_normal.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/androidTest/debug/drawable/white_alpha_0_9_5_whole_pessed.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/exploded-aar/LivetelingCast/BrightCommon/unspecified/res/drawable/white_alpha_0_9_5_whole_pessed.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\white_alpha_0_9_5_corner_bottom_16dp_bg.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\exploded-aar\\LivetelingCast\\BrightCommon\\unspecified\\res\\drawable\\white_alpha_0_9_5_corner_bottom_16dp_bg.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\white_alpha_0_9_5_corner_bottom_right_16dp_bg.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\exploded-aar\\LivetelingCast\\BrightCommon\\unspecified\\res\\drawable\\white_alpha_0_9_5_corner_bottom_right_16dp_bg.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\white_alpha_0_9_5_corner_bottom_right_16dp_normal.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\exploded-aar\\LivetelingCast\\BrightCommon\\unspecified\\res\\drawable\\white_alpha_0_9_5_corner_bottom_right_16dp_normal.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/androidTest/debug/drawable/two_line_pressed_bg.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/exploded-aar/LivetelingCast/BrightCommon/unspecified/res/drawable/two_line_pressed_bg.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\top_line_white_bg.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\exploded-aar\\LivetelingCast\\BrightCommon\\unspecified\\res\\drawable\\top_line_white_bg.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\no_line_pressed_bg.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\exploded-aar\\LivetelingCast\\BrightCommon\\unspecified\\res\\drawable\\no_line_pressed_bg.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/androidTest/debug/drawable/top_line_white_normal_bg.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/exploded-aar/LivetelingCast/BrightCommon/unspecified/res/drawable/top_line_white_normal_bg.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/androidTest/debug/drawable/vidqbg.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/bundles/debug/res/drawable/vidqbg.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/androidTest/debug/drawable/popwinselector.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/bundles/debug/res/drawable/popwinselector.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\top_line_white_normal_bg.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\exploded-aar\\LivetelingCast\\BrightCommon\\unspecified\\res\\drawable\\top_line_white_normal_bg.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\green_corner_5dp_bg.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\exploded-aar\\LivetelingCast\\BrightCommon\\unspecified\\res\\drawable\\green_corner_5dp_bg.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/androidTest/debug/drawable/no_line_normal_bg.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/exploded-aar/LivetelingCast/BrightCommon/unspecified/res/drawable/no_line_normal_bg.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\corner_bottom_5dp_normal.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\exploded-aar\\LivetelingCast\\BrightCommon\\unspecified\\res\\drawable\\corner_bottom_5dp_normal.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/androidTest/debug/drawable/green_corner_5dp_bg.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/exploded-aar/LivetelingCast/BrightCommon/unspecified/res/drawable/green_corner_5dp_bg.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/androidTest/debug/drawable/bottom_line_normal_bg.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/exploded-aar/LivetelingCast/BrightCommon/unspecified/res/drawable/bottom_line_normal_bg.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/androidTest/debug/drawable/nonedrawable.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/bundles/debug/res/drawable/nonedrawable.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/androidTest/debug/drawable/bottom_line_pressed_bg.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/exploded-aar/LivetelingCast/BrightCommon/unspecified/res/drawable/bottom_line_pressed_bg.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\white_alpha_0_9_5_corner_bottom_left_16dp_pressed.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\exploded-aar\\LivetelingCast\\BrightCommon\\unspecified\\res\\drawable\\white_alpha_0_9_5_corner_bottom_left_16dp_pressed.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\corner_5dp_pressed.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\exploded-aar\\LivetelingCast\\BrightCommon\\unspecified\\res\\drawable\\corner_5dp_pressed.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\corner_bottom_right_5dp_bg.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\exploded-aar\\LivetelingCast\\BrightCommon\\unspecified\\res\\drawable\\corner_bottom_right_5dp_bg.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/androidTest/debug/drawable/corner_5dp_bg.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/exploded-aar/LivetelingCast/BrightCommon/unspecified/res/drawable/corner_5dp_bg.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\white_alpha_0_9_5_corner_bottom_left_16dp_normal.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\exploded-aar\\LivetelingCast\\BrightCommon\\unspecified\\res\\drawable\\white_alpha_0_9_5_corner_bottom_left_16dp_normal.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/androidTest/debug/drawable/grey_alpha_0_7_corner_normal.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/exploded-aar/LivetelingCast/BrightCommon/unspecified/res/drawable/grey_alpha_0_7_corner_normal.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/androidTest/debug/drawable/white_alpha_0_9_5_corner_bottom_left_16dp_pressed.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/exploded-aar/LivetelingCast/BrightCommon/unspecified/res/drawable/white_alpha_0_9_5_corner_bottom_left_16dp_pressed.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\corner_bottom_left_5dp_pressed.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\exploded-aar\\LivetelingCast\\BrightCommon\\unspecified\\res\\drawable\\corner_bottom_left_5dp_pressed.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\corner_bottom_left_5dp_normal.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\exploded-aar\\LivetelingCast\\BrightCommon\\unspecified\\res\\drawable\\corner_bottom_left_5dp_normal.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\white_alpha_0_9_5_whole_pessed.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\exploded-aar\\LivetelingCast\\BrightCommon\\unspecified\\res\\drawable\\white_alpha_0_9_5_whole_pessed.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/androidTest/debug/drawable/white_alpha_0_9_5_whole_normal.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/exploded-aar/LivetelingCast/BrightCommon/unspecified/res/drawable/white_alpha_0_9_5_whole_normal.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/androidTest/debug/drawable/no_line_bg.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/exploded-aar/LivetelingCast/BrightCommon/unspecified/res/drawable/no_line_bg.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\white_alpha_0_9_5_whole_bg.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\exploded-aar\\LivetelingCast\\BrightCommon\\unspecified\\res\\drawable\\white_alpha_0_9_5_whole_bg.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\edittext_cursor.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\edittext_cursor.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\corner_bottom_right_5dp_pressed.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\exploded-aar\\LivetelingCast\\BrightCommon\\unspecified\\res\\drawable\\corner_bottom_right_5dp_pressed.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/androidTest/debug/drawable/corner_top_5dp_normal.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/exploded-aar/LivetelingCast/BrightCommon/unspecified/res/drawable/corner_top_5dp_normal.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\white_alpha_0_9_5_corner_bottom_16dp_pressed.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\exploded-aar\\LivetelingCast\\BrightCommon\\unspecified\\res\\drawable\\white_alpha_0_9_5_corner_bottom_16dp_pressed.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\corner_5dp_normal.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\exploded-aar\\LivetelingCast\\BrightCommon\\unspecified\\res\\drawable\\corner_5dp_normal.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\default_loading_bg.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\exploded-aar\\LivetelingCast\\BrightCommon\\unspecified\\res\\drawable\\default_loading_bg.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\two_line_pressed_bg.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\exploded-aar\\LivetelingCast\\BrightCommon\\unspecified\\res\\drawable\\two_line_pressed_bg.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/androidTest/debug/drawable/two_line_normal_bg.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/exploded-aar/LivetelingCast/BrightCommon/unspecified/res/drawable/two_line_normal_bg.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/androidTest/debug/drawable/white_alpha_0_9_5_corner_16dp_pressed.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/exploded-aar/LivetelingCast/BrightCommon/unspecified/res/drawable/white_alpha_0_9_5_corner_16dp_pressed.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\yp_progressbarstyle.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\yp_progressbarstyle.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\bottom_line_normal_bg.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\exploded-aar\\LivetelingCast\\BrightCommon\\unspecified\\res\\drawable\\bottom_line_normal_bg.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/androidTest/debug/drawable/white_alpha_0_9_5_corner_bottom_16dp_pressed.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/exploded-aar/LivetelingCast/BrightCommon/unspecified/res/drawable/white_alpha_0_9_5_corner_bottom_16dp_pressed.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/androidTest/debug/drawable/top_line_white_pressed_bg.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/exploded-aar/LivetelingCast/BrightCommon/unspecified/res/drawable/top_line_white_pressed_bg.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\white_alpha_0_9_5_corner_16dp_bg.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\exploded-aar\\LivetelingCast\\BrightCommon\\unspecified\\res\\drawable\\white_alpha_0_9_5_corner_16dp_bg.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\corner_bottom_5dp_pressed.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\exploded-aar\\LivetelingCast\\BrightCommon\\unspecified\\res\\drawable\\corner_bottom_5dp_pressed.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\corner_bottom_left_5dp_bg.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\exploded-aar\\LivetelingCast\\BrightCommon\\unspecified\\res\\drawable\\corner_bottom_left_5dp_bg.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/androidTest/debug/drawable/yp_progressbarstyle.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/bundles/debug/res/drawable/yp_progressbarstyle.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/androidTest/debug/drawable/white_alpha_0_9_5_corner_16dp_bg.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/exploded-aar/LivetelingCast/BrightCommon/unspecified/res/drawable/white_alpha_0_9_5_corner_16dp_bg.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\window_background.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\exploded-aar\\LivetelingCast\\BrightCommon\\unspecified\\res\\drawable\\window_background.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\bottom_line_bg.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\exploded-aar\\LivetelingCast\\BrightCommon\\unspecified\\res\\drawable\\bottom_line_bg.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\nonedrawable.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\nonedrawable.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/androidTest/debug/drawable/widget_toast_bg.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/exploded-aar/LivetelingCast/BrightCommon/unspecified/res/drawable/widget_toast_bg.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\bottom_line_pressed_bg.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\exploded-aar\\LivetelingCast\\BrightCommon\\unspecified\\res\\drawable\\bottom_line_pressed_bg.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/androidTest/debug/drawable/top_line_white_bg.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/exploded-aar/LivetelingCast/BrightCommon/unspecified/res/drawable/top_line_white_bg.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/androidTest/debug/drawable/corner_5dp_normal.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/exploded-aar/LivetelingCast/BrightCommon/unspecified/res/drawable/corner_5dp_normal.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/androidTest/debug/drawable/shape_input_bg.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/bundles/debug/res/drawable/shape_input_bg.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/androidTest/debug/drawable/corner_5dp_pressed.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/exploded-aar/LivetelingCast/BrightCommon/unspecified/res/drawable/corner_5dp_pressed.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/androidTest/debug/drawable/white_alpha_0_9_5_corner_bottom_right_16dp_bg.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/exploded-aar/LivetelingCast/BrightCommon/unspecified/res/drawable/white_alpha_0_9_5_corner_bottom_right_16dp_bg.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\corner_5dp_bg.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\exploded-aar\\LivetelingCast\\BrightCommon\\unspecified\\res\\drawable\\corner_5dp_bg.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\vidqbg.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\vidqbg.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/androidTest/debug/drawable/yp_progress_holo_light.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/bundles/debug/res/drawable/yp_progress_holo_light.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/androidTest/debug/drawable/normal_panel_bg.9.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/bundles/debug/res/drawable/normal_panel_bg.9.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\top_line_white_pressed_bg.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\exploded-aar\\LivetelingCast\\BrightCommon\\unspecified\\res\\drawable\\top_line_white_pressed_bg.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\white_alpha_0_9_5_corner_bottom_right_16dp_pressed.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\exploded-aar\\LivetelingCast\\BrightCommon\\unspecified\\res\\drawable\\white_alpha_0_9_5_corner_bottom_right_16dp_pressed.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\popwinselector.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\popwinselector.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\white_alpha_0_9_5_whole_normal.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\exploded-aar\\LivetelingCast\\BrightCommon\\unspecified\\res\\drawable\\white_alpha_0_9_5_whole_normal.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/androidTest/debug/drawable/window_background.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/exploded-aar/LivetelingCast/BrightCommon/unspecified/res/drawable/window_background.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\white_alpha_0_9_5_corner_16dp_pressed.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\exploded-aar\\LivetelingCast\\BrightCommon\\unspecified\\res\\drawable\\white_alpha_0_9_5_corner_16dp_pressed.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\corner_bottom_5dp_bg.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\exploded-aar\\LivetelingCast\\BrightCommon\\unspecified\\res\\drawable\\corner_bottom_5dp_bg.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/androidTest/debug/drawable/corner_bottom_right_5dp_normal.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/exploded-aar/LivetelingCast/BrightCommon/unspecified/res/drawable/corner_bottom_right_5dp_normal.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\quality_bkg.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\quality_bkg.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/androidTest/debug/drawable/white_alpha_0_9_5_corner_top_16dp_normal.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/exploded-aar/LivetelingCast/BrightCommon/unspecified/res/drawable/white_alpha_0_9_5_corner_top_16dp_normal.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\yp_progress_holo_light.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\yp_progress_holo_light.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/androidTest/debug/drawable/no_line_pressed_bg.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/exploded-aar/LivetelingCast/BrightCommon/unspecified/res/drawable/no_line_pressed_bg.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\two_line_bg.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\exploded-aar\\LivetelingCast\\BrightCommon\\unspecified\\res\\drawable\\two_line_bg.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\white_alpha_0_9_5_corner_top_16dp_normal.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\exploded-aar\\LivetelingCast\\BrightCommon\\unspecified\\res\\drawable\\white_alpha_0_9_5_corner_top_16dp_normal.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\yp_progressthumbstyle.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\yp_progressthumbstyle.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\green_corner_5dp_normal.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\exploded-aar\\LivetelingCast\\BrightCommon\\unspecified\\res\\drawable\\green_corner_5dp_normal.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/androidTest/debug/drawable/bottom_line_bg.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/exploded-aar/LivetelingCast/BrightCommon/unspecified/res/drawable/bottom_line_bg.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/androidTest/debug/drawable/corner_top_5dp_pressed.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/exploded-aar/LivetelingCast/BrightCommon/unspecified/res/drawable/corner_top_5dp_pressed.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/androidTest/debug/drawable/white_alpha_0_9_5_corner_bottom_16dp_bg.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/exploded-aar/LivetelingCast/BrightCommon/unspecified/res/drawable/white_alpha_0_9_5_corner_bottom_16dp_bg.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/androidTest/debug/drawable/white_alpha_0_9_5_corner_bottom_left_16dp_normal.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/exploded-aar/LivetelingCast/BrightCommon/unspecified/res/drawable/white_alpha_0_9_5_corner_bottom_left_16dp_normal.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/androidTest/debug/drawable/white_alpha_0_9_5_corner_bottom_16dp_normal.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/exploded-aar/LivetelingCast/BrightCommon/unspecified/res/drawable/white_alpha_0_9_5_corner_bottom_16dp_normal.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\normal_panel_bg.9.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\normal_panel_bg.9.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/androidTest/debug/drawable/white_alpha_0_9_5_corner_bottom_right_16dp_pressed.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/exploded-aar/LivetelingCast/BrightCommon/unspecified/res/drawable/white_alpha_0_9_5_corner_bottom_right_16dp_pressed.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\widget_toast_bg.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\exploded-aar\\LivetelingCast\\BrightCommon\\unspecified\\res\\drawable\\widget_toast_bg.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/androidTest/debug/drawable/green_corner_5dp_normal.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/exploded-aar/LivetelingCast/BrightCommon/unspecified/res/drawable/green_corner_5dp_normal.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/androidTest/debug/drawable/corner_bottom_left_5dp_bg.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/exploded-aar/LivetelingCast/BrightCommon/unspecified/res/drawable/corner_bottom_left_5dp_bg.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\white_alpha_0_9_5_corner_bottom_left_16dp_bg.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\exploded-aar\\LivetelingCast\\BrightCommon\\unspecified\\res\\drawable\\white_alpha_0_9_5_corner_bottom_left_16dp_bg.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\commen_button_theme_color.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\commen_button_theme_color.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/androidTest/debug/drawable/play_title_bkg.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/bundles/debug/res/drawable/play_title_bkg.xml"
+    }
+]

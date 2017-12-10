@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+   <!-- <item android:drawable="@mipmap/message_checked_have" android:state_focused="true" android:state_selected="true"/>-->
+    <item android:drawable="@mipmap/message_checked" android:state_selected="true"/>
+    <item android:drawable="@mipmap/message_unchecked" android:state_selected="false"/>
+</selector>

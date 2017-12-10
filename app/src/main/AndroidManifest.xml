@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cn.gietv.mlive">
+
+    <!-- 使用opengles 2.0 -->
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+    <uses-feature android:name="android.hardware.sensor.compass" />
+    <uses-feature android:name="android.hardware.camera2" />
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CAPTURE_VIDEO_OUTPUT" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.NFC" />
+    <!-- <uses-permission android:name="android.permission.WRITE_APN_SETTINGS"/> -->
+    <!-- ###################声明SDK使用的相关权限###################### -->
+    <!-- 检测网络状态 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- 获取mac地址作为用户的备用唯一标识 -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <!-- 开机启动的权限 -->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <!-- 禁止发出通知，既后台下载 -->
+    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
+
+    <uses-permission android:name = "android.permission.DISABLE_KEYGUARD"/>
+    <!--监听app安装的权限-->
+    <uses-permission android:name="android.permission.RESTART_PACKAGES"/>
+    <!--允许程序挂载、反挂载外部文件系统-->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <!--允许一个应用程序捕获视频输出，不被第三方应用使用-->
+    <uses-permission android:name="android.permission.CAPTURE_VIDEO_OUTPUT"/>
+
+    <application
+        android:name=".MainApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppThemeTwo">
+
+        <!-- -->
+
+        <!-- <activity -->
+        <!-- android:name=".modules.home.activity.HomeActivity" -->
+        <!-- android:screenOrientation="portrait" -->
+        <!-- > -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="android.intent.action.MAIN"/> -->
+        <!-- <category android:name="android.intent.category.LAUNCHER"/> -->
+        <!-- </intent-filter> -->
+        <!-- </activity> -->
+      <!--  <activity
+            android:name="io.vov.vitamio.activity.InitActivity"
+            android:configChanges="orientation|screenSize|smallestScreenSize|keyboard|keyboardHidden|navigation"
+            android:launchMode="singleTop"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:windowSoftInputMode="stateAlwaysHidden" />-->
+        <activity
+            android:name=".modules.welcome.activity.SplashActivity"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".modules.welcome.activity.WelcomeActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".modules.home.activity.HomeActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan"
+            >
+        </activity>
+        <activity
+            android:name=".modules.login.activity.LoginActivity"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="tearoom" />
+                <data android:host="logn" />
+                <data android:path="/activity" />
+            </intent-filter>
+
+        </activity>
+        <activity
+            android:name=".modules.aboutus.activity.WebActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".modules.login.activity.RegistActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".modules.search.activity.SearchActivity"
+            android:screenOrientation="portrait"
+            >
+        </activity>
+        <activity
+            android:name=".modules.search.activity.TagSearchActivity"/>
+        <activity
+            android:name=".modules.usercenter.activity.UserCenterActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".modules.setting.activity.SettingActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".modules.compere.activity.CompereActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".modules.usercenter.activity.UserUpdateActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".modules.user.activity.UserListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".modules.photo.activity.PhotoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".modules.photo.activity.PhotoUpdateActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".modules.photo.activity.PhotoShowActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".modules.login.activity.ForgetPasswordActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".modules.login.activity.UpdatePasswordActivity"
+            android:screenOrientation="portrait" />
+        <!-- ###################注册SDK使用的Activity###################### -->
+        <!-- 分享编辑页 -->
+        <activity
+            android:name="com.umeng.socialize.editorpage.ShareActivity"
+            android:theme="@style/Theme.UMDefault"
+            android:excludeFromRecents="true"/>
+        <!-- ############ QQ空间和QQ SSO授权的Activity注册 ############ -->
+        <activity
+            android:name="com.tencent.tauth.AuthActivity"
+            android:launchMode="singleTask"
+            android:noHistory="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="tencent100424468" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.tencent.connect.common.AssistActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <!--微信回掉-->
+        <activity
+            android:name=".wxapi.WXEntryActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <!--微博回掉-->
+        <activity
+            android:name=".wxapi.WBShareActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.sina.weibo.sdk.component.WeiboSdkBrowser"
+            android:configChanges="keyboardHidden|orientation"
+            android:windowSoftInputMode="adjustResize"
+            android:screenOrientation="portrait"
+            android:exported="false" >
+        </activity>
+        <service
+            android:name="com.sina.weibo.sdk.net.DownloadService"
+            android:exported="false">
+        </service>
+        <!-- 版本更新，下载完成后调用一个广播，自动安装 -->
+        <receiver
+            android:name=".receiver.DownloadReceiver"
+            android:enabled="true">
+            <intent-filter android:priority="1000">
+                <action android:name="android.intent.action.DOWNLOAD_COMPLETE" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".modules.news.activity.NewsActivity"
+            android:label="@string/title_activity_news"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name=".modules.news.activity.NewsInfoActivity"  android:screenOrientation="portrait"
+            android:label="@string/title_activity_news_info"
+            android:windowSoftInputMode="adjustResize|stateAlwaysHidden">
+            <intent-filter>
+                <action android:name="cn.gietv.mlive.privatechat" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".service.MqttService"
+            android:enabled="true" />
+        <!-- 监听电量变化 -->
+        <receiver
+            android:name=".receiver.BatteryReceiver"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="android.intent.action.battery_changed" />
+                <action android:name="android.intent.action.boot_completed" />
+                <action android:name="cn.gietv.mqttservice.destroy" />
+            </intent-filter>
+        </receiver>
+        <!-- 消息内容的内容提供者 -->
+        <provider
+            android:name=".provider.NewsContentProvider"
+            android:authorities="cn.gietv.mlive.NewsProvider"
+            android:enabled="true"
+            android:exported="true" />
+        <!-- 联系人的内容提供者 -->
+        <provider
+            android:name=".provider.RosterContentProvider"
+            android:authorities="cn.gietv.mlive.RosterProvider"
+            android:enabled="true"
+            android:exported="true" />
+        <activity
+            android:name=".modules.usercenter.activity.BindingPhoneActivity"
+            android:label="@string/title_activity_binding_phone"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".modules.usercenter.activity.EditNicknameActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".modules.usercenter.activity.RegisterAgreementActivity"
+            android:label="@string/title_activity_register_agreement"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".modules.usercenter.activity.VerificationCodeActivity"
+            android:label="@string/title_activity_verification_code"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".modules.usercenter.activity.TaskActivity"
+            android:label="@string/title_activity_task"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".modules.usercenter.activity.TaskHelpActivity"
+            android:label="@string/title_activity_task_help"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".modules.usercenter.activity.BindingEmailActivity"
+            android:label="@string/title_activity_binding_email"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".modules.usercenter.activity.RechargeActivity"
+            android:label="@string/title_activity_recharge"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".modules.usercenter.activity.PaymentActivity"
+            android:label="@string/title_activity_payment"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".modules.login.activity.RegisterCodeActivity"
+            android:label="@string/title_activity_register_code"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".modules.login.activity.SetPasswordActivity"
+            android:label="@string/title_activity_set_password"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".modules.login.activity.SetNicknameActivity"
+            android:label="@string/title_activity_set_nickname"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".modules.login.activity.RegistActivity2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".modules.video.activity.RankingListActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_ranking_list" />
+        <activity
+            android:name=".modules.download.activity.DownloadOverAcitvity"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_download_over_acitvity" />
+        <activity
+            android:name=".modules.download.activity.DownloadNoOverActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_download_no_over" />
+
+        <service
+            android:name=".service.XmppService"
+            android:enabled="true" />
+
+        <activity android:name=".modules.setting.activity.TuCaoActivity"  android:screenOrientation="portrait"/>
+        <activity android:name=".modules.usercenter.activity.RechargeRecordActivity"  android:screenOrientation="portrait"/>
+        <activity
+            android:name=".modules.usercenter.activity.ShouCangActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_shou_cang" />
+        <activity android:name=".modules.game.activity.GameActivity"  android:screenOrientation="portrait"/>
+        <activity
+            android:name=".modules.album.activity.AlbumActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_album"
+            ></activity>
+        <activity
+            android:name=".modules.compere.activity.AnchorActivity"
+            android:screenOrientation="portrait"
+            ></activity>
+        <activity
+            android:name=".modules.vrgame.activity.VRGameActivity"
+            android:screenOrientation="portrait"
+            ></activity>
+
+        <activity android:name=".modules.usercenter.activity.EditDescActivity"  android:screenOrientation="portrait"/>
+        <activity android:name=".modules.user.activity.YoukuUserActivity"  android:screenOrientation="portrait"/>
+        <activity android:name=".modules.category.activity.CategoryActivity"  android:screenOrientation="portrait"/><!--android:theme="@style/Theme.PageIndicatorDefaults"  -->
+        <activity android:name=".modules.video.activity.VideoPlayListActivity2"  android:windowSoftInputMode="adjustResize|stateAlwaysHidden" android:configChanges="orientation|keyboardHidden" android:screenOrientation="portrait"/>
+        <activity android:name=".modules.video.activity.VideoPlayerActivity2" android:screenOrientation="landscape" android:windowSoftInputMode="stateVisible|adjustResize"/>
+        <activity android:name=".modules.author.activity.AuthorActivity"  android:screenOrientation="portrait"/>
+        <activity android:name=".modules.search.activity.SearchResultActivity"  android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize|stateAlwaysHidden"/>
+        <activity android:name=".modules.video.activity.VRVideoPlayActivity" android:screenOrientation="landscape"/>
+        <activity android:name=".modules.video.activity.DialogListActivity"  android:screenOrientation="portrait"/>
+        <activity android:name=".modules.video.activity.ReplyCommentActivity"  android:screenOrientation="portrait"/>
+        <activity android:name=".modules.usercenter.activity.LocalVideoActivity"  android:screenOrientation="portrait"/>
+        <activity android:name=".modules.vrgame.activity.WriteCommentActivity" android:windowSoftInputMode="adjustResize|stateAlwaysHidden"  android:screenOrientation="portrait"/>
+        <activity android:name=".modules.usercenter.activity.MyConcernActivity"  android:screenOrientation="portrait"/>
+        <activity android:name=".modules.usercenter.activity.HistoryVideoActivity"  android:screenOrientation="portrait"/>
+        <activity android:name=".modules.category.activity.CategoryActivity2"  android:screenOrientation="portrait"/>
+        <activity android:name=".modules.subscribe.activity.SubscribeActivity"  android:screenOrientation="portrait"/>
+        <activity android:name=".modules.usercenter.activity.UserSubscribeActivity"  android:screenOrientation="portrait"/>
+        <activity android:name=".modules.author.activity.FastEntryAuthorActivity"  android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden|adjustResize"/>
+        <activity android:name=".modules.ranking.activity.RankingActivity"  android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden|adjustResize"/>
+        <activity android:name=".modules.match.activity.MatchActivity"  android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden|adjustResize"/>
+        <activity android:name=".modules.welfareActivity.activity.WelfareActivity"  android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden|adjustResize"/>
+        <activity android:name=".modules.video.activity.VideoPlayListActivity3"  android:configChanges="orientation|screenSize|keyboardHidden" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden|adjustResize"/><!--adjustPan|stateHidden-->
+        <activity android:name=".modules.vrgame.activity.VRAllGameActivity"  android:configChanges="orientation|screenSize|keyboardHidden" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden|adjustResize"/><!--adjustPan|stateHidden-->
+        <meta-data
+            android:name="TEAROOM_MLIVE_SERVER_URL"
+            android:value="http://api.mlive.gietv.cn:8080/liveservice" />
+
+        <!-- android:value="http://api.mlive.gietv.cn:8888/liveservice" /> -->
+        <!-- android:value="http://api.mlive.gietv.cn:8080/liveservice" /> -->
+        <!-- android:value="http://192.168.200.176:8080/liveservice" /> -->
+        <!-- android:value="http://192.168.200.189:8080/liveservice" /> -->
+        <!--############################添加渠道号############################-->
+        <!--<meta-data
+            android:name="TEA_CHANNELID"
+            android:value="20001" />-->
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="10100"/>
+        <!-- ###################添加UmengAppkey###################### -->
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="5660163ae0f55a291e000578" />
+        <meta-data
+            android:name="UMENG_MESSAGE_SECRET"
+            android:value="c420afc7d5cd37f6d1b5cbdf765d718f" >
+        </meta-data>
+        <!--优酷视频-->
+        <meta-data
+            android:name="client_id"
+            android:value="d0014dda41970fe5" />
+        <meta-data
+            android:name="client_secret"
+            android:value="4b96f834724220d3fbeb7696f208f561" />
+
+    </application>
+</manifest>

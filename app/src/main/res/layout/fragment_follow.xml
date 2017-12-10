@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/common_head_layout"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+      <FrameLayout
+          android:id="@+id/fragment"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"></FrameLayout>
+        <com.jcodecraeer.xrecyclerview.XRecyclerView
+            android:id="@+id/recyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            >
+        </com.jcodecraeer.xrecyclerview.XRecyclerView>
+        <LinearLayout
+            android:id="@+id/no_login_parent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/bg_e5e8ea"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+            <TextView
+                android:id="@+id/login_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="登录"
+                android:paddingLeft="12dp"
+                android:paddingTop="6dp"
+                android:paddingBottom="6dp"
+                android:paddingRight="12dp"
+                android:background="@drawable/commen_button_theme_color3"
+                />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,87 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/parent_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_e5e8ea"
+    >
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_250"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_200"
+            android:gravity="center"
+            >
+            <com.github.siyamed.shapeimageview.RoundedImageView
+                android:id="@+id/user_icon"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_centerInParent="true"
+                />
+
+        </RelativeLayout>
+
+        <cn.gietv.mlive.views.slidingTab.SlidingTabLayout
+            android:id="@+id/navig_tab"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/tab_height"
+            android:background="@android:color/white"
+            app:shouldExpand="true"
+            app:indicatorColor="#4fc396"
+            app:tabBackground2="@layout/sliding_tab_view"
+            app:tabBackgroundTextViewId="@+id/tab_textview"></cn.gietv.mlive.views.slidingTab.SlidingTabLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/line_d9dcdf"
+            android:layout_below="@+id/header"
+            />
+
+    </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:background="#00FFFFFF"
+            android:layout_marginTop="10dp"
+            >
+            <TextView
+                android:id="@+id/head_tv_title"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:singleLine="true"
+                android:textColor="#FFFFFF"
+                android:layout_gravity="center"
+                android:textSize="16dp"
+                />
+            <ImageButton
+                android:id="@+id/head_ib_exit"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@mipmap/ic_video_back"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/dp_10"
+                />
+            <ImageView
+                android:id="@+id/attention_text"
+                android:layout_width="54dp"
+                android:layout_height="25dp"
+                android:textColor="@color/white"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/dp_10"
+                android:background="@mipmap/subscribe_no"
+                android:layout_centerVertical="true"
+                />
+        </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    >
+    <com.github.siyamed.shapeimageview.RoundedImageView
+        android:id="@+id/game_iv_image"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:scaleType="fitXY"
+        app:siBorderColor="#00FFFFFF"
+        app:siBorderWidth="0dp"
+        app:siRadius="0dp"
+        app:siSquare="true"/>
+    <TextView
+        android:id="@+id/game_tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_929292"
+        android:textSize="14sp"
+        />
+</LinearLayout>

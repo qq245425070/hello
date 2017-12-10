@@ -1,0 +1,2 @@
+include ':app', ':retrofit', ':scenelib', ':photoviewlibrary', ':xrecyclerview', ':circleindicator', ':BrightCommon', ':VideoPlayer', ':PushSDK', ':YoukuPlayerOpenSDK'
+

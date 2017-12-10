@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/head_ll_head"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:background="@android:color/transparent"
+            app:popupTheme="@style/AppTheme.PopupOverlay" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:background="#4FC396"
+        >
+        <ImageButton
+            android:id="@+id/head_ib_exit"
+            android:layout_width="18dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/common_trans_clickable"
+            android:src="@mipmap/navigation_button_normal"
+            />
+
+        <TextView
+            android:id="@+id/head_tv_title"
+            android:layout_width="282dp"
+            android:layout_height="match_parent"
+            android:singleLine="true"
+            android:gravity="center_vertical"
+            android:textColor="#FFFFFF"
+            android:paddingLeft="20dp"
+            android:textSize="18sp"
+            />
+
+        <ImageButton
+            android:id="@+id/head_ib_search"
+            android:layout_width="20dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/common_trans_clickable"
+            android:src="@mipmap/delete_black"
+            android:textColor="@color/white"
+            android:gravity="center"
+
+            />
+        <TextView
+            android:id="@+id/submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="确定"
+            android:textSize="18sp"
+            android:visibility="gone"
+            />
+    </LinearLayout>
+</android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.jcodecraeer.xrecyclerview.XRecyclerView
+            android:id="@+id/recyclerview"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scrollbars="none"
+            />
+
+        <TextView
+            android:id="@+id/no_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="暂未收藏视频"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:visibility="gone"
+            />
+    </RelativeLayout>
+</LinearLayout>

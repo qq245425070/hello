@@ -1,0 +1,362 @@
+[
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ad_icon_out.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ad_icon_out.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\seekbar_second_progress.9.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\seekbar_second_progress.9.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ad_icon_fullscreen.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ad_icon_fullscreen.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/play_btn_shrink.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/bundles/debug/res/drawable-hdpi-v4/play_btn_shrink.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/play_btn_play_big_detail_down.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/bundles/debug/res/drawable-hdpi-v4/play_btn_play_big_detail_down.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ad_icon_arrow.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ad_icon_arrow.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ad_bg_back.9.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ad_bg_back.9.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\play_btn_play_big.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\play_btn_play_big.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/icon_scrubbarslider.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/bundles/debug/res/drawable-hdpi-v4/icon_scrubbarslider.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\seekbar_front_progress.9.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\seekbar_front_progress.9.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\play_btn_play_big_detail.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\play_btn_play_big_detail.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/yp_detail_icon_schedule_ball.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/bundles/debug/res/drawable-hdpi-v4/yp_detail_icon_schedule_ball.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\hotpoint_img.9.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\hotpoint_img.9.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/play_btn_pause_big.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/bundles/debug/res/drawable-hdpi-v4/play_btn_pause_big.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/loading_frame3.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/bundles/debug/res/drawable-hdpi-v4/loading_frame3.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/plugin_ad_gosmall.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/bundles/debug/res/drawable-hdpi-v4/plugin_ad_gosmall.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/icon_pause.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/bundles/debug/res/drawable-hdpi-v4/icon_pause.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ad_bg_back.9.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ad_bg_back.9.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/player_logo_youku.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/bundles/debug/res/drawable-hdpi-v4/player_logo_youku.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\play_over_next_episode.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\play_over_next_episode.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ad_icon_volume.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ad_icon_volume.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/seekbar_front_progress.9.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/bundles/debug/res/drawable-hdpi-v4/seekbar_front_progress.9.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\play_btn_shrink.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\play_btn_shrink.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/play_btn_play_big_detail.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/bundles/debug/res/drawable-hdpi-v4/play_btn_play_big_detail.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\loading_frame4.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\loading_frame4.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\yp_tudou_encrypt_input_box.9.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\yp_tudou_encrypt_input_box.9.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/loading_frame1.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/bundles/debug/res/drawable-hdpi-v4/loading_frame1.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\loading_frame1.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\loading_frame1.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\plugin_ad_gofull.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\plugin_ad_gofull.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/loading_frame4.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/bundles/debug/res/drawable-hdpi-v4/loading_frame4.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/volumn_bg.9.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/bundles/debug/res/drawable-hdpi-v4/volumn_bg.9.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\icon_pause.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\icon_pause.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/seekbar_second_progress.9.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/bundles/debug/res/drawable-hdpi-v4/seekbar_second_progress.9.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\plugin_ad_gosmall.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\plugin_ad_gosmall.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ad_icon_out.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ad_icon_out.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\play_btn_pause_big_detail.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\play_btn_pause_big_detail.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ad_bg_full.9.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ad_bg_full.9.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ad_icon_arrow.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ad_icon_arrow.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\detail_play_btn_full_screen.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\detail_play_btn_full_screen.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/yp_tudou_encrypt_input_box.9.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/bundles/debug/res/drawable-hdpi-v4/yp_tudou_encrypt_input_box.9.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/seekbar_bkg.9.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/bundles/debug/res/drawable-hdpi-v4/seekbar_bkg.9.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\player_canvas.9.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\player_canvas.9.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\icon_fullscreen.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\icon_fullscreen.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\volumn_bg.9.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\volumn_bg.9.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\volumn_primary.9.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\volumn_primary.9.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\play_over_replay.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\play_over_replay.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/volumn_primary.9.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/bundles/debug/res/drawable-hdpi-v4/volumn_primary.9.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\vertical_logo.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\vertical_logo.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/play_over_replay.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/bundles/debug/res/drawable-hdpi-v4/play_over_replay.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/play_btn_play_big.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/bundles/debug/res/drawable-hdpi-v4/play_btn_play_big.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\player_logo_youku.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\player_logo_youku.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/bg_play.jpg",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/bundles/debug/res/drawable-hdpi-v4/bg_play.jpg"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ad_bg_full.9.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ad_bg_full.9.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/detail_play_btn_full_screen.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/bundles/debug/res/drawable-hdpi-v4/detail_play_btn_full_screen.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/full_icon_out.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/bundles/debug/res/drawable-hdpi-v4/full_icon_out.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/vertical_icon_back.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/bundles/debug/res/drawable-hdpi-v4/vertical_icon_back.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/play_btn_pause_big_detail_down.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/bundles/debug/res/drawable-hdpi-v4/play_btn_pause_big_detail_down.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\seekbar_bkg.9.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\seekbar_bkg.9.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/play_btn_pause_big_detail.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/bundles/debug/res/drawable-hdpi-v4/play_btn_pause_big_detail.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/bg_tudou_encrypt_dialog.9.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/bundles/debug/res/drawable-hdpi-v4/bg_tudou_encrypt_dialog.9.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\loading_frame3.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\loading_frame3.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\play_btn_pause_big.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\play_btn_pause_big.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/vertical_logo.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/bundles/debug/res/drawable-hdpi-v4/vertical_logo.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ad_icon_fullscreen.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ad_icon_fullscreen.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\icon_scrubbarslider.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\icon_scrubbarslider.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\icon_play.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\icon_play.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\seek_thumb.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\seek_thumb.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ad_icon_volume.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ad_icon_volume.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/icon_play.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/bundles/debug/res/drawable-hdpi-v4/icon_play.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/hotpoint_img.9.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/bundles/debug/res/drawable-hdpi-v4/hotpoint_img.9.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/plugin_ad_gofull.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/bundles/debug/res/drawable-hdpi-v4/plugin_ad_gofull.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\bg_tudou_encrypt_dialog.9.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\bg_tudou_encrypt_dialog.9.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ad_icon_volume_off.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ad_icon_volume_off.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/full_icon_back.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/bundles/debug/res/drawable-hdpi-v4/full_icon_back.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\full_icon_back.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\full_icon_back.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\play_btn_pause_big_detail_down.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\play_btn_pause_big_detail_down.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ad_icon_volume_off.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ad_icon_volume_off.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\bg_play.jpg",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\bg_play.jpg"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/player_canvas.9.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/bundles/debug/res/drawable-hdpi-v4/player_canvas.9.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/icon_fullscreen.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/bundles/debug/res/drawable-hdpi-v4/icon_fullscreen.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\full_icon_out.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\full_icon_out.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/seek_thumb.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/bundles/debug/res/drawable-hdpi-v4/seek_thumb.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\loading_frame2.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\loading_frame2.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\volumn_front.9.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\volumn_front.9.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\yp_detail_icon_schedule_ball.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\yp_detail_icon_schedule_ball.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\play_btn_play_big_detail_down.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\play_btn_play_big_detail_down.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/volumn_front.9.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/bundles/debug/res/drawable-hdpi-v4/volumn_front.9.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\vertical_icon_back.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\vertical_icon_back.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/loading_frame2.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/bundles/debug/res/drawable-hdpi-v4/loading_frame2.png"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/play_over_next_episode.png",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/bundles/debug/res/drawable-hdpi-v4/play_over_next_episode.png"
+    }
+]

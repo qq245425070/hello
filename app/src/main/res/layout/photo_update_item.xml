@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <cn.gietv.mlive.views.SquareImageView
+            android:id="@+id/photo_update_iv_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:scaleType="fitXY"/>
+
+        <ImageView
+            android:id="@+id/photo_update_iv_check"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="right|bottom"
+            android:layout_margin="15dp"
+            android:src="@mipmap/icon_checked_green"
+            android:visibility="visible"/>
+    </FrameLayout>
+</LinearLayout>

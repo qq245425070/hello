@@ -1,0 +1,122 @@
+[
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\VideoPlayer\\build\\intermediates\\res\\merged\\release\\color\\abc_secondary_text_material_dark.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\VideoPlayer\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\color\\abc_secondary_text_material_dark.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\VideoPlayer\\build\\intermediates\\res\\merged\\release\\color\\abc_secondary_text_material_light.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\VideoPlayer\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\color\\abc_secondary_text_material_light.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\VideoPlayer\\build\\intermediates\\res\\merged\\release\\color\\abc_primary_text_material_dark.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\VideoPlayer\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\color\\abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/VideoPlayer/build/intermediates/res/merged/release/color/abc_secondary_text_material_light.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/VideoPlayer/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/color/abc_secondary_text_material_light.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/VideoPlayer/build/intermediates/res/merged/release/color/switch_thumb_material_light.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/VideoPlayer/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/color/switch_thumb_material_light.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\VideoPlayer\\build\\intermediates\\res\\merged\\release\\color\\abc_primary_text_material_light.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\VideoPlayer\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\color\\abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/VideoPlayer/build/intermediates/res/merged/release/color/abc_primary_text_material_light.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/VideoPlayer/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/color/abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/VideoPlayer/build/intermediates/res/merged/release/color/text_grey.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/VideoPlayer/build/intermediates/exploded-aar/LivetelingCast/BrightCommon/unspecified/res/color/text_grey.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/VideoPlayer/build/intermediates/res/merged/release/color/abc_search_url_text.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/VideoPlayer/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/color/abc_search_url_text.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\VideoPlayer\\build\\intermediates\\res\\merged\\release\\color\\abc_primary_text_disable_only_material_light.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\VideoPlayer\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\color\\abc_primary_text_disable_only_material_light.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\VideoPlayer\\build\\intermediates\\res\\merged\\release\\color\\switch_thumb_material_dark.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\VideoPlayer\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\color\\switch_thumb_material_dark.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\VideoPlayer\\build\\intermediates\\res\\merged\\release\\color\\text_white_enable_grey_unenable_color.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\VideoPlayer\\build\\intermediates\\exploded-aar\\LivetelingCast\\BrightCommon\\unspecified\\res\\color\\text_white_enable_grey_unenable_color.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/VideoPlayer/build/intermediates/res/merged/release/color/text_grey_light_more.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/VideoPlayer/build/intermediates/exploded-aar/LivetelingCast/BrightCommon/unspecified/res/color/text_grey_light_more.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/VideoPlayer/build/intermediates/res/merged/release/color/text_grey_light.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/VideoPlayer/build/intermediates/exploded-aar/LivetelingCast/BrightCommon/unspecified/res/color/text_grey_light.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/VideoPlayer/build/intermediates/res/merged/release/color/text_grey_dark_more.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/VideoPlayer/build/intermediates/exploded-aar/LivetelingCast/BrightCommon/unspecified/res/color/text_grey_dark_more.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/VideoPlayer/build/intermediates/res/merged/release/color/switch_thumb_material_dark.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/VideoPlayer/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/color/switch_thumb_material_dark.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/VideoPlayer/build/intermediates/res/merged/release/color/abc_secondary_text_material_dark.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/VideoPlayer/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/color/abc_secondary_text_material_dark.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\VideoPlayer\\build\\intermediates\\res\\merged\\release\\color\\text_grey_dark.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\VideoPlayer\\build\\intermediates\\exploded-aar\\LivetelingCast\\BrightCommon\\unspecified\\res\\color\\text_grey_dark.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/VideoPlayer/build/intermediates/res/merged/release/color/text_grey_dark.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/VideoPlayer/build/intermediates/exploded-aar/LivetelingCast/BrightCommon/unspecified/res/color/text_grey_dark.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\VideoPlayer\\build\\intermediates\\res\\merged\\release\\color\\text_grey_light_more.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\VideoPlayer\\build\\intermediates\\exploded-aar\\LivetelingCast\\BrightCommon\\unspecified\\res\\color\\text_grey_light_more.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\VideoPlayer\\build\\intermediates\\res\\merged\\release\\color\\switch_thumb_material_light.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\VideoPlayer\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\color\\switch_thumb_material_light.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/VideoPlayer/build/intermediates/res/merged/release/color/abc_primary_text_disable_only_material_dark.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/VideoPlayer/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/color/abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\VideoPlayer\\build\\intermediates\\res\\merged\\release\\color\\text_grey.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\VideoPlayer\\build\\intermediates\\exploded-aar\\LivetelingCast\\BrightCommon\\unspecified\\res\\color\\text_grey.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/VideoPlayer/build/intermediates/res/merged/release/color/text_white_enable_grey_unenable_color.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/VideoPlayer/build/intermediates/exploded-aar/LivetelingCast/BrightCommon/unspecified/res/color/text_white_enable_grey_unenable_color.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/VideoPlayer/build/intermediates/res/merged/release/color/abc_primary_text_disable_only_material_light.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/VideoPlayer/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/color/abc_primary_text_disable_only_material_light.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\VideoPlayer\\build\\intermediates\\res\\merged\\release\\color\\text_grey_light.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\VideoPlayer\\build\\intermediates\\exploded-aar\\LivetelingCast\\BrightCommon\\unspecified\\res\\color\\text_grey_light.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/VideoPlayer/build/intermediates/res/merged/release/color/abc_primary_text_material_dark.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/VideoPlayer/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/color/abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\VideoPlayer\\build\\intermediates\\res\\merged\\release\\color\\abc_search_url_text.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\VideoPlayer\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\color\\abc_search_url_text.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\VideoPlayer\\build\\intermediates\\res\\merged\\release\\color\\text_grey_dark_more.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\VideoPlayer\\build\\intermediates\\exploded-aar\\LivetelingCast\\BrightCommon\\unspecified\\res\\color\\text_grey_dark_more.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\VideoPlayer\\build\\intermediates\\res\\merged\\release\\color\\abc_primary_text_disable_only_material_dark.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\VideoPlayer\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
+    }
+]

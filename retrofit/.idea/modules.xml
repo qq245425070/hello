@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../DanmakuFlameMaster/DanmakuFlameMaster.iml" filepath="$PROJECT_DIR$/../DanmakuFlameMaster/DanmakuFlameMaster.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../EmptyLayout/EmptyLayout.iml" filepath="$PROJECT_DIR$/../EmptyLayout/EmptyLayout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../LivetelingCast.iml" filepath="$PROJECT_DIR$/../LivetelingCast.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../app/app.iml" filepath="$PROJECT_DIR$/../app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../circleindicator/circleindicator.iml" filepath="$PROJECT_DIR$/../circleindicator/circleindicator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../materialedittextlibrary/materialedittextlibrary.iml" filepath="$PROJECT_DIR$/../materialedittextlibrary/materialedittextlibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../mqtt/mqtt.iml" filepath="$PROJECT_DIR$/../mqtt/mqtt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../photoviewlibrary/photoviewlibrary.iml" filepath="$PROJECT_DIR$/../photoviewlibrary/photoviewlibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../pulltorefreshlibrary/pulltorefreshlibrary.iml" filepath="$PROJECT_DIR$/../pulltorefreshlibrary/pulltorefreshlibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/retrofit.iml" filepath="$PROJECT_DIR$/retrofit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../vitamio/vitamio.iml" filepath="$PROJECT_DIR$/../vitamio/vitamio.iml" />
+    </modules>
+  </component>
+</project>

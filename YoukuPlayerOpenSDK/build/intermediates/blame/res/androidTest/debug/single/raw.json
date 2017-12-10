@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\raw\\mediaplayer_configuration.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\bundles\\debug\\res\\raw\\mediaplayer_configuration.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/androidTest/debug/raw/aes.lua",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/bundles/debug/res/raw/aes.lua"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/androidTest/debug/raw/mediaplayer_configuration.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/bundles/debug/res/raw/mediaplayer_configuration.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\raw\\aes.lua",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\bundles\\debug\\res\\raw\\aes.lua"
+    }
+]

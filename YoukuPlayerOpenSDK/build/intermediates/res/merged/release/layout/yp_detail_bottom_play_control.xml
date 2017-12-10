@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        />
+
+    <LinearLayout
+        android:id="@+id/control_parent"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/normal_panel_bg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+
+        >
+
+        <ImageButton
+            android:id="@+id/ib_detail_play_control"
+            android:layout_width="@dimen/dp_20"
+            android:layout_height="@dimen/dp_20"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:adjustViewBounds="true"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/icon_pause" />
+
+        <TextView
+            android:id="@+id/current_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00:00:00"
+            android:textColor="#999"
+            android:textSize="12sp" />
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+
+          <!--  <SeekBar
+                android:id="@+id/sb_detail_play_progress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                android:progressDrawable="@drawable/yp_progress_holo_light"
+                android:thumb="@drawable/icon_scrubbarslider"
+                android:thumbOffset="0dip" />-->
+            <SeekBar
+                android:id="@+id/sb_detail_play_progress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:maxHeight="@dimen/dp_2"
+                android:minHeight="@dimen/dp_2"
+                android:paddingBottom="@dimen/dp_5"
+                android:paddingTop="@dimen/dp_5"
+                android:progressDrawable="@drawable/progress_bg"
+                android:thumb="@drawable/seek_thumb"
+                android:thumbOffset="0dip" />
+
+            <com.youku.player.plugin.HotPointView
+                android:id="@+id/hotPointView"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/total_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="02:04:39"
+            android:textColor="#999"
+            android:textSize="12sp" />
+
+
+
+        <ImageView
+            android:id="@+id/danmu_switch"
+            android:layout_width="@dimen/dp_40"
+            android:layout_height="@dimen/dp_26"
+            android:background="@android:color/transparent"
+            android:scaleType="center"
+            android:src="@mipmap/danmu_on"
+            android:visibility="visible"
+            />
+
+        <ImageView
+            android:id="@+id/danmu_image"
+            android:layout_width="@dimen/dp_26"
+            android:layout_height="@dimen/dp_26"
+            android:background="@android:color/transparent"
+            android:scaleType="center"
+            android:src="@mipmap/danmu_screen"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:layout_marginRight="@dimen/dp_10"
+            android:visibility="gone"
+            />
+
+        <ImageView
+            android:id="@+id/ib_detail_play_full"
+            android:layout_width="@dimen/dp_26"
+            android:layout_height="@dimen/dp_26"
+            android:background="@android:color/transparent"
+            android:scaleType="fitXY"
+            android:padding="@dimen/dp_3"
+            android:src="@mipmap/ic_to_fullscreen"
+            android:layout_marginRight="@dimen/dp_10"
+            />
+    </LinearLayout>
+    <include
+        android:id="@+id/danmu_input"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/detail_play_title_height"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="0dp"
+        layout="@layout/danmu_input"
+        />
+</LinearLayout>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="select_photos">
+        <item>拍照</item>
+        <item>相册</item>
+    </string-array>
+    <color name="blue_100">#FFBBDEFB</color>
+    <color name="blue_200">#FF90CAF9</color>
+    <color name="blue_300">#FF64B5F6</color>
+    <color name="blue_400">#FF42A5F5</color>
+    <color name="blue_50">#FFE3F2FD</color>
+    <color name="blue_500">#FF2196F3</color>
+    <color name="blue_600">#FF1E88E5</color>
+    <color name="blue_700">#FF1976D2</color>
+    <color name="blue_800">#FF1565C0</color>
+    <color name="blue_900">#FF0D47A1</color>
+    <color name="color_accent">@color/blue_300</color>
+    <color name="color_primary">@color/blue_400</color>
+    <color name="color_primary_dark">@color/blue_400</color>
+    <color name="green_400">#FF44BF1A</color>
+    <color name="green_800">#FF337523</color>
+    <color name="grey_alpha_0_7">#90000000</color>
+    <color name="grey_alpha_0_8">#A0000000</color>
+    <color name="grey_alpha_0_8_5">#DD000000</color>
+    <color name="grey_alpha_0_9">#E5000000</color>
+    <color name="grey_alpha_1">#FF000000</color>
+    <color name="grey_deep_1">#FF000000</color>
+    <color name="grey_deep_10">#FFA0A0A0</color>
+    <color name="grey_deep_11">#FFA8A8A8</color>
+    <color name="grey_deep_12">#FFB2B2B2</color>
+    <color name="grey_deep_13">#FFCCCCCC</color>
+    <color name="grey_deep_14">#FFD6D6D6</color>
+    <color name="grey_deep_15">#FFE6E6E6</color>
+    <color name="grey_deep_16">#FFF0F0F0</color>
+    <color name="grey_deep_17">#FFF5F5F5</color>
+    <color name="grey_deep_2">#FF151515</color>
+    <color name="grey_deep_3">#FF333333</color>
+    <color name="grey_deep_4">#FF4D4D4D</color>
+    <color name="grey_deep_5">#FF505050</color>
+    <color name="grey_deep_6">#FF666666</color>
+    <color name="grey_deep_7">#FF757575</color>
+    <color name="grey_deep_8">#FF808080</color>
+    <color name="grey_deep_9">#FF999999</color>
+    <color name="line">@color/grey_deep_10</color>
+    <color name="photo_border">@color/grey_deep_14</color>
+    <color name="semipermeable">#66000000</color>
+    <color name="semipermeable_dark">#99000000</color>
+    <color name="semipermeable_dark_more">#ab000000</color>
+    <color name="semipermeable_pressed">#99000000</color>
+    <color name="text_grey_dark_more_normal">@color/grey_deep_4</color>
+    <color name="text_grey_dark_more_pressed">@color/grey_deep_2</color>
+    <color name="text_grey_dark_normal">@color/grey_deep_6</color>
+    <color name="text_grey_dark_pressed">@color/grey_deep_4</color>
+    <color name="text_grey_hint">@color/grey_deep_13</color>
+    <color name="text_grey_hint_dark">@color/grey_deep_11</color>
+    <color name="text_grey_hint_unenable">@color/grey_deep_15</color>
+    <color name="text_grey_light_more_normal">@color/grey_deep_12</color>
+    <color name="text_grey_light_more_pressed">@color/grey_deep_9</color>
+    <color name="text_grey_light_normal">@color/grey_deep_10</color>
+    <color name="text_grey_light_pressed">@color/grey_deep_7</color>
+    <color name="text_grey_normal">@color/grey_deep_8</color>
+    <color name="text_grey_pressed">@color/grey_deep_5</color>
+    <color name="text_white_normal">@color/grey_deep_17</color>
+    <color name="text_white_pressed">@color/grey_deep_14</color>
+    <color name="white_alpha_0_8">#A0FFFFFF</color>
+    <color name="white_alpha_0_8_5">#DDFFFFFF</color>
+    <color name="white_alpha_0_9">#E5FFFFFF</color>
+    <color name="white_alpha_0_9_5">#F2FFFFFF</color>
+    <color name="white_alpha_1">#FFFFFFFF</color>
+    <color name="windows_background_light">@android:color/white</color>
+    <dimen name="A_title">@dimen/dp_26</dimen>
+    <dimen name="B_title">@dimen/dp_23</dimen>
+    <dimen name="C_title">@dimen/dp_21</dimen>
+    <dimen name="D_title">@dimen/dp_19</dimen>
+    <dimen name="E_title">@dimen/dp_17</dimen>
+    <dimen name="F_title">@dimen/dp_16</dimen>
+    <dimen name="G_title">@dimen/dp_15</dimen>
+    <dimen name="H_title">@dimen/dp_14</dimen>
+    <dimen name="I_title">@dimen/dp_12</dimen>
+    <dimen name="J_title">@dimen/dp_10</dimen>
+    <dimen name="K_title">@dimen/dp_8</dimen>
+    <dimen name="L_title">@dimen/dp_6</dimen>
+    <dimen name="border_width">@dimen/dp_2</dimen>
+    <dimen name="folder_cover_size">@dimen/dp_70</dimen>
+    <dimen name="gap_grade_0">@dimen/dp_2</dimen>
+    <dimen name="gap_grade_1">@dimen/dp_5</dimen>
+    <dimen name="gap_grade_2">@dimen/dp_8</dimen>
+    <dimen name="gap_grade_3">@dimen/dp_10</dimen>
+    <dimen name="gap_grade_4">@dimen/dp_12</dimen>
+    <dimen name="gap_grade_5">@dimen/dp_15</dimen>
+    <dimen name="gap_grade_6">@dimen/dp_20</dimen>
+    <dimen name="gap_grade_7">@dimen/dp_25</dimen>
+    <dimen name="gap_grade_8">@dimen/dp_30</dimen>
+    <dimen name="girdle_min_h">@dimen/dp_50</dimen>
+    <dimen name="girdle_min_h_II">@dimen/dp_70</dimen>
+    <dimen name="girdle_min_h_III">@dimen/dp_90</dimen>
+    <dimen name="girdle_min_h_multi_2">@dimen/dp_100</dimen>
+    <dimen name="girdle_min_h_multi_2_padding_5">@dimen/dp_105</dimen>
+    <dimen name="girdle_min_h_multi_2_padding_8">@dimen/dp_108</dimen>
+    <dimen name="image_size">@dimen/dp_80</dimen>
+    <dimen name="large_header">@dimen/dp_80</dimen>
+    <dimen name="middle_header">@dimen/dp_55</dimen>
+    <dimen name="small_header">@dimen/dp_40</dimen>
+    <dimen name="space_size">@dimen/dp_2</dimen>
+    <dimen name="top_bar_height">@dimen/dp_50</dimen>
+    <dimen name="topbar_sub_title">@dimen/H_title</dimen>
+    <dimen name="topbar_title">@dimen/G_title</dimen>
+    <item name="center" type="id"/>
+    <item name="child_01" type="id"/>
+    <item name="child_02" type="id"/>
+    <item name="child_03" type="id"/>
+    <item name="child_04" type="id"/>
+    <item name="child_05" type="id"/>
+    <item name="child_06" type="id"/>
+    <item name="child_07" type="id"/>
+    <item name="child_08" type="id"/>
+    <item name="child_09" type="id"/>
+    <item name="child_10" type="id"/>
+    <item name="left" type="id"/>
+    <item name="right" type="id"/>
+    <item name="tag_01" type="id"/>
+    <item name="tag_02" type="id"/>
+    <item name="tag_03" type="id"/>
+    <item name="tag_04" type="id"/>
+    <item name="tag_05" type="id"/>
+    <item name="tag_06" type="id"/>
+    <item name="tag_07" type="id"/>
+    <item name="tag_08" type="id"/>
+    <item name="tag_09" type="id"/>
+    <item name="tag_10" type="id"/>
+    <item name="tag_glide" type="id"/>
+    <item name="tag_view_holder" type="id"/>
+    <item name="widget" type="id"/>
+    <integer name="default_pager_number">0</integer>
+    <string name="all_photos">所有照片</string>
+    <string name="already_select_max">已经达到最高选择数量</string>
+    <string name="back">返回</string>
+    <string name="cancel">取消</string>
+    <string name="cancle_photo">已取消选择</string>
+    <string name="complete">完成</string>
+    <string name="get_verify_code">获取验证码</string>
+    <string name="link_complete">完成<ns1:g id="count">%s</ns1:g></string>
+    <string name="link_sheet"><ns1:g id="count">%s</ns1:g>张</string>
+    <string name="net_poor_connections">网络连接失败，请确认可以连接服务！</string>
+    <string name="net_server_error">服务器连接超时，请检查网络后再试！</string>
+    <string name="net_server_path_error">访问服务器失败,请重试！</string>
+    <string name="no_system_camera">没有系统相机</string>
+    <string name="nothing">什么都木有</string>
+    <string name="pulltorefresh_footer_end">已经全部加载完毕</string>
+    <string name="pulltorefresh_footer_normal">查看更多</string>
+    <string name="pulltorefresh_footer_ready">松开载入更多</string>
+    <string name="pulltorefresh_header_fail">刷新失败</string>
+    <string name="pulltorefresh_header_loading">正在加载 …</string>
+    <string name="pulltorefresh_header_normal">下拉刷新</string>
+    <string name="pulltorefresh_header_ready">松开刷新数据</string>
+    <string name="pulltorefresh_header_success">刷新成功</string>
+    <string name="second_timing"><ns1:g id="time">%s</ns1:g>秒</string>
+    <string name="select_photo_title">选择图片</string>
+    <string name="spacer"> · </string>
+    <string name="today">今天</string>
+    <string name="yes">确定</string>
+    <string name="yesterday">昨天</string>
+</resources>

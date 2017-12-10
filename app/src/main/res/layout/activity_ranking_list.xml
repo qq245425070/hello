@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cn.gietv.mlive.modules.video.activity.RankingListActivity"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    >
+
+    <include layout="@layout/common_head_layout"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ededed"
+        />
+    <ListView
+        android:id="@+id/ranking_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@null"
+        >
+    </ListView>
+
+</LinearLayout>

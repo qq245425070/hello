@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1F1F1"
+    android:orientation="vertical">
+
+    <include layout="@layout/common_head_layout"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+    <TextView
+        style="@style/update_user_info_hint_text"
+        android:layout_marginTop="1dp"
+        android:background="#F1F1F1"
+        android:text="通知设置"/>
+
+    <CheckBox
+        android:id="@+id/setting_tv_have_attention"
+        style="@style/setting_checkbox_style"
+        android:visibility="gone"
+        android:text="有人关注我"/>
+
+    <CheckBox
+        android:id="@+id/setting_tv_have_message"
+        style="@style/setting_checkbox_style"
+        android:visibility="gone"
+        android:text="聊天消息"/>
+
+    <CheckBox
+        android:id="@+id/setting_tv_have_notification"
+        style="@style/setting_checkbox_style"
+        android:visibility="gone"
+        android:text="系统消息"/>
+
+    <CheckBox
+        android:id="@+id/setting_tv_have_good"
+        style="@style/setting_checkbox_style"
+        android:text="系统通知"/>
+
+    <TextView
+        style="@style/update_user_info_hint_text"
+        android:background="#F1F1F1"
+        android:text="播放设置"
+        />
+
+    <CheckBox
+        android:id="@+id/setting_tv_net"
+        style="@style/setting_checkbox_style"
+        android:text="2G/3G/4G网络自动播放"/>
+
+    <TextView
+        style="@style/update_user_info_hint_text"
+        android:background="#F1F1F1"
+        android:text="关于"
+        />
+
+    <TextView
+        android:id="@+id/setting_tv_update"
+        style="@style/update_user_info_hint_text"
+        android:background="#FFFFFF"
+        android:drawableRight="@mipmap/icon_right_button"
+        android:text="版本更新"
+        android:textColor="@color/text_color_101010"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#F1F1F1"/>
+    <RelativeLayout
+        android:id="@+id/clear_data_parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        >
+        <TextView
+            android:id="@+id/clear_data_tv_update"
+            style="@style/update_user_info_hint_text"
+            android:layout_width="wrap_content"
+            android:background="#FFFFFF"
+            android:text="清除缓存"
+            android:textColor="@color/text_color_101010"/>
+        <TextView
+            android:id="@+id/data_text"
+            style="@style/update_user_info_hint_text"
+            android:layout_width="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="#FFFFFF"
+            android:textColor="@color/text_color_101010"/>
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#F1F1F1"/>
+    <TextView
+        android:id="@+id/tucao_tv_update"
+        style="@style/update_user_info_hint_text"
+        android:background="#FFFFFF"
+        android:drawableRight="@mipmap/icon_right_button"
+        android:text="吐槽有理"
+        android:textColor="@color/text_color_101010"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#F1F1F1"/>
+
+
+    <TextView
+        android:id="@+id/setting_tv_aboutus"
+        style="@style/update_user_info_hint_text"
+        android:layout_marginBottom="1dp"
+        android:background="#FFFFFF"
+        android:drawableRight="@mipmap/icon_right_button"
+        android:text="关于我们"
+        android:textColor="@color/text_color_101010"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#F1F1F1"/>
+
+    <TextView
+        android:id="@+id/setting_tv_exit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:background="@drawable/commen_button_red_long"
+        android:gravity="center"
+        android:padding="@dimen/common_dimens_16"
+        android:text="退出登录"
+        android:textColor="#FFFFFF"
+        android:textSize="16dp"/>
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

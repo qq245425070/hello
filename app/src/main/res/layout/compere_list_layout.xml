@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#FFFFFF"
+              android:orientation="vertical">
+
+    <include layout="@layout/common_head_layout"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#ededed"/>
+<LinearLayout
+    android:id="@+id/title_parent"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:visibility="gone"
+    >
+<LinearLayout
+    android:layout_width="0dp"
+    android:layout_height="40dp"
+    android:layout_weight="1"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+    <TextView
+        android:id="@+id/friend_text"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="好友"
+        android:gravity="center"
+        android:textColor="@color/text_color_101010"
+        android:textSize="16sp"
+        />
+    <View
+        android:id="@+id/friend_line"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="#f0f0f0"
+        />
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:visibility="gone"
+        >
+        <TextView
+            android:id="@+id/game_text"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="游戏"
+            android:gravity="center"
+            android:textColor="@color/text_color_101010"
+            android:textSize="16sp"
+            />
+        <View
+            android:id="@+id/game_line"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="#f0f0f0"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+        <TextView
+            android:id="@+id/area_text"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="专辑"
+            android:gravity="center"
+            android:textColor="@color/text_color_101010"
+            android:textSize="16sp"
+            />
+        <View
+            android:id="@+id/area_line"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="#f0f0f0"
+            />
+    </LinearLayout>
+</LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.jcodecraeer.xrecyclerview.XRecyclerView
+            android:id="@+id/user_center_lv_list"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scrollbars="none"
+            />
+    </RelativeLayout>
+</LinearLayout>

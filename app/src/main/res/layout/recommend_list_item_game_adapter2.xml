@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1F1F1"
+    android:orientation="vertical">
+    <View
+        android:id="@+id/line1"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@color/line_f1f1f1"
+        android:visibility="visible"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingRight="@dimen/common_dimens_8"
+        android:paddingTop="@dimen/common_dimens_30"
+        android:paddingBottom="@dimen/common_dimens_30"
+        android:paddingLeft="@dimen/common_dimens_24"
+        android:background="@color/white"
+        >
+
+        <TextView
+            android:id="@+id/recommend_list_tv_game_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:textColor="@color/text_color_101010"
+            android:textSize="14dp"/>
+
+        <TextView
+            android:id="@+id/game_more"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:paddingTop="2dp"
+            android:textColor="#999999"
+            android:text="更多>>"
+            android:textSize="14dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/game_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+    </LinearLayout>
+</LinearLayout>

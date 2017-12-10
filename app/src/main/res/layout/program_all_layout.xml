@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/head_parent"
+        android:layout_width="wrap_content"
+        android:layout_height="44dp"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        >
+        <TextView
+            android:id="@+id/vr_video"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="全景"
+            android:textSize="16sp"
+            android:textColor="@color/text_color_101010"
+            android:layout_gravity="center_vertical"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            />
+       <!-- android:background="@drawable/program_head_bg"-->
+        <TextView
+            android:id="@+id/ddd_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3D"
+            android:textSize="16sp"
+            android:layout_marginLeft="16dp"
+            android:layout_gravity="center_vertical"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:textColor="@color/text_color_101010"
+            />
+    </LinearLayout>
+    <ImageButton
+        android:id="@+id/head_ib_search"
+        android:layout_width="36dp"
+        android:layout_height="44dp"
+        android:background="@drawable/common_trans_clickable"
+        android:src="@mipmap/search_button_normal"
+        android:layout_alignParentRight="true"
+        />
+    <FrameLayout
+        android:id="@+id/frame_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/head_ib_search"
+        >
+    </FrameLayout>
+</RelativeLayout>

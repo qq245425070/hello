@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="1.8" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/.." />
+            <option value="$PROJECT_DIR$/../DanmakuFlameMaster" />
+            <option value="$PROJECT_DIR$/../EmptyLayout" />
+            <option value="$PROJECT_DIR$/../app" />
+            <option value="$PROJECT_DIR$/../circleindicator" />
+            <option value="$PROJECT_DIR$/../materialedittextlibrary" />
+            <option value="$PROJECT_DIR$/../mqtt" />
+            <option value="$PROJECT_DIR$/../photoviewlibrary" />
+            <option value="$PROJECT_DIR$/../pulltorefreshlibrary" />
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/../vitamio" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

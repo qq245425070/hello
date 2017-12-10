@@ -1,0 +1,74 @@
+[
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\release\\anim\\yp_mobile_loading.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\res\\anim\\yp_mobile_loading.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\release\\anim\\right_in.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\exploded-aar\\LivetelingCast\\BrightCommon\\unspecified\\res\\anim\\right_in.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/release/anim/alpha_in.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/exploded-aar/LivetelingCast/BrightCommon/unspecified/res/anim/alpha_in.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\release\\anim\\right_out.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\exploded-aar\\LivetelingCast\\BrightCommon\\unspecified\\res\\anim\\right_out.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\release\\anim\\left_out.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\exploded-aar\\LivetelingCast\\BrightCommon\\unspecified\\res\\anim\\left_out.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/release/anim/alpha_out.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/exploded-aar/LivetelingCast/BrightCommon/unspecified/res/anim/alpha_out.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\release\\anim\\bottom_in.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\exploded-aar\\LivetelingCast\\BrightCommon\\unspecified\\res\\anim\\bottom_in.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\release\\anim\\bottom_out.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\exploded-aar\\LivetelingCast\\BrightCommon\\unspecified\\res\\anim\\bottom_out.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\release\\anim\\alpha_out.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\exploded-aar\\LivetelingCast\\BrightCommon\\unspecified\\res\\anim\\alpha_out.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\release\\anim\\left_in.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\exploded-aar\\LivetelingCast\\BrightCommon\\unspecified\\res\\anim\\left_in.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/release/anim/bottom_in.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/exploded-aar/LivetelingCast/BrightCommon/unspecified/res/anim/bottom_in.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/release/anim/bottom_out.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/exploded-aar/LivetelingCast/BrightCommon/unspecified/res/anim/bottom_out.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/release/anim/yp_mobile_loading.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/res/anim/yp_mobile_loading.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\release\\anim\\alpha_in.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\exploded-aar\\LivetelingCast\\BrightCommon\\unspecified\\res\\anim\\alpha_in.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/release/anim/left_out.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/exploded-aar/LivetelingCast/BrightCommon/unspecified/res/anim/left_out.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/release/anim/left_in.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/exploded-aar/LivetelingCast/BrightCommon/unspecified/res/anim/left_in.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/release/anim/right_out.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/exploded-aar/LivetelingCast/BrightCommon/unspecified/res/anim/right_out.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/release/anim/right_in.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/exploded-aar/LivetelingCast/BrightCommon/unspecified/res/anim/right_in.xml"
+    }
+]

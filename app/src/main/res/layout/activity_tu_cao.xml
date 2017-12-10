@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+<include layout="@layout/common_head_layout"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#999999"
+        />
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <EditText
+        android:id="@+id/tucao_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/commen_button_theme_color3"
+        android:inputType="textMultiLine"
+        android:gravity="left|top"
+        android:minLines="12"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="14sp"
+        android:padding="2dp"
+        android:textCursorDrawable="@drawable/edittext_cursor"
+        />
+    <TextView
+        android:id="@+id/baby_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="这么会吐槽，上辈子一定是天使"
+        android:background="@drawable/commen_button_theme_color4"
+        android:padding="10dp"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        />
+</RelativeLayout>
+    <TextView
+        android:id="@+id/tucao_submit"
+        android:layout_width="match_parent"
+        android:layout_height="28dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:textSize="14sp"
+        android:padding="5dp"
+        android:text="提交"
+        android:gravity="center_horizontal"
+        android:background="@drawable/commen_button_theme_color3"
+        android:textColor="#333333"
+        />
+</LinearLayout>

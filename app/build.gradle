@@ -1,0 +1,52 @@
+apply plugin:  'com.android.application'
+
+android {
+    compileSdkVersion 22
+    buildToolsVersion '21.1.2'
+
+    defaultConfig {
+        applicationId "cn.gietv.mlive"
+        minSdkVersion 16
+        targetSdkVersion 22
+        versionCode 903
+        versionName "0.9.3"
+        multiDexEnabled true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    lintOptions {
+        abortOnError false
+    }
+
+}
+repositories {
+    flatDir {
+        dirs project(':scenelib').file('libs')
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.android.support:multidex:1.0.0'
+    compile 'com.nostra13.universalimageloader:universal-image-loader:1.9.4'
+    compile 'com.github.siyamed:android-shape-imageview:0.9.3'
+    compile 'com.android.support:support-v4:22.2.1'
+    compile 'tv.danmaku.ijk.media:ijkplayer-java:0.5.1'
+    compile 'com.android.support:appcompat-v7:22.2.1'
+    compile 'com.android.support:design:22.2.1'
+    compile 'com.github.ctiao:DanmakuFlameMaster:0.4.9'
+    compile project(':retrofit')
+//    compile project(':scenelib')
+    compile project(':VideoPlayer')
+    compile project(':circleindicator')
+    compile project(':photoviewlibrary')
+    compile project(':xrecyclerview')
+    compile project(':PushSDK')
+    compile project(':YoukuPlayerOpenSDK')
+//    debugCompile 'com.squareup.leakcanary:leakcanary-android:1.3'
+//    releaseCompile 'com.squareup.leakcanary:leakcanary-android-no-op:1.3'
+}

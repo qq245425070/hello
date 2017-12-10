@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F1F1F1"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#FFFFFF"
+        android:layout_marginTop="@dimen/common_dimens_10"
+        android:paddingTop="@dimen/common_dimens_30"
+        >
+    <TextView
+        android:text="最热直播"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/common_dimens_16"
+        android:textSize="14dp"
+        android:textColor="@color/text_color_101010"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginTop="@dimen/common_dimens_30"
+        android:background="#ededed"/>
+    <LinearLayout
+        android:id="@+id/hot_live_parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+    </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

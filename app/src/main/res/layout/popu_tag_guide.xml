@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/guideBg"
+    >
+
+    <ImageView
+        android:id="@+id/hand"
+        android:layout_width="@dimen/dp_40"
+        android:layout_height="@dimen/dp_40"
+        android:layout_marginTop="@dimen/dp_46"
+        android:src="@mipmap/hand_two"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/dp_32"
+        />
+    <TextView
+        android:id="@+id/text"
+        android:layout_below="@+id/hand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="点此订阅标签"
+        android:textSize="24dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/dp_16"
+        android:layout_marginTop="@dimen/dp_4"
+        android:textStyle="bold"
+        />
+</RelativeLayout>

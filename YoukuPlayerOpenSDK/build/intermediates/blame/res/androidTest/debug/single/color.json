@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/androidTest/debug/color/text_grey.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/exploded-aar/LivetelingCast/BrightCommon/unspecified/res/color/text_grey.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/androidTest/debug/color/text_grey_dark.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/exploded-aar/LivetelingCast/BrightCommon/unspecified/res/color/text_grey_dark.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\text_grey_light.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\exploded-aar\\LivetelingCast\\BrightCommon\\unspecified\\res\\color\\text_grey_light.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/androidTest/debug/color/text_grey_dark_more.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/exploded-aar/LivetelingCast/BrightCommon/unspecified/res/color/text_grey_dark_more.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\text_grey.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\exploded-aar\\LivetelingCast\\BrightCommon\\unspecified\\res\\color\\text_grey.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/androidTest/debug/color/text_grey_light_more.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/exploded-aar/LivetelingCast/BrightCommon/unspecified/res/color/text_grey_light_more.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\text_grey_light_more.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\exploded-aar\\LivetelingCast\\BrightCommon\\unspecified\\res\\color\\text_grey_light_more.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\text_white_enable_grey_unenable_color.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\exploded-aar\\LivetelingCast\\BrightCommon\\unspecified\\res\\color\\text_white_enable_grey_unenable_color.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\text_grey_dark.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\exploded-aar\\LivetelingCast\\BrightCommon\\unspecified\\res\\color\\text_grey_dark.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/androidTest/debug/color/text_white_enable_grey_unenable_color.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/exploded-aar/LivetelingCast/BrightCommon/unspecified/res/color/text_white_enable_grey_unenable_color.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\text_grey_dark_more.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/E:\\app\\LivetelingCast\\YoukuPlayerOpenSDK\\build\\intermediates\\exploded-aar\\LivetelingCast\\BrightCommon\\unspecified\\res\\color\\text_grey_dark_more.xml"
+    },
+    {
+        "merged": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/res/merged/androidTest/debug/color/text_grey_light.xml",
+        "source": "/Users/apple/Downloads/LivetelingCast/YoukuPlayerOpenSDK/build/intermediates/exploded-aar/LivetelingCast/BrightCommon/unspecified/res/color/text_grey_light.xml"
+    }
+]
