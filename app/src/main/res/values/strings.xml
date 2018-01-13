@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">lagua</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_home">推荐</string>
+    <string name="title_article">段子</string>
+    <string name="title_image">图片</string>
+    <string name="title_satin">文章</string>
+
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
