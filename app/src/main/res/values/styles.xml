@@ -5,6 +5,7 @@
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/white</item>
         <item name="colorPrimaryDark">@color/white</item>
+        <item name="android:textColor">@color/text_color</item>
         <!--<item name="colorAccent">@color/colorAccent</item>-->
     </style>
 
@@ -32,5 +33,13 @@
     <!-- toolbar菜单样式 -->
     <style name="ToolbarTheme" parent="@style/ThemeOverlay.AppCompat.ActionBar">
         <item name="android:textColorPrimary">@color/txt_black</item>
+    </style>
+    <style name="recommend_text">
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:textSize">@dimen/sp_14</item>
+    </style>
+    <style name="recommend_gray_text">
+        <item name="android:textColor">@color/gray_text_color</item>
+        <item name="android:textSize">@dimen/sp_12</item>
     </style>
 </resources>

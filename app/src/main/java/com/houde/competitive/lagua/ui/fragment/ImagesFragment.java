@@ -21,7 +21,7 @@ public class ImagesFragment extends BaseMVPCompatFragment {
 
     @Override
     public int getLayoutId() {
-        return R.layout.fragment_recommend;
+        return R.layout.fragment_image;
     }
 
     @Override

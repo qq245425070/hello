@@ -1,10 +1,11 @@
 package com.houde.competitive.lagua.ui.activity;
 
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.content.ContextCompat;
 import android.support.v4.view.ViewPager;
-import android.support.v7.widget.Toolbar;
+import android.widget.TextView;
 
 import com.ashokvarma.bottomnavigation.BottomNavigationBar;
 import com.ashokvarma.bottomnavigation.BottomNavigationItem;
@@ -15,33 +16,28 @@ import com.houde.competitive.lagua.ui.fragment.RecommendFragment;
 import com.houde.competitive.lagua.ui.fragment.SatinsFragment;
 import com.zyw.horrarndoo.sdk.adapter.FragmentAdapter;
 import com.zyw.horrarndoo.sdk.base.activity.BaseCompatActivity;
+import com.zyw.horrarndoo.sdk.utils.StatusBarUtils;
+
 import java.util.ArrayList;
 import java.util.List;
-
-import butterknife.BindView;
-
 public class Main2Activity extends BaseCompatActivity implements BottomNavigationBar.OnTabSelectedListener ,ViewPager.OnPageChangeListener{
 
-    @BindView(R.id.bottom_navigation_bar)
     BottomNavigationBar bottomNavigationBar;
-    @BindView(R.id.view_pager)
     ViewPager viewPager;
-    private Toolbar toolbar;
+    private TextView toolbar;
     @Override
     protected void initView(Bundle savedInstanceState) {
-        toolbar = (Toolbar) findViewById(R.id.toolbar);
-        toolbar.setTitle("首页");
-        setSupportActionBar(toolbar);
+        toolbar =  (TextView) findViewById(R.id.title);
+        toolbar.setText(R.string.title_home);
         bottomNavigationBar = (BottomNavigationBar) findViewById(R.id.bottom_navigation_bar);
         viewPager = (ViewPager)findViewById(R.id.view_pager);
         bottomNavigationBar.setMode(BottomNavigationBar.MODE_FIXED);
         bottomNavigationBar.setBackgroundStyle(BottomNavigationBar.BACKGROUND_STYLE_STATIC);
-        bottomNavigationBar.addItem(new BottomNavigationItem(R.mipmap.tuijian_xuanzhong,"推荐").setInactiveIcon(ContextCompat.getDrawable(this,R.mipmap.tuijian_weixuanzhong)))
-                .addItem(new BottomNavigationItem(R.mipmap.duanzi_xuanzhong,"段子").setInactiveIcon(ContextCompat.getDrawable(this,R.mipmap.duanzi_weixuanzhong)))
-                .addItem(new BottomNavigationItem(R.mipmap.wenzhang_xuanzhong,"文章").setInactiveIcon(ContextCompat.getDrawable(this,R.mipmap.wenzhang_weixuanzhong)))
-                .addItem(new BottomNavigationItem(R.mipmap.tuijian_xuanzhong,"图片").setInactiveIcon(ContextCompat.getDrawable(this,R.mipmap.tupian_weixuanzhong)))
+        bottomNavigationBar.addItem(new BottomNavigationItem(R.mipmap.tuijian_xuanzhong,R.string.title_home).setInactiveIcon(ContextCompat.getDrawable(this,R.mipmap.tuijian_weixuanzhong))).setActiveColor(R.color.main_bottom_text)
+                .addItem(new BottomNavigationItem(R.mipmap.duanzi_xuanzhong,R.string.title_article).setInactiveIcon(ContextCompat.getDrawable(this,R.mipmap.duanzi_weixuanzhong))).setActiveColor(R.color.main_bottom_text)
+                .addItem(new BottomNavigationItem(R.mipmap.wenzhang_xuanzhong,R.string.title_satin).setInactiveIcon(ContextCompat.getDrawable(this,R.mipmap.wenzhang_weixuanzhong))).setActiveColor(R.color.main_bottom_text)
+                .addItem(new BottomNavigationItem(R.mipmap.tupian_xuanzhong,R.string.title_image).setInactiveIcon(ContextCompat.getDrawable(this,R.mipmap.tupian_weixuanzhong))).setActiveColor(R.color.main_bottom_text)
                 .initialise();
-        bottomNavigationBar.setActiveColor(R.color.colorPrimary);
         bottomNavigationBar.setTabSelectedListener(this);
         List<Fragment> fragmentList = new ArrayList<>();
         fragmentList.add(RecommendFragment.newInstance());
@@ -64,21 +60,23 @@ public class Main2Activity extends BaseCompatActivity implements BottomNavigatio
     }
 
     private void setToolBarTitle(int position) {
+        int titleId = R.string.title_home ;
         switch (position){
             case 0 :
-                toolbar.setTitle("首页");
+                titleId = R.string.title_home;
                 break;
             case 1:
-                toolbar.setTitle("段子");
+                titleId =R.string.title_article;
                 break;
             case 2:
-                toolbar.setTitle("文章");
+                titleId = R.string.title_satin;
 
                 break;
             case 3:
-                toolbar.setTitle("图片");
+                titleId = R.string.title_image;
                 break;
         }
+        toolbar.setText(titleId);
     }
 
     @Override

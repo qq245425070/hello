@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:layout_marginLeft="@dimen/left_margin"
+    android:layout_marginTop="@dimen/top_margin"
+    android:layout_marginRight="@dimen/left_margin"
+    android:layout_marginBottom="@dimen/top_margin"
+    >
+    <android.support.v4.view.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"/>
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/sp_14"
+        android:textColor="@color/white"
+        android:layout_alignParentBottom="true"
+        android:background="#33000000"
+        />
+</RelativeLayout>
